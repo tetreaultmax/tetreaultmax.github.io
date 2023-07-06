@@ -68,7 +68,6 @@ export class AppComponent {
   		.then(jsonData => {
     	// Access the data stored in the variable
 		this.jsonData = jsonData;
-    	// console.log(jsonData);
   	})
   	.catch(error => {
     	console.error('Error fetching JSON file:', error);
@@ -103,7 +102,6 @@ export class AppComponent {
 		randomTeams[i] = name;
 
 	}
-	console.log(randomTeams)
 	this.randomCol = randomTeams.slice(0, cols);
 	this.randomRow = randomTeams.slice(cols, nbTeams + 1);
   }
@@ -121,9 +119,7 @@ export class AppComponent {
 	  if (this.guess.length !== 0){
 		this.nbGuess -= 1;
 		if (this.findPlayers()){
-			if (this.isInTeams(row, col)){
-				console.log("Nice");
-			}
+			this.isInTeams(row, col);
 		}
 		else{
 			this.players[row][col] = '';
@@ -135,7 +131,7 @@ export class AppComponent {
     }
   }
 
-  isInTeams(row: number, col: number): boolean{
+  isInTeams(row: number, col: number){
 	const team1 = this.randomCol[col - 1];
 	const team2 = this.randomRow[row - 1];
 	const arrayTeam = this.findGuess["Teams"].split(", ");
@@ -143,13 +139,10 @@ export class AppComponent {
 	const isConditionMet = arrayTeam.includes(this.dictNhlAbrv[team1]) && arrayTeam.includes(this.dictNhlAbrv[team2]);
 
 	if (isConditionMet) {
-		console.log("found");
 		this.cellBackgrounds[row - 1][col - 1] = 'green'; // Set the background color to green for the current cell
-	return true;
 	} else {
 		this.cellBackgrounds[row - 1][col - 1] = ''; // Clear the background color for the current cell
 		this.players[row][col] = '';
-		return false;
 	}
   }
 
@@ -157,7 +150,6 @@ export class AppComponent {
 	for (let i = 0; i < this.jsonData.length; i++) {
 		let player = this.jsonData[i];
 		if (player["Player Name"] == this.guess){
-			console.log(player);
 			this.findGuess = player;
 			return true;
 		}
