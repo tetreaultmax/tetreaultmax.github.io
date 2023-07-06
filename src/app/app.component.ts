@@ -125,6 +125,9 @@ export class AppComponent {
 				console.log("Nice");
 			}
 		}
+		else{
+			this.players[row][col] = '';
+		}
 		if (this.nbGuess == 0){
 			alert("Game Over");
 		}
