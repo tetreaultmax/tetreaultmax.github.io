@@ -38,3 +38,7 @@ input:focus {
   outline: none;
   border-color: #66afe9;
 }
+.mat-toolbar {
+	height: 64px;
+  }
+  
