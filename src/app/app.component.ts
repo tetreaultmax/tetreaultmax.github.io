@@ -197,6 +197,9 @@ export class AppComponent {
   }
 
   help(){
+	if (this.currentRow == -1 || this.currentCol == -1){
+		return;
+	}
 	const currentGuess = this.players[this.currentRow][this.currentCol];
 	// Get all the players in jsonData that the layer name include the current guess
 	const allPlayers = this.jsonData.filter((player: { [x: string]: string; }) => player["Player Name"].toLowerCase().includes(currentGuess.toLowerCase()));
