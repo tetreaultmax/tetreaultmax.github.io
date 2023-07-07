@@ -1,10 +1,16 @@
 <mat-toolbar color="primary">
 	<button mat-icon-button>
-		<mat-icon>menu</mat-icon>
-	  </button>
-	  <button mat-icon-button (click)="reset()">
-		<mat-icon>restore</mat-icon>
-	  </button>
+	  <mat-icon>menu</mat-icon>
+	</button>
+	<button mat-icon-button (click)="reset()">
+	  <mat-icon>restore</mat-icon>
+	</button>
+	<mat-slide-toggle [(ngModel)]="toggleValue" (change)="onToggleChange($event)" [disabled]="start"></mat-slide-toggle>
+	<div *ngIf="toggleValue" class="button-container">
+		<button mat-raised-button color="primary" class="button" (click)="startGame()">Start</button>
+	  </div>
+	<span class="spacer"></span>
+	<p *ngIf="toggleValue">Timer: {{ timer }} secs.</p>
   </mat-toolbar>
 <div style="text-align:center">
 	<h1>
@@ -14,6 +20,12 @@
 		1950-1951 to 2022-2023
 	</h2>
   </div>
+
+  <div style="text-align:center" >
+	<h1 *ngIf="toggleValue">
+	  Number of guesses left {{ nbGuess }}!
+	</h1>
+  </div>
 <div>
     <label for="grid-size">Choose Grid Size:</label>
     <select id="grid-size" [(ngModel)]="selectedSize" (change)="updateGridSize()">
@@ -22,6 +34,8 @@
       <option value="5x5">5x5</option>
     </select>
   </div>
+  
+  
   <div class="hockey-game">
 	<table>
 	  <tr>
@@ -41,14 +55,20 @@
 			height: 50px;">
 		</th>
 		<td *ngFor="let col of grid" [style.background-color]="cellBackgrounds[row - 1][col - 1]">
-		  <input [(ngModel)]="players[row][col]" placeholder="Enter player name" [disabled]="isGreen(row - 1, col - 1)" (keydown.enter)="handleInput($event.target, row, col)"/>
+		  <input [(ngModel)]="players[row][col]" placeholder="Enter player name" [disabled]="isGreen(row - 1, col - 1)" (keydown.enter)="handleInput($event.target, row, col)" (click)="updatePos(row,col)"/>
 		</td>
 	  </tr>
 	</table>
   </div>
-
-  <div style="text-align:center">
-	<h1>
-	  Number of guesses left {{ nbGuess }}!
-	</h1>
+  
+  <div class="help-button-container">
+	<button mat-raised-button color="primary" class="button" (click)="help()">Help</button>
+	<button mat-raised-button color="primary" class="button" (click)="close()" *ngIf="closeHelp">Close Help</button>
   </div>
+  
+  <mat-list *ngIf="closeHelp" style="text-align:center">
+	<mat-list-item *ngFor="let item of filteredPlayers" (click)="handleItemClick(item)">
+	  <p mat-line>{{ item }}</p>
+	</mat-list-item>
+  </mat-list>
+  

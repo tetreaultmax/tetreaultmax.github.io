@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+
 interface NhlAbrvDictionary {
 	[key: string]: string;
   }
@@ -56,9 +57,14 @@ export class AppComponent {
   findGuess: any;
   cellBackgrounds: string[][] = [];
   nbGuess = 0;
-
-
-
+  toggleValue = false;
+  start = false;
+  timer: number = 120;
+  test = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+  filteredPlayers = [];
+  currentRow = -1;
+  currentCol = -1;
+  closeHelp = false;
 
   constructor() {
     this.updateGridSize();
@@ -67,14 +73,15 @@ export class AppComponent {
   		.then(response => response.json())
   		.then(jsonData => {
     	// Access the data stored in the variable
-		this.jsonData = jsonData;
+		this.jsonData = jsonData;	
   	})
   	.catch(error => {
     	console.error('Error fetching JSON file:', error);
   	});
-	
-	
   }
+
+
+
   updateGridSize() {
     const [rows, cols] = this.selectedSize.split('x').map(Number);
     this.grid = Array(rows).fill(0).map((_, index) => index + 1);
@@ -113,23 +120,7 @@ export class AppComponent {
       }
     }
   }
-  handleInput(target: any, row: number, col: number) {
-    if (target.value !== null) {
-	  this.guess = target.value;
-	  if (this.guess.length !== 0){
-		this.nbGuess -= 1;
-		if (this.findPlayers()){
-			this.isInTeams(row, col);
-		}
-		else{
-			this.players[row][col] = '';
-		}
-		if (this.nbGuess == 0){
-			alert("Game Over");
-		}
-	  }
-    }
-  }
+  
 
   isInTeams(row: number, col: number){
 	const team1 = this.randomCol[col - 1];
@@ -151,6 +142,7 @@ export class AppComponent {
 		let player = this.jsonData[i];
 		if (player["Player Name"] == this.guess){
 			this.findGuess = player;
+			this.timer = 120;
 			return true;
 		}
 	}
@@ -162,6 +154,71 @@ export class AppComponent {
   }
 
   reset() {
-	this.updateGridSize()
+	this.updateGridSize();
   }
+
+  onToggleChange(event: any) {
+    this.toggleValue = event.checked;
+    // Handle toggle value change
+  }
+
+  startGame(){
+	this.startTimer();
+	this.start = true;
+  }
+
+  startTimer() {
+    setInterval(() => {
+      this.timer--;
+    }, 1000); // Increment the timer value every second (1000 milliseconds)
+  }
+
+  handleInput(target: any, row: number, col: number) {
+    if (target.value !== null) {
+	  this.guess = target.value;
+	  if (this.guess.length !== 0){
+		this.nbGuess -= 1;
+		if (this.findPlayers()){
+			this.isInTeams(row, col);
+		}
+		else{
+			this.players[row][col] = '';
+		}
+		if (this.nbGuess == 0){
+			alert("Game Over");
+		}
+	  }
+    }
+  }
+
+  updatePos(row: number, col: number){
+	this.currentRow = row;
+	this.currentCol = col;
+  }
+
+  help(){
+	const currentGuess = this.players[this.currentRow][this.currentCol];
+	// Get all the players in jsonData that the layer name include the current guess
+	const allPlayers = this.jsonData.filter((player: { [x: string]: string; }) => player["Player Name"].toLowerCase().includes(currentGuess.toLowerCase()));
+	// Extract the player name and the season
+	this.filteredPlayers = allPlayers.map((player: { [x: string]: string; }) => player["Player Name"] + " - " + player["Last Season"]);
+	this.closeHelp = true;
+  }
+  close(){
+	this.closeHelp = false;
+  }
+
+  handleItemClick(item: string){
+	this.players[this.currentRow][this.currentCol] = item.split(" - ")[0];
+	this.closeHelp = false;
+	this.nbGuess -= 1;
+	this.guess = item.split(" - ")[0];
+	if (this.findPlayers()){
+		this.isInTeams(this.currentRow, this.currentCol);
+	}
+	else{
+		this.players[this.currentRow][this.currentCol] = '';
+	}
+  }
+
 }
