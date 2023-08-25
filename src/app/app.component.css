@@ -61,6 +61,11 @@ justify-content: center;
 .button {
 width: 120px;
 }
+
+.cell-hover:hover {
+	background-color: #e0e0e0;
+	cursor: pointer;
+  }
 mat-list-item:hover {
 	background-color: lightgray;
 	cursor: pointer;

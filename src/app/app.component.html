@@ -44,7 +44,8 @@
 			style="background-size: contain;
 			background-repeat: no-repeat;
 			background-position: center;
-			height: 50px;">
+			height: 50px;
+			width: 50px;">
 		</th>
 	  </tr>
 	  <tr *ngFor="let row of grid">
@@ -52,23 +53,13 @@
 			style="background-size: contain;
 			background-repeat: no-repeat;
 			background-position: center;
-			height: 50px;">
+			height: 50px;
+			width: 50px;">
 		</th>
-		<td *ngFor="let col of grid" [style.background-color]="cellBackgrounds[row - 1][col - 1]">
-		  <input [(ngModel)]="players[row][col]" placeholder="Enter player name" [disabled]="isGreen(row - 1, col - 1)" (keydown.enter)="handleInput($event.target, row, col)" (click)="updatePos(row,col)"/>
+		<td *ngFor="let col of grid" [style.background-color]="cellBackgrounds[row - 1][col - 1]" (click)="!isGreen(row - 1, col - 1) && openDialog(row, col, allNames)" class="cell-hover">
+			{{players[row][col]}}
 		</td>
 	  </tr>
 	</table>
   </div>
-  
-  <div class="help-button-container">
-	<button mat-raised-button color="primary" class="button" (click)="help()">Help</button>
-	<button mat-raised-button color="primary" class="button" (click)="close()" *ngIf="closeHelp">Close Help</button>
-  </div>
-  
-  <mat-list *ngIf="closeHelp" style="text-align:center">
-	<mat-list-item *ngFor="let item of filteredPlayers" (click)="handleItemClick(item)">
-	  <p mat-line>{{ item }}</p>
-	</mat-list-item>
-  </mat-list>
   

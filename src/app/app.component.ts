@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { PlayerDialogComponent } from './player-dialog/player-dialog.component';
 
 interface NhlAbrvDictionary {
 	[key: string]: string;
@@ -54,6 +56,7 @@ export class AppComponent {
   randomRow : string[] = [];
   jsonData: any;
   guess: string = "";
+  @Output() playerNameChange = new EventEmitter<{ playerName: string }>();
   findGuess: any;
   cellBackgrounds: string[][] = [];
   nbGuess = 0;
@@ -65,15 +68,20 @@ export class AppComponent {
   currentRow = -1;
   currentCol = -1;
   closeHelp = false;
+  allNames: string[] = [];
 
-  constructor() {
+  constructor(private dialog: MatDialog) {
     this.updateGridSize();
 	// read a json file
 	fetch('../assets/nhl_players.json')
   		.then(response => response.json())
   		.then(jsonData => {
     	// Access the data stored in the variable
-		this.jsonData = jsonData;	
+		this.jsonData = jsonData;
+		for (let i = 0; i < jsonData.length; i++) {
+			let player = jsonData[i];
+			this.allNames.push(player["Player Name"]);
+		}	
   	})
   	.catch(error => {
     	console.error('Error fetching JSON file:', error);
@@ -131,6 +139,7 @@ export class AppComponent {
 
 	if (isConditionMet) {
 		this.cellBackgrounds[row - 1][col - 1] = 'green'; // Set the background color to green for the current cell
+		this.players[row][col] = this.guess;
 	} else {
 		this.cellBackgrounds[row - 1][col - 1] = ''; // Clear the background color for the current cell
 		this.players[row][col] = '';
@@ -173,55 +182,36 @@ export class AppComponent {
     }, 1000); // Increment the timer value every second (1000 milliseconds)
   }
 
-  handleInput(target: any, row: number, col: number) {
-    if (target.value !== null) {
-	  this.guess = target.value;
-	  if (this.guess.length !== 0){
-		this.nbGuess -= 1;
-		if (this.findPlayers()){
-			this.isInTeams(row, col);
-		}
-		else{
-			this.players[row][col] = '';
-		}
-		if (this.nbGuess == 0){
-			alert("Game Over");
-		}
-	  }
-    }
-  }
 
   updatePos(row: number, col: number){
 	this.currentRow = row;
 	this.currentCol = col;
   }
 
-  help(){
-	if (this.currentRow == -1 || this.currentCol == -1){
-		return;
+  openDialog(row: number, col: number, allNameData: any): void {
+	this.updatePos(row, col);
+	const dialogRef = this.dialog.open(PlayerDialogComponent, {
+	  data: { row, col, allNameData },
+	});
+  
+	dialogRef.afterClosed().subscribe(result => {
+		if (result && result.playerName) {
+		  // Emit the playerName to the main component
+		  this.guess = result.playerName;
+		  if (this.guess.length !== 0){
+			this.nbGuess -= 1;
+			if (this.findPlayers()){
+				this.isInTeams(row, col);
+			}
+			else{
+				this.players[row][col] = '';
+			}
+			if (this.nbGuess == 0){
+				alert("Game Over");
+			}
+		  }
+		}
+	  });
 	}
-	const currentGuess = this.players[this.currentRow][this.currentCol];
-	// Get all the players in jsonData that the layer name include the current guess
-	const allPlayers = this.jsonData.filter((player: { [x: string]: string; }) => player["Player Name"].toLowerCase().includes(currentGuess.toLowerCase()));
-	// Extract the player name and the season
-	this.filteredPlayers = allPlayers.map((player: { [x: string]: string; }) => player["Player Name"] + " - " + player["Last Season"]);
-	this.closeHelp = true;
-  }
-  close(){
-	this.closeHelp = false;
-  }
-
-  handleItemClick(item: string){
-	this.players[this.currentRow][this.currentCol] = item.split(" - ")[0];
-	this.closeHelp = false;
-	this.nbGuess -= 1;
-	this.guess = item.split(" - ")[0];
-	if (this.findPlayers()){
-		this.isInTeams(this.currentRow, this.currentCol);
-	}
-	else{
-		this.players[this.currentRow][this.currentCol] = '';
-	}
-  }
 
 }

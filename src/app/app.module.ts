@@ -11,11 +11,15 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { HttpClientModule } from '@angular/common/http';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatListModule } from '@angular/material/list';
+import {MatDialogModule} from '@angular/material/dialog';
+import { MatInputModule } from '@angular/material/input';
+import { PlayerDialogComponent } from './player-dialog/player-dialog.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PlayerDialogComponent
   ],
   imports: [
     BrowserModule, 
@@ -28,6 +32,8 @@ import { MatListModule } from '@angular/material/list';
 	MatSlideToggleModule,
 	HttpClientModule,
 	MatAutocompleteModule,
+	MatDialogModule,
+	MatInputModule,
 	MatListModule
   ],
   providers: [],

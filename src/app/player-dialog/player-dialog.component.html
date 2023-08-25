@@ -1,0 +1,16 @@
+<mat-dialog-content>
+	<mat-form-field>
+	  <input matInput [(ngModel)]="playerName" placeholder="Enter player name" (input)="filterNames()">
+	</mat-form-field>
+	<div class="matching-names-grid">
+		<div *ngFor="let matchingName of matchingNames" class="matching-name-cell"
+			 (click)="selectName(matchingName)">
+		  {{ matchingName }}
+		</div>
+	  </div>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+	<button mat-button (click)="closeDialog()">Cancel</button>
+	<button mat-button (click)="savePlayer()">Save</button>
+  </mat-dialog-actions>
+  
