@@ -59,7 +59,7 @@ export class AppComponent {
   @Output() playerNameChange = new EventEmitter<{ playerName: string }>();
   findGuess: any;
   cellBackgrounds: string[][] = [];
-  nbGuess = 0;
+  // nbGuess = 0;
   toggleValue = false;
   start = false;
   timer: number = 120;
@@ -88,6 +88,34 @@ export class AppComponent {
   	});
   }
 
+  sizeGridUp(){
+	if (this.selectedSize == '3x3'){
+		this.selectedSize = '4x4';
+		this.updateGridSize();
+	}
+	else if (this.selectedSize == '4x4'){
+		this.selectedSize = '5x5';
+		this.updateGridSize();
+	}
+	else if (this.selectedSize == '5x5'){
+		alert("Max grid size reached");
+	}
+  }
+
+  sizeGridDown(){
+	if (this.selectedSize == '5x5'){
+		this.selectedSize = '4x4';
+		this.updateGridSize();
+	}
+	else if (this.selectedSize == '4x4'){
+		this.selectedSize = '3x3';
+		this.updateGridSize();
+	}
+	else if (this.selectedSize == '3x3'){
+		alert("Min grid size reached");
+	}
+	}
+
 
 
   updateGridSize() {
@@ -102,7 +130,7 @@ export class AppComponent {
 			this.cellBackgrounds[row][col] = '';
 		}
 	}
-	this.nbGuess = rows * cols + 1;
+	// this.nbGuess = rows * cols + 1;
   }
 
   randomTeams(){
@@ -171,16 +199,16 @@ export class AppComponent {
     // Handle toggle value change
   }
 
-  startGame(){
-	this.startTimer();
-	this.start = true;
-  }
+//   startGame(){
+// 	this.startTimer();
+// 	this.start = true;
+//   }
 
-  startTimer() {
-    setInterval(() => {
-      this.timer--;
-    }, 1000); // Increment the timer value every second (1000 milliseconds)
-  }
+//   startTimer() {
+//     setInterval(() => {
+//       this.timer--;
+//     }, 1000); // Increment the timer value every second (1000 milliseconds)
+//   }
 
 
   updatePos(row: number, col: number){
@@ -199,16 +227,16 @@ export class AppComponent {
 		  // Emit the playerName to the main component
 		  this.guess = result.playerName;
 		  if (this.guess.length !== 0){
-			this.nbGuess -= 1;
+			// this.nbGuess -= 1;
 			if (this.findPlayers()){
 				this.isInTeams(row, col);
 			}
 			else{
 				this.players[row][col] = '';
 			}
-			if (this.nbGuess == 0){
-				alert("Game Over");
-			}
+			// if (this.nbGuess == 0){
+			// 	alert("Game Over");
+			// }
 		  }
 		}
 	  });

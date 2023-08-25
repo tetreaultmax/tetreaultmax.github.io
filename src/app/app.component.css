@@ -51,6 +51,12 @@ display: flex;
 justify-content: center;
 
 }
+.grid-size-container {
+	margin-left: auto; /* Pushes the container to the right */
+	display: flex;
+	align-items: center; /* Aligns label and select vertically */
+	gap: 1rem; /* Adds spacing between label and select */
+  }
 
 .help-button-container {
 	display: flex;
