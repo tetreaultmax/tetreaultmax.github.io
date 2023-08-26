@@ -59,16 +59,12 @@ export class AppComponent {
   @Output() playerNameChange = new EventEmitter<{ playerName: string }>();
   findGuess: any;
   cellBackgrounds: string[][] = [];
-  // nbGuess = 0;
-  toggleValue = false;
-  start = false;
-  timer: number = 120;
-  test = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
   filteredPlayers = [];
   currentRow = -1;
   currentCol = -1;
-  closeHelp = false;
   allNames: string[] = [];
+
+  url_image = "http://nhl.bamcontent.com/images/headshots/current/168x168/";
 
   constructor(private dialog: MatDialog) {
     this.updateGridSize();
@@ -130,7 +126,6 @@ export class AppComponent {
 			this.cellBackgrounds[row][col] = '';
 		}
 	}
-	// this.nbGuess = rows * cols + 1;
   }
 
   randomTeams(){
@@ -162,12 +157,11 @@ export class AppComponent {
 	const team1 = this.randomCol[col - 1];
 	const team2 = this.randomRow[row - 1];
 	const arrayTeam = this.findGuess["Teams"].split(", ");
-
+	const playerId = this.findGuess["Player ID"];
 	const isConditionMet = arrayTeam.includes(this.dictNhlAbrv[team1]) && arrayTeam.includes(this.dictNhlAbrv[team2]);
 
 	if (isConditionMet) {
-		this.cellBackgrounds[row - 1][col - 1] = 'green'; // Set the background color to green for the current cell
-		this.players[row][col] = this.guess;
+		this.cellBackgrounds[row - 1][col - 1] = this.url_image + playerId + ".jpg"; // Set the background color for the current cell
 	} else {
 		this.cellBackgrounds[row - 1][col - 1] = ''; // Clear the background color for the current cell
 		this.players[row][col] = '';
@@ -179,37 +173,16 @@ export class AppComponent {
 		let player = this.jsonData[i];
 		if (player["Player Name"] == this.guess){
 			this.findGuess = player;
-			this.timer = 120;
 			return true;
 		}
 	}
 	return false;
   }
 
-  isGreen(row: number, col: number): boolean {
-	return this.cellBackgrounds[row][col] === 'green';
-  }
 
   reset() {
 	this.updateGridSize();
   }
-
-  onToggleChange(event: any) {
-    this.toggleValue = event.checked;
-    // Handle toggle value change
-  }
-
-//   startGame(){
-// 	this.startTimer();
-// 	this.start = true;
-//   }
-
-//   startTimer() {
-//     setInterval(() => {
-//       this.timer--;
-//     }, 1000); // Increment the timer value every second (1000 milliseconds)
-//   }
-
 
   updatePos(row: number, col: number){
 	this.currentRow = row;
@@ -227,16 +200,12 @@ export class AppComponent {
 		  // Emit the playerName to the main component
 		  this.guess = result.playerName;
 		  if (this.guess.length !== 0){
-			// this.nbGuess -= 1;
 			if (this.findPlayers()){
 				this.isInTeams(row, col);
 			}
 			else{
 				this.players[row][col] = '';
 			}
-			// if (this.nbGuess == 0){
-			// 	alert("Game Over");
-			// }
 		  }
 		}
 	  });

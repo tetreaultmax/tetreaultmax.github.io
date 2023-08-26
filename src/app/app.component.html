@@ -1,7 +1,4 @@
 <mat-toolbar color="primary">
-	<!-- <button mat-icon-button>
-	  <mat-icon>menu</mat-icon>
-	</button> -->
 	Reset
 	<button mat-icon-button (click)="reset()">
 	  <mat-icon>restore</mat-icon>
@@ -9,11 +6,6 @@
 	<span class="spacer"></span>
 	<div>
 		<label for="grid-size">Grid size:</label>
-		<!-- <select id="grid-size" [(ngModel)]="selectedSize" (change)="updateGridSize()">
-		  <option value="3x3">3x3</option>
-		  <option value="4x4">4x4</option>
-		  <option value="5x5">5x5</option>
-		</select> -->
 		<button mat-icon-button (click)="sizeGridUp()">
 			<mat-icon>keyboard_arrow_up</mat-icon>
 		  </button>
@@ -22,12 +14,6 @@
 			<mat-icon>keyboard_arrow_down</mat-icon>
 		  </button>
 	  </div>
-	<!-- <mat-slide-toggle [(ngModel)]="toggleValue" (change)="onToggleChange($event)" [disabled]="start"></mat-slide-toggle>
-	<div *ngIf="toggleValue" class="button-container">
-		<button mat-raised-button color="primary" class="button" (click)="startGame()">Start</button>
-	  </div>
-	<span class="spacer"></span>
-	<p *ngIf="toggleValue">Timer: {{ timer }} secs.</p> -->
   </mat-toolbar>
 <div style="text-align:center">
 	<h1>
@@ -36,15 +22,7 @@
 	<h2>
 		1950-1951 to 2022-2023
 	</h2>
-  </div>
-
-  <!-- <div style="text-align:center" >
-	<h1 *ngIf="toggleValue">
-	  Number of guesses left {{ nbGuess }}!
-	</h1>
-  </div> -->
-
-  
+  </div> 
   
   <div class="hockey-game">
 	<table>
@@ -66,8 +44,15 @@
 			height: 50px;
 			width: 50px;">
 		</th>
-		<td *ngFor="let col of grid" [style.background-color]="cellBackgrounds[row - 1][col - 1]" (click)="!isGreen(row - 1, col - 1) && openDialog(row, col, allNames)" class="cell-hover">
-			{{players[row][col]}}
+		<td *ngFor="let col of grid"
+			[style.background-image]="'url(' + cellBackgrounds[row - 1][col - 1] + ')'"
+			[style.background-repeat]="'no-repeat'"
+			[style.background-size]="'auto 100%'"
+			[style.background-position]="'center'"
+			(click)="openDialog(row, col, allNames)"
+			class="cell-hover"
+			[ngClass]="{'non-clickable': cellBackgrounds[row - 1][col - 1]}"
+			>
 		</td>
 	  </tr>
 	</table>

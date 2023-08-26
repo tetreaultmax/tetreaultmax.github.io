@@ -23,6 +23,7 @@ td {
 border: 1px solid #ccc;
 padding: 8px;
 text-align: center;
+background-color: #697987;
 }
 
 input {
@@ -66,6 +67,11 @@ justify-content: center;
 
 .button {
 width: 120px;
+}
+
+.non-clickable {
+    pointer-events: none; /* Disable click events */
+	background-color: rgb(23, 93, 23);
 }
 
 .cell-hover:hover {
