@@ -1,3 +1,4 @@
+
 table {
 border-collapse: collapse;
 width: 100%;
@@ -21,12 +22,9 @@ flex: 1;
 
 .non-clickable {
     pointer-events: none; /* Disable click events */
-	background-color: green;
 }
 
 .cell-hover:hover {
 	background-color: #ababab;
 	cursor: pointer;
   }
-
-  

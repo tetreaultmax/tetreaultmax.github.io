@@ -59,10 +59,14 @@ export class AppComponent {
   @Output() playerNameChange = new EventEmitter<{ playerName: string }>();
   findGuess: any;
   cellBackgrounds: string[][] = [];
+  tictactoe: string[][] = [];
+  cellColors: string[][] = [];
   filteredPlayers = [];
   currentRow = -1;
   currentCol = -1;
   allNames: string[] = [];
+  ticTacToeMode: boolean = false;
+  currentPlayer = 'Blue';
 
   url_image = "http://nhl.bamcontent.com/images/headshots/current/168x168/";
 
@@ -83,6 +87,22 @@ export class AppComponent {
     	console.error('Error fetching JSON file:', error);
   	});
   }
+
+  toggleTicTacToe() {
+    this.ticTacToeMode = !this.ticTacToeMode;
+	this.reset();
+  }
+
+  getCellColor(row: number, col: number): string {
+    // Your logic to calculate the background image URL
+    // Example: return 'url(' + yourImageUrl + ')';
+	if (this.ticTacToeMode){
+		return this.tictactoe[row - 1][col - 1];
+	}
+	else{
+		return this.cellColors[row - 1][col - 1];
+	}
+}
 
   sizeGridUp(){
 	if (this.selectedSize == '3x3'){
@@ -122,8 +142,12 @@ export class AppComponent {
 	// Initialize the cellBackgrounds array with empty strings for all cells
 	for (let row = 0; row < rows; row++) {
 		this.cellBackgrounds[row] = [];
+		this.tictactoe[row] = [];
+		this.cellColors[row] = [];
 		for (let col = 0; col < cols; col++) {
 			this.cellBackgrounds[row][col] = '';
+			this.tictactoe[row][col] = '';
+			this.cellColors[row][col] = '';
 		}
 	}
   }
@@ -162,11 +186,72 @@ export class AppComponent {
 
 	if (isConditionMet) {
 		this.cellBackgrounds[row - 1][col - 1] = this.url_image + playerId + ".jpg"; // Set the background color for the current cell
+		this.cellColors[row - 1][col - 1] = 'green';
+		if (this.ticTacToeMode){
+			if (this.currentPlayer === 'Blue'){
+				this.tictactoe[row - 1][col - 1] = 'blue';
+			}
+			else{
+				this.tictactoe[row - 1][col - 1] = 'red';
+			}
+			// Check if the player won the  game of tic tac toe
+			const winner = this.checkForWinner();
+			if (winner) {
+				alert(`Player ${this.currentPlayer} won the game!`);
+				// You can take further actions here, like displaying a winner message or resetting the game.
+			} 			
+			this.currentPlayer = this.currentPlayer === 'Blue' ? 'Red' : 'Blue';	
+		}
 	} else {
 		this.cellBackgrounds[row - 1][col - 1] = ''; // Clear the background color for the current cell
+		this.cellColors[row - 1][col - 1] = '';
 		this.players[row][col] = '';
+		if (this.ticTacToeMode){
+			this.tictactoe[row - 1][col - 1] = '';
+			this.currentPlayer = this.currentPlayer === 'Blue' ? 'Red' : 'Blue';
+		}
 	}
   }
+
+  checkForWinner(): string | null {
+	let color = this.currentPlayer === 'Blue' ? 'blue' : 'red';
+	for (let i = 0; i < 3; i++) {
+	if (
+		this.tictactoe[i][0] === color &&
+		this.tictactoe[i][1] === color &&
+		this.tictactoe[i][2] === color
+	) {
+		return color; // Winner found
+	}
+	if (
+		this.tictactoe[0][i] === color &&
+		this.tictactoe[1][i] === color &&
+		this.tictactoe[2][i] === color
+	) {
+		return color; // Winner found
+	}
+	}
+
+	// Check diagonals
+	if (
+	this.tictactoe[0][0] === color &&
+	this.tictactoe[1][1] === color &&
+	this.tictactoe[2][2] === color
+	) {
+	return color; // Winner found
+	}
+	if (
+	this.tictactoe[0][2] === color &&
+	this.tictactoe[1][1] === color &&
+	this.tictactoe[2][0] === color
+	) {
+	return color; // Winner found
+	}
+	
+  
+	return null; // No winner found
+  }
+  
 
   findPlayers(): boolean{
 	for (let i = 0; i < this.jsonData.length; i++) {
