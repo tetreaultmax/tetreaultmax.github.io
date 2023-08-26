@@ -10,11 +10,11 @@
 		<mat-icon>games</mat-icon>
 	  </button>
 	<div>
-		<button mat-icon-button (click)="sizeGridUp()" [disabled]="ticTacToeMode">
+		<button mat-icon-button (click)="sizeGridUp()" [disabled]="ticTacToeMode || selectedSize == '5x5'">
 			<mat-icon>keyboard_arrow_up</mat-icon>
 		  </button>
 
-		  <button mat-icon-button (click)="sizeGridDown()" [disabled]="ticTacToeMode">
+		  <button mat-icon-button (click)="sizeGridDown()" [disabled]="ticTacToeMode || selectedSize == '3x3'">
 			<mat-icon>keyboard_arrow_down</mat-icon>
 		  </button>
 	  </div>
@@ -62,7 +62,7 @@
 			[style.background-position]="'center'"
 			(click)="openDialog(row, col, allNames)"
 			class="cell-hover"
-			[ngClass]="{'non-clickable': cellBackgrounds[row - 1][col - 1]}"
+			[ngClass]="{'non-clickable': blockedGame || cellBackgrounds[row - 1][col - 1]}"
 			>
 		</td>
 	  </tr>

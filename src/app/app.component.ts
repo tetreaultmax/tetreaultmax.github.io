@@ -2,6 +2,8 @@ import { Component, Output, EventEmitter } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { PlayerDialogComponent } from './player-dialog/player-dialog.component';
 import { MenuDialogComponent } from './menu-dialog/menu-dialog.component';
+import { WinDialogComponent } from './win-dialog/win-dialog.component';
+import { TicDialogComponent } from './tic-dialog/tic-dialog.component';
 
 interface NhlAbrvDictionary {
 	[key: string]: string;
@@ -68,10 +70,10 @@ export class AppComponent {
   allNames: string[] = [];
   ticTacToeMode: boolean = false;
   currentPlayer = 'Blue';
-
+  blockedGame: boolean = false;
   url_image = "http://nhl.bamcontent.com/images/headshots/current/168x168/";
 
-  constructor(private dialog: MatDialog, private menuDialog: MatDialog) {
+  constructor(private dialog: MatDialog, private menuDialog: MatDialog, private winDialog: MatDialog, private ticDialog: MatDialog) {
     this.updateGridSize();
 	// read a json file
 	fetch('../assets/nhl_players.json')
@@ -96,8 +98,6 @@ export class AppComponent {
   }
 
   getCellColor(row: number, col: number): string {
-    // Your logic to calculate the background image URL
-    // Example: return 'url(' + yourImageUrl + ')';
 	if (this.ticTacToeMode){
 		return this.tictactoe[row - 1][col - 1];
 	}
@@ -115,9 +115,6 @@ export class AppComponent {
 		this.selectedSize = '5x5';
 		this.updateGridSize();
 	}
-	else if (this.selectedSize == '5x5'){
-		alert("Max grid size reached");
-	}
   }
 
   sizeGridDown(){
@@ -128,9 +125,6 @@ export class AppComponent {
 	else if (this.selectedSize == '4x4'){
 		this.selectedSize = '3x3';
 		this.updateGridSize();
-	}
-	else if (this.selectedSize == '3x3'){
-		alert("Min grid size reached");
 	}
 	}
 
@@ -189,6 +183,11 @@ export class AppComponent {
 	if (isConditionMet) {
 		this.cellBackgrounds[row - 1][col - 1] = this.url_image + playerId + ".jpg"; // Set the background color for the current cell
 		this.cellColors[row - 1][col - 1] = 'green';
+		// if all cells are filled
+		if (this.cellColors.every((row) => row.every((cell) => cell === 'green'))) {
+			this.openWin();
+		}
+
 		if (this.ticTacToeMode){
 			if (this.currentPlayer === 'Blue'){
 				this.tictactoe[row - 1][col - 1] = 'blue';
@@ -199,10 +198,7 @@ export class AppComponent {
 			// Check if the player won the  game of tic tac toe
 			const winner = this.checkForWinner();
 			if (winner) {
-				alert(`Player ${this.currentPlayer} won the game!`);
-				this.reset();
-				this.ticTacToeMode = false;
-				// You can take further actions here, like displaying a winner message or resetting the game.
+				this.openTic();
 			} 			
 			this.currentPlayer = this.currentPlayer === 'Blue' ? 'Red' : 'Blue';	
 		}
@@ -271,6 +267,7 @@ export class AppComponent {
 
   reset() {
 	this.updateGridSize();
+	this.blockedGame = false;
   }
 
   updatePos(row: number, col: number){
@@ -278,11 +275,28 @@ export class AppComponent {
 	this.currentCol = col;
   }
 
-  openMenu(): void {
-    const dialogRef = this.menuDialog.open(MenuDialogComponent, {
+  openTic(): void {
+    const dialogRef = this.menuDialog.open(TicDialogComponent, {
       width: '400px', // You can customize the width
       disableClose: true, // Prevents closing the dialog by clicking outside or pressing ESC
     });
+	dialogRef.afterClosed().subscribe(result => {
+		this.blockedGame = true;
+	});
+	}
+
+  openMenu(): void {
+    const dialogRef = this.menuDialog.open(MenuDialogComponent, {
+      width: '400px', // You can customize the width
+      disableClose: false, // Prevents closing the dialog by clicking outside or pressing ESC
+    });
+  }
+
+  openWin(): void {
+	const dialogRef = this.winDialog.open(WinDialogComponent, {
+	  width: '400px', // You can customize the width
+	  disableClose: true, // Prevents closing the dialog by clicking outside or pressing ESC
+	});
   }
 
   openDialog(row: number, col: number, allNameData: any): void {

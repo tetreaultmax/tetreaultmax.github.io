@@ -17,13 +17,17 @@ import { MatTabsModule } from '@angular/material/tabs'; // Import MatTabsModule
 
 import { PlayerDialogComponent } from './player-dialog/player-dialog.component';
 import { MenuDialogComponent } from './menu-dialog/menu-dialog.component';
+import { WinDialogComponent } from './win-dialog/win-dialog.component';
+import { TicDialogComponent } from './tic-dialog/tic-dialog.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PlayerDialogComponent,
-    MenuDialogComponent
+    MenuDialogComponent,
+    WinDialogComponent,
+    TicDialogComponent
   ],
   imports: [
     BrowserModule, 

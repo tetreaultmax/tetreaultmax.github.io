@@ -1,0 +1,28 @@
+.victory-dialog-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+  }
+  
+  .victory-dialog-content {
+	background-color: white;
+	padding: 20px;
+	border-radius: 4px;
+	text-align: center;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .victory-dialog-content h2 {
+	margin-top: 0;
+  }
+  
+  .victory-dialog-content button {
+	margin-top: 15px;
+  }
+  
