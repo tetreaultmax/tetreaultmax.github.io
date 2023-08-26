@@ -13,13 +13,17 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatListModule } from '@angular/material/list';
 import {MatDialogModule} from '@angular/material/dialog';
 import { MatInputModule } from '@angular/material/input';
+import { MatTabsModule } from '@angular/material/tabs'; // Import MatTabsModule
+
 import { PlayerDialogComponent } from './player-dialog/player-dialog.component';
+import { MenuDialogComponent } from './menu-dialog/menu-dialog.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PlayerDialogComponent
+    PlayerDialogComponent,
+    MenuDialogComponent
   ],
   imports: [
     BrowserModule, 
@@ -34,7 +38,8 @@ import { PlayerDialogComponent } from './player-dialog/player-dialog.component';
 	MatAutocompleteModule,
 	MatDialogModule,
 	MatInputModule,
-	MatListModule
+	MatListModule,
+	MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

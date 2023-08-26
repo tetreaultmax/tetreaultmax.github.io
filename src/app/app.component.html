@@ -1,16 +1,15 @@
 <mat-toolbar color="primary">
-	Reset
+	<button mat-icon-button (click)="openMenu()">
+		<mat-icon>help</mat-icon>
+	  </button>
 	<button mat-icon-button (click)="reset()">
 	  <mat-icon>restore</mat-icon>
 	</button>
 	<!-- Toggle button for tic tac toe -->
-	Tic Tac Toe
 	<button mat-icon-button (click)="toggleTicTacToe()">
 		<mat-icon>games</mat-icon>
 	  </button>
-	<span class="spacer"></span>
 	<div>
-		<label for="grid-size">Grid size:</label>
 		<button mat-icon-button (click)="sizeGridUp()" [disabled]="ticTacToeMode">
 			<mat-icon>keyboard_arrow_up</mat-icon>
 		  </button>

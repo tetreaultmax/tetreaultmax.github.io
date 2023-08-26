@@ -1,0 +1,45 @@
+<div class="dialog-container">
+  <div class="dialog-header">
+    <h2>Help center</h2>
+    <button mat-icon-button (click)="closeDialog()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+  <mat-tab-group>
+    <mat-tab label="Tab 1">
+      <ng-template mat-tab-label>
+        <mat-icon>info</mat-icon>
+        How to play
+      </ng-template>
+      <div class="tab-content">
+        <!-- Your content for Tab 1 goes here -->
+        <p>The goal of the game is to find players that played for both of the teams that cross the selected cell.</p>
+		<p>For example, if you click on the cell that is at the intersection of the Montreal Canadiens and the Toronto Maple Leafs, you will have to find a player that played for both of these teams.</p>
+		<p>When you find a player, you can click on the cell that is at the intersection of the player's team and the team that you are looking for.</p>
+		<p>For example, if you find that Doug Gilmour played for both the Montreal Canadiens and the Toronto Maple Leafs, you can click on the cell that is at the intersection of the Montreal Canadiens and the Toronto Maple Leafs.</p>
+		<p>You can then write the name and press enter.</p>
+		<p>If you are correct, the cell will turn green and you will be able to continue the game.</p>
+		<p>When you find all the players, you win!</p>
+      </div>
+    </mat-tab>
+    <mat-tab label="Tab 2">
+      <ng-template mat-tab-label>
+        <mat-icon>settings</mat-icon>
+        Icons
+      </ng-template>
+      <div class="tab-content">
+        <!-- Your content for Tab 2 goes here -->
+        <!-- Your content goes here -->
+	  <p>Here is a summary of the different icon:</p>
+	  <mat-icon>restore</mat-icon>
+	  : Reset the game<br>
+	  <mat-icon>games</mat-icon>
+	  : Tic Tac Toe mode<br>
+	  <mat-icon>keyboard_arrow_up</mat-icon>
+	  : Increase the grid size<br>
+	  <mat-icon>keyboard_arrow_down</mat-icon>
+	  : Decrease the grid size<br>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>

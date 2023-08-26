@@ -1,6 +1,7 @@
 import { Component, Output, EventEmitter } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { PlayerDialogComponent } from './player-dialog/player-dialog.component';
+import { MenuDialogComponent } from './menu-dialog/menu-dialog.component';
 
 interface NhlAbrvDictionary {
 	[key: string]: string;
@@ -70,7 +71,7 @@ export class AppComponent {
 
   url_image = "http://nhl.bamcontent.com/images/headshots/current/168x168/";
 
-  constructor(private dialog: MatDialog) {
+  constructor(private dialog: MatDialog, private menuDialog: MatDialog) {
     this.updateGridSize();
 	// read a json file
 	fetch('../assets/nhl_players.json')
@@ -275,6 +276,13 @@ export class AppComponent {
   updatePos(row: number, col: number){
 	this.currentRow = row;
 	this.currentCol = col;
+  }
+
+  openMenu(): void {
+    const dialogRef = this.menuDialog.open(MenuDialogComponent, {
+      width: '400px', // You can customize the width
+      disableClose: true, // Prevents closing the dialog by clicking outside or pressing ESC
+    });
   }
 
   openDialog(row: number, col: number, allNameData: any): void {
