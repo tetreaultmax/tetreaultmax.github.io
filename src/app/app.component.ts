@@ -90,6 +90,7 @@ export class AppComponent {
 
   toggleTicTacToe() {
     this.ticTacToeMode = !this.ticTacToeMode;
+	this.selectedSize = '3x3';
 	this.reset();
   }
 
@@ -198,6 +199,8 @@ export class AppComponent {
 			const winner = this.checkForWinner();
 			if (winner) {
 				alert(`Player ${this.currentPlayer} won the game!`);
+				this.reset();
+				this.ticTacToeMode = false;
 				// You can take further actions here, like displaying a winner message or resetting the game.
 			} 			
 			this.currentPlayer = this.currentPlayer === 'Blue' ? 'Red' : 'Blue';	
