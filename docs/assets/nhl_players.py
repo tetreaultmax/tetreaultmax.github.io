@@ -26,11 +26,14 @@ def fetch_player_ids(seasons):
 						"id": player["person"]["id"],
 						"name": player["person"]["fullName"],
 						"team": [team["name"]],
-						"season": season[4:]
+						"first_season": season[4:],  # Store the debut season
+                        "last_season": season[4:],
 					}
 				else:
 					if team["name"] not in players_data[player["person"]["id"]]["team"]:
 						players_data[player["person"]["id"]]["team"].append(team["name"])
+					# Update the last_season for subsequent appearances
+					players_data[player["person"]["id"]]["first_season"] = season[4:]
 
 	return players_data
 
@@ -40,11 +43,11 @@ def save_to_csv(player_data):
 	filename = "nhl_players.csv"
 
 	with open(filename, "w", newline="", encoding="utf-8") as csvfile:
-		fieldnames = ["Player ID", "Player Name", "Teams", "Last Season"]
+		fieldnames = ["Player ID", "Player Name", "Teams", "First Season", "Last Season"]
 		writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 		writer.writeheader()
 		for player_id, player_info in player_data.items():
-			writer.writerow({"Player ID": player_info["id"], "Player Name": player_info["name"], "Teams": ", ".join(player_info["team"]), "Last Season": player_info["season"]})
+			writer.writerow({"Player ID": player_info["id"], "Player Name": player_info["name"], "Teams": ", ".join(player_info["team"]), "First Season": player_info["first_season"], "Last Season": player_info["last_season"]})
 
 # Fetch player IDs
 seasons = ["20222023", "20212022", "20202021", "20192020", "20182019", "20172018", "20162017", "20152016",

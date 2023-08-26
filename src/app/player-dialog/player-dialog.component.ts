@@ -12,7 +12,8 @@ export class PlayerDialogComponent {
 	constructor(
 	  public dialogRef: MatDialogRef<PlayerDialogComponent>,
 	  @Inject(MAT_DIALOG_DATA) public data: { row: number, col: number,  allNameData: string[]}
-	) {}
+	) {
+	}
   
 	closeDialog(): void {
 	  this.dialogRef.close();
@@ -20,7 +21,7 @@ export class PlayerDialogComponent {
 
 	// Inside PlayerDialogComponent class
 	filterNames(): void {
-		this.matchingNames = this.data.allNameData.filter(name => name.toLowerCase().includes(this.playerName.toLowerCase()));
+		this.matchingNames = this.data.allNameData.filter(item => item[0].toLowerCase().includes(this.playerName.toLowerCase()));
 	}
 	// Inside PlayerDialogComponent class
 	selectName(name: string): void {

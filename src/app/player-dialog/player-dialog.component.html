@@ -4,8 +4,9 @@
 	</mat-form-field>
 	<div class="matching-names-grid">
 		<div *ngFor="let matchingName of matchingNames" class="matching-name-cell"
-			 (click)="selectName(matchingName)">
-		  {{ matchingName }}
+			 (click)="selectName(matchingName[0])">
+		  {{ matchingName[0] }}, 
+		  {{ matchingName[1] }} - {{ matchingName[2] }}
 		</div>
 	  </div>
   </mat-dialog-content>

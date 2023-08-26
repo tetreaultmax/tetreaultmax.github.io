@@ -67,7 +67,7 @@ export class AppComponent {
   filteredPlayers = [];
   currentRow = -1;
   currentCol = -1;
-  allNames: string[] = [];
+  allNames: any[] = [];
   ticTacToeMode: boolean = false;
   currentPlayer = 'Blue';
   blockedGame: boolean = false;
@@ -83,7 +83,7 @@ export class AppComponent {
 		this.jsonData = jsonData;
 		for (let i = 0; i < jsonData.length; i++) {
 			let player = jsonData[i];
-			this.allNames.push(player["Player Name"]);
+			this.allNames.push([player["Player Name"], player["First Season"], player["Last Season"]]);
 		}	
   	})
   	.catch(error => {
