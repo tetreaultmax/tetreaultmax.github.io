@@ -71,7 +71,9 @@ export class AppComponent {
   ticTacToeMode: boolean = false;
   currentPlayer = 'Blue';
   blockedGame: boolean = false;
-  url_image = "http://nhl.bamcontent.com/images/headshots/current/168x168/";
+  // url_image = "http://nhl.bamcontent.com/images/headshots/current/168x168/";
+  url_image = "https://cms.nhl.bamgrid.com/images/headshots/current/168x168/"
+  
 
   constructor(private dialog: MatDialog, private menuDialog: MatDialog, private winDialog: MatDialog, private ticDialog: MatDialog) {
     this.updateGridSize();
@@ -181,7 +183,7 @@ export class AppComponent {
 	const isConditionMet = arrayTeam.includes(this.dictNhlAbrv[team1]) && arrayTeam.includes(this.dictNhlAbrv[team2]);
 
 	if (isConditionMet) {
-		this.cellBackgrounds[row - 1][col - 1] = this.url_image + playerId + ".jpg"; // Set the background color for the current cell
+		this.cellBackgrounds[row - 1][col - 1] = this.url_image + playerId + "@2x.jpg"; // Set the background color for the current cell
 		this.cellColors[row - 1][col - 1] = 'green';
 		// if all cells are filled
 		if (this.cellColors.every((row) => row.every((cell) => cell === 'green'))) {
