@@ -334,10 +334,25 @@ export class AppComponent {
 		  else{
 			this.randomCol[place - 1] = result.selectTeam;
 		  }
-		  if (this.nbSelectedTeams == 6){
-			this.chooseMode = false;
-			this.blockedGame = false;
+		  if (this.selectedSize == "3x3"){
+			if (this.nbSelectedTeams == 6){
+				this.chooseMode = false;
+				this.blockedGame = false;
+			  }
 		  }
+		  else if(this.selectedSize == "4x4"){
+			if (this.nbSelectedTeams == 8){
+				this.chooseMode = false;
+				this.blockedGame = false;
+			}
+		  }
+		  else if (this.selectedSize == "5x5"){
+			if (this.nbSelectedTeams == 10){
+				this.chooseMode = false;
+				this.blockedGame = false;
+			}
+		  }
+		  
 		}
 	  });
   }
