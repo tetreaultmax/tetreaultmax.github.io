@@ -139,6 +139,8 @@ export class AppComponent {
     this.grid = Array(rows).fill(0).map((_, index) => index + 1);
     this.initGrid(cols);
 	this.randomTeams();
+	this.chooseMode = false;
+	this.blockedGame = false;
 	// Initialize the cellBackgrounds array with empty strings for all cells
 	for (let row = 0; row < rows; row++) {
 		this.cellBackgrounds[row] = [];
