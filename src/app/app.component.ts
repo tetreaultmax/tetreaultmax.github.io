@@ -278,8 +278,18 @@ export class AppComponent {
 
   chooseTeam(){
 	this.updateGridSize();
-	this.randomCol = ["interr", "interr", "interr"];
-	this.randomRow = ["interr", "interr", "interr"];
+	if (this.selectedSize == "3x3"){
+		this.randomCol = ["interr", "interr", "interr"];
+		this.randomRow = ["interr", "interr", "interr"];
+	}
+	else if (this.selectedSize == "4x4"){
+		this.randomCol = ["interr", "interr", "interr", "interr"];
+		this.randomRow = ["interr", "interr", "interr", "interr"];
+	}
+	else if (this.selectedSize == "5x5"){
+		this.randomCol = ["interr", "interr", "interr", "interr", "interr"];
+		this.randomRow = ["interr", "interr", "interr", "interr", "interr"];
+	}
 	this.chooseMode = true;
 	this.blockedGame = true;
 	this.nbSelectedTeams = 0;
