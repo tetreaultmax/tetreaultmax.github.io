@@ -1,0 +1,16 @@
+<mat-dialog-content>
+	<div class="matching-names-grid">
+		<div *ngFor="let team of allTeams" class="matching-name-cell" [style.backgroundImage]="'url(../assets/' + team + '.png)'"
+		style="background-size:  auto 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 50px;
+			width: 50px;"
+			 (click)="selectTeam(team)">
+		</div>
+	  </div>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+	<button mat-button (click)="closeDialog()">Cancel</button>
+	<button mat-button (click)="saveTeam()">Save</button>
+  </mat-dialog-actions>

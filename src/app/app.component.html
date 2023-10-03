@@ -9,6 +9,9 @@
 	<button mat-icon-button (click)="toggleTicTacToe()">
 		<mat-icon>games</mat-icon>
 	  </button>
+	  <button mat-icon-button (click)="chooseTeam()">
+		<mat-icon>build</mat-icon>
+	  </button>
 	<div>
 		<button mat-icon-button (click)="sizeGridUp()" [disabled]="ticTacToeMode || selectedSize == '5x5'">
 			<mat-icon>keyboard_arrow_up</mat-icon>
@@ -43,7 +46,10 @@
 			background-repeat: no-repeat;
 			background-position: center;
 			height: 50px;
-			width: 50px;">
+			width: 50px;"
+			class="cell-hover"
+			(click)="openDialogTeam(false, col)"
+			[ngClass]="{'non-clickable': !chooseMode}">
 		</th>
 	  </tr>
 	  <tr *ngFor="let row of grid">
@@ -52,7 +58,10 @@
 			background-repeat: no-repeat;
 			background-position: center;
 			height: 50px;
-			width: 50px;">
+			width: 50px;"
+			class="cell-hover"
+			(click)="openDialogTeam(true, row)"
+			[ngClass]="{'non-clickable': !chooseMode}">
 		</th>
 		<td *ngFor="let col of grid"
 			[style.background-image]="'url(' + cellBackgrounds[row - 1][col - 1] + ')'"

@@ -1,0 +1,17 @@
+.matching-names-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+	gap: 10px;
+  }
+  
+  .matching-name-cell {
+	background-color: #f0f0f0;
+	padding: 10px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+  }
+  
+  .matching-name-cell:hover {
+	background-color: #e0e0e0;
+  }
+  

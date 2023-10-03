@@ -19,6 +19,7 @@ import { PlayerDialogComponent } from './player-dialog/player-dialog.component';
 import { MenuDialogComponent } from './menu-dialog/menu-dialog.component';
 import { WinDialogComponent } from './win-dialog/win-dialog.component';
 import { TicDialogComponent } from './tic-dialog/tic-dialog.component';
+import { TeamDialogComponent } from './team-dialog/team-dialog.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { TicDialogComponent } from './tic-dialog/tic-dialog.component';
     PlayerDialogComponent,
     MenuDialogComponent,
     WinDialogComponent,
-    TicDialogComponent
+    TicDialogComponent,
+    TeamDialogComponent
   ],
   imports: [
     BrowserModule, 

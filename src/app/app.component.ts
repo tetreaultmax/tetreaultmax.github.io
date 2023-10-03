@@ -4,6 +4,7 @@ import { PlayerDialogComponent } from './player-dialog/player-dialog.component';
 import { MenuDialogComponent } from './menu-dialog/menu-dialog.component';
 import { WinDialogComponent } from './win-dialog/win-dialog.component';
 import { TicDialogComponent } from './tic-dialog/tic-dialog.component';
+import { TeamDialogComponent } from './team-dialog/team-dialog.component';
 
 interface NhlAbrvDictionary {
 	[key: string]: string;
@@ -69,11 +70,13 @@ export class AppComponent {
   currentCol = -1;
   allNames: any[] = [];
   ticTacToeMode: boolean = false;
+  chooseMode = false;
   currentPlayer = 'Blue';
   blockedGame: boolean = false;
+  nbSelectedTeams: number = 0;
   url_image = "http://nhl.bamcontent.com/images/headshots/current/168x168/";
 
-  constructor(private dialog: MatDialog, private menuDialog: MatDialog, private winDialog: MatDialog, private ticDialog: MatDialog) {
+  constructor(private dialog: MatDialog, private menuDialog: MatDialog, private winDialog: MatDialog, private ticDialog: MatDialog, private teamDialog: MatDialog) {
     this.updateGridSize();
 	// read a json file
 	fetch('../assets/nhl_players.json')
@@ -268,7 +271,19 @@ export class AppComponent {
   reset() {
 	this.updateGridSize();
 	this.blockedGame = false;
+	this.chooseMode = false;
+	this.nbSelectedTeams = 0;
   }
+
+  chooseTeam(){
+	this.updateGridSize();
+	this.randomCol = ["interr", "interr", "interr"];
+	this.randomRow = ["interr", "interr", "interr"];
+	this.chooseMode = true;
+	this.blockedGame = true;
+	this.nbSelectedTeams = 0;
+  }
+
 
   updatePos(row: number, col: number){
 	this.currentRow = row;
@@ -298,6 +313,34 @@ export class AppComponent {
 	  disableClose: true, // Prevents closing the dialog by clicking outside or pressing ESC
 	});
   }
+
+  openDialogTeam(isRow: boolean, place: number){
+	const dialogRef = this.dialog.open(TeamDialogComponent, {
+		data: { isRow, place },
+	  });
+
+	  dialogRef.afterClosed().subscribe(result => {
+		if (result) {
+			if (this.randomRow.includes(result.selectTeam) || this.randomCol.includes(result.selectTeam)){
+				return;
+			}
+			this.nbSelectedTeams++;
+		  if (isRow){
+			// Check if the team is already selected
+			
+			this.randomRow[place - 1] = result.selectTeam;
+		  }
+		  else{
+			this.randomCol[place - 1] = result.selectTeam;
+		  }
+		  if (this.nbSelectedTeams == 6){
+			this.chooseMode = false;
+			this.blockedGame = false;
+		  }
+		}
+	  });
+  }
+
 
   openDialog(row: number, col: number, allNameData: any): void {
 	this.updatePos(row, col);
