@@ -328,6 +328,7 @@ export class AppComponent {
   }
 
   openDialogTeam(isRow: boolean, place: number){
+	this.chooseMode = true;
 	const dialogRef = this.dialog.open(TeamDialogComponent, {
 		data: { isRow, place },
 	  });
