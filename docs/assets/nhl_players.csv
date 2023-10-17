@@ -1,1130 +1,1310 @@
 Player ID,Player Name,Teams,First Season,Last Season
-8474090,Brendan Smith,"New Jersey Devils, Carolina Hurricanes, New York Rangers, Detroit Red Wings",2012,2023
-8475193,Tomas Tatar,"New Jersey Devils, Montréal Canadiens, Detroit Red Wings, Vegas Golden Knights",2011,2023
-8475287,Erik Haula,"New Jersey Devils, Boston Bruins, Nashville Predators, Carolina Hurricanes, Florida Panthers, Vegas Golden Knights, Minnesota Wild",2014,2023
-8476292,Ondrej Palat,"New Jersey Devils, Tampa Bay Lightning",2013,2023
-8476462,Dougie Hamilton,"New Jersey Devils, Carolina Hurricanes, Calgary Flames, Boston Bruins",2013,2023
-8476923,Damon Severson,New Jersey Devils,2015,2023
-8477341,Andreas Johnsson,"New Jersey Devils, San Jose Sharks, Toronto Maple Leafs",2018,2023
-8477425,Miles Wood,New Jersey Devils,2016,2023
-8477435,Ryan Graves,"New Jersey Devils, Colorado Avalanche",2019,2023
-8477508,Curtis Lazar,"New Jersey Devils, Vancouver Canucks, Boston Bruins, Buffalo Sabres, Calgary Flames, Ottawa Senators",2015,2023
-8478399,Jonas Siegenthaler,"New Jersey Devils, Washington Capitals",2019,2023
-8478414,Timo Meier,"New Jersey Devils, San Jose Sharks",2017,2023
-8478507,John Marino,"New Jersey Devils, Pittsburgh Penguins",2020,2023
-8479407,Jesper Bratt,New Jersey Devils,2018,2023
-8479414,Nathan Bastian,"New Jersey Devils, Seattle Kraken",2019,2023
-8479415,Michael McLeod,New Jersey Devils,2019,2023
-8480002,Nico Hischier,New Jersey Devils,2018,2023
-8480003,Jesper Boqvist,New Jersey Devils,2020,2023
-8480188,Fabian Zetterlund,"New Jersey Devils, San Jose Sharks",2022,2023
-8480860,Kevin Bahl,New Jersey Devils,2021,2023
-8481068,Yegor Sharangovich,New Jersey Devils,2021,2023
-8481518,Nolan Foote,New Jersey Devils,2021,2023
-8481537,Nikita Okhotiuk,New Jersey Devils,2022,2023
-8481559,Jack Hughes,New Jersey Devils,2020,2023
-8481740,Tyce Thompson,New Jersey Devils,2021,2023
-8482110,Dawson Mercer,New Jersey Devils,2022,2023
-8482125,Alexander Holtz,New Jersey Devils,2022,2023
-8482684,Luke Hughes,New Jersey Devils,2023,2023
-8477970,Vitek Vanecek,"New Jersey Devils, Washington Capitals",2021,2023
-8478406,Mackenzie Blackwood,New Jersey Devils,2019,2023
-8481033,Akira Schmid,New Jersey Devils,2022,2023
+8474090,Brendan Smith,"New Jersey Devils, Carolina Hurricanes, New York Rangers, Detroit Red Wings",2012,2024
+8475287,Erik Haula,"New Jersey Devils, Boston Bruins, Nashville Predators, Carolina Hurricanes, Florida Panthers, Vegas Golden Knights, Minnesota Wild",2014,2024
+8475413,Justin Dowling,"New Jersey Devils, Vancouver Canucks, Dallas Stars",2017,2024
+8475726,Tyler Toffoli,"New Jersey Devils, Calgary Flames, Montréal Canadiens, Vancouver Canucks, Los Angeles Kings",2013,2024
+8476234,Keith Kinkaid,"New Jersey Devils, Boston Bruins, Colorado Avalanche, New York Rangers, Montréal Canadiens",2013,2024
+8476292,Ondrej Palat,"New Jersey Devils, Tampa Bay Lightning",2013,2024
+8476462,Dougie Hamilton,"New Jersey Devils, Carolina Hurricanes, Calgary Flames, Boston Bruins",2013,2024
+8476525,Colin Miller,"New Jersey Devils, Dallas Stars, Buffalo Sabres, Vegas Golden Knights, Boston Bruins",2016,2024
+8476919,Chris Tierney,"New Jersey Devils, Montréal Canadiens, Florida Panthers, Ottawa Senators, San Jose Sharks",2015,2024
+8477508,Curtis Lazar,"New Jersey Devils, Vancouver Canucks, Boston Bruins, Buffalo Sabres, Calgary Flames, Ottawa Senators",2015,2024
+8477931,Tomas Nosek,"New Jersey Devils, Boston Bruins, Vegas Golden Knights, Detroit Red Wings",2016,2024
+8477970,Vitek Vanecek,"New Jersey Devils, Washington Capitals",2021,2024
+8478399,Jonas Siegenthaler,"New Jersey Devils, Washington Capitals",2019,2024
+8478414,Timo Meier,"New Jersey Devils, San Jose Sharks",2017,2024
+8478507,John Marino,"New Jersey Devils, Pittsburgh Penguins",2020,2024
+8478902,Erik Kallgren,"New Jersey Devils, Toronto Maple Leafs",2022,2024
+8479304,Kyle Criscuolo,"New Jersey Devils, San Jose Sharks, Detroit Red Wings, Buffalo Sabres",2018,2024
+8479407,Jesper Bratt,New Jersey Devils,2018,2024
+8479414,Nathan Bastian,"New Jersey Devils, Seattle Kraken",2019,2024
+8479415,Michael McLeod,New Jersey Devils,2019,2024
+8479984,Cal Foote,"New Jersey Devils, Tampa Bay Lightning, Nashville Predators",2021,2024
+8480002,Nico Hischier,New Jersey Devils,2018,2024
+8480032,Shane Bowers,"New Jersey Devils, Colorado Avalanche",2023,2024
+8480860,Kevin Bahl,New Jersey Devils,2021,2024
+8481033,Akira Schmid,New Jersey Devils,2022,2024
+8481518,Nolan Foote,New Jersey Devils,2021,2024
+8481536,Daniil Misyul,New Jersey Devils,2024,2024
+8481559,Jack Hughes,New Jersey Devils,2020,2024
+8481578,Graeme Clarke,New Jersey Devils,2024,2024
+8481701,Santeri Hatakka,"New Jersey Devils, San Jose Sharks",2022,2024
+8481740,Tyce Thompson,New Jersey Devils,2021,2024
+8482076,Nico Daws,New Jersey Devils,2022,2024
+8482110,Dawson Mercer,New Jersey Devils,2022,2024
+8482125,Alexander Holtz,New Jersey Devils,2022,2024
+8482684,Luke Hughes,New Jersey Devils,2023,2024
+8482714,Chase Stillman,New Jersey Devils,2024,2024
+8483495,Simon Nemec,New Jersey Devils,2024,2024
+8483531,Brian Halonen,New Jersey Devils,2024,2024
+8473504,Cal Clutterbuck,"New York Islanders, Minnesota Wild",2008,2024
+8473575,Semyon Varlamov,"New York Islanders, Colorado Avalanche, Washington Capitals",2009,2024
+8474709,Matt Martin,"New York Islanders, Toronto Maple Leafs",2010,2024
+8475151,Kyle Palmieri,"New York Islanders, New Jersey Devils, Anaheim Ducks",2011,2024
+8475231,Casey Cizikas,New York Islanders,2012,2024
+8475314,Anders Lee,New York Islanders,2013,2024
+8475754,Brock Nelson,New York Islanders,2013,2024
+8476419,Jean-Gabriel Pageau,"New York Islanders, Ottawa Senators",2013,2024
+8476429,Scott Mayfield,New York Islanders,2014,2024
+8476917,Adam Pelech,New York Islanders,2016,2024
+8476983,Paul LaDue,"New York Islanders, Los Angeles Kings",2017,2024
+8477314,Brian Pinho,"New York Islanders, Washington Capitals",2020,2024
+8477392,Hudson Fasching,"New York Islanders, Arizona Coyotes, Buffalo Sabres",2016,2024
+8477500,Bo Horvat,"New York Islanders, Vancouver Canucks",2015,2024
+8477506,Ryan Pulock,New York Islanders,2016,2024
+8477527,Ross Johnston,New York Islanders,2016,2024
+8478009,Ilya Sorokin,New York Islanders,2021,2024
+8478115,Pierre Engvall,"New York Islanders, Toronto Maple Leafs",2020,2024
+8478445,Mathew Barzal,New York Islanders,2017,2024
+8478965,Kenneth Appleby,"New York Islanders, New Jersey Devils",2018,2024
+8479328,Julien Gauthier,"New York Islanders, New York Rangers, Ottawa Senators, Carolina Hurricanes",2020,2024
+8479395,Dennis Cholowski,"New York Islanders, Washington Capitals, Seattle Kraken, Detroit Red Wings",2019,2024
+8479526,Otto Koivula,New York Islanders,2020,2024
+8480071,Robin Salo,New York Islanders,2022,2024
+8480222,Sebastian Aho,New York Islanders,2018,2024
+8480242,Arnaud Durandeau,New York Islanders,2023,2024
+8480306,Grant Hutton,New York Islanders,2022,2024
+8480789,Oliver Wahlstrom,New York Islanders,2020,2024
+8480819,Jakub Skarek,New York Islanders,2024,2024
+8480865,Noah Dobson,New York Islanders,2020,2024
+8480901,Karson Kuhlman,"New York Islanders, Winnipeg Jets, Seattle Kraken, Boston Bruins",2019,2024
+8481014,Alexander Romanov,"New York Islanders, Montréal Canadiens",2021,2024
+8481016,Ruslan Iskhakov,New York Islanders,2024,2024
+8481237,Kyle MacLean,New York Islanders,2024,2024
+8481541,Samuel Bolduc,New York Islanders,2023,2024
+8481601,Simon Holmstrom,New York Islanders,2023,2024
+8481666,Reece Newkirk,New York Islanders,2024,2024
+8482207,William Dufour,New York Islanders,2023,2024
+8482882,Eetu Liukas,New York Islanders,2024,2024
+8483062,Matthew Maggio,New York Islanders,2024,2024
+8483104,Daylan Kuefler,New York Islanders,2024,2024
+8483498,Calle Odelius,New York Islanders,2024,2024
+8484262,Travis Mitchell,New York Islanders,2024,2024
+8484263,Aidan Fulp,New York Islanders,2024,2024
+8471218,Blake Wheeler,"New York Rangers, Winnipeg Jets, Boston Bruins",2009,2024
+8471734,Jonathan Quick,"New York Rangers, Los Angeles Kings, Vegas Golden Knights",2008,2024
+8474009,Nick Bonino,"New York Rangers, Pittsburgh Penguins, San Jose Sharks, Minnesota Wild, Nashville Predators, Vancouver Canucks, Anaheim Ducks",2010,2024
+8475184,Chris Kreider,New York Rangers,2012,2024
+8475752,Tyler Pitlick,"New York Rangers, St. Louis Blues, Montréal Canadiens, Calgary Flames, Arizona Coyotes, Philadelphia Flyers, Dallas Stars, Edmonton Oilers",2014,2024
+8476389,Vincent Trocheck,"New York Rangers, Carolina Hurricanes, Florida Panthers",2014,2024
+8476459,Mika Zibanejad,"New York Rangers, Ottawa Senators",2012,2024
+8476624,Barclay Goodrow,"New York Rangers, Tampa Bay Lightning, San Jose Sharks",2015,2024
+8476885,Jacob Trouba,"New York Rangers, Winnipeg Jets",2014,2024
+8476918,Jimmy Vesey,"New York Rangers, New Jersey Devils, Toronto Maple Leafs, Vancouver Canucks, Buffalo Sabres",2017,2024
+8476979,Erik Gustafsson,"New York Rangers, Toronto Maple Leafs, Washington Capitals, Chicago Blackhawks, Philadelphia Flyers, Montréal Canadiens, Calgary Flames",2016,2024
+8477380,Jonny Brodzinski,"New York Rangers, San Jose Sharks, Los Angeles Kings",2017,2024
+8477433,Ben Harpur,"New York Rangers, Nashville Predators, Ottawa Senators",2016,2024
+8478048,Igor Shesterkin,New York Rangers,2020,2024
+8478550,Artemi Panarin,"New York Rangers, Columbus Blue Jackets, Chicago Blackhawks",2016,2024
+8479323,Adam Fox,New York Rangers,2020,2024
+8479324,Ryan Lindgren,New York Rangers,2019,2024
+8480078,Filip Chytil,New York Rangers,2018,2024
+8480817,K'Andre Miller,New York Rangers,2021,2024
+8481554,Kaapo Kakko,New York Rangers,2020,2024
+8481708,Zac Jones,New York Rangers,2021,2024
+8482073,Braden Schneider,New York Rangers,2022,2024
+8482109,Alexis Lafrenière,New York Rangers,2021,2024
+8482157,Will Cuylle,New York Rangers,2023,2024
+8482193,Dylan Garand,New York Rangers,2024,2024
+8482747,Brennan Othmann,New York Rangers,2024,2024
+8475176,Ryan Ellis,"Philadelphia Flyers, Nashville Predators",2012,2024
+8471686,Marc Staal,"Philadelphia Flyers, Florida Panthers, Detroit Red Wings, New York Rangers",2008,2024
+8474715,Cam Atkinson,"Philadelphia Flyers, Columbus Blue Jackets",2012,2024
+8475235,Nicolas Deslauriers,"Philadelphia Flyers, Anaheim Ducks, Minnesota Wild, Montréal Canadiens, Buffalo Sabres",2014,2024
+8476372,Nick Seeler,"Philadelphia Flyers, Chicago Blackhawks, Minnesota Wild",2018,2024
+8476461,Sean Couturier,Philadelphia Flyers,2012,2024
+8476872,Scott Laughton,Philadelphia Flyers,2013,2024
+8477361,Cal Petersen,"Philadelphia Flyers, Los Angeles Kings",2019,2024
+8477499,Rasmus Ristolainen,"Philadelphia Flyers, Buffalo Sabres",2014,2024
+8477903,Garnet Hathaway,"Philadelphia Flyers, Boston Bruins, Washington Capitals, Calgary Flames",2016,2024
+8477948,Travis Sanheim,Philadelphia Flyers,2018,2024
+8478433,Felix Sandstrom,Philadelphia Flyers,2022,2024
+8478439,Travis Konecny,Philadelphia Flyers,2017,2024
+8479322,Wade Allison,Philadelphia Flyers,2021,2024
+8479394,Carter Hart,Philadelphia Flyers,2019,2024
+8479550,Tanner Laczynski,Philadelphia Flyers,2021,2024
+8480015,Owen Tippett,"Philadelphia Flyers, Florida Panthers",2018,2024
+8480028,Morgan Frost,Philadelphia Flyers,2020,2024
+8480068,Ryan Poehling,"Philadelphia Flyers, Pittsburgh Penguins, Montréal Canadiens",2019,2024
+8480220,Noah Cates,Philadelphia Flyers,2022,2024
+8480336,Sean Walker,"Philadelphia Flyers, Los Angeles Kings",2019,2024
+8480797,Joel Farabee,Philadelphia Flyers,2020,2024
+8480874,Adam Ginning,Philadelphia Flyers,2023,2024
+8481035,Samuel Ersson,Philadelphia Flyers,2023,2024
+8481178,Egor Zamula,Philadelphia Flyers,2021,2024
+8481521,Ronnie Attard,Philadelphia Flyers,2022,2024
+8481546,Cam York,Philadelphia Flyers,2021,2024
+8481553,Bobby Brink,Philadelphia Flyers,2022,2024
+8482126,Emil Andrae,Philadelphia Flyers,2024,2024
+8482159,Tyson Foerster,Philadelphia Flyers,2023,2024
+8470604,Jeff Carter,"Pittsburgh Penguins, Los Angeles Kings, Columbus Blue Jackets, Philadelphia Flyers",2006,2024
+8471215,Evgeni Malkin,Pittsburgh Penguins,2007,2024
+8471675,Sidney Crosby,Pittsburgh Penguins,2006,2024
+8471724,Kris Letang,Pittsburgh Penguins,2007,2024
+8474189,Lars Eller,"Pittsburgh Penguins, Washington Capitals, Colorado Avalanche, Montréal Canadiens, St. Louis Blues",2010,2024
+8474578,Erik Karlsson,"Pittsburgh Penguins, San Jose Sharks, Ottawa Senators",2010,2024
+8475191,Reilly Smith,"Pittsburgh Penguins, Vegas Golden Knights, Florida Panthers, Boston Bruins, Dallas Stars",2012,2024
+8475810,Bryan Rust,Pittsburgh Penguins,2015,2024
+8476433,Magnus Hellberg,"Pittsburgh Penguins, Ottawa Senators, Detroit Red Wings, New York Rangers, Nashville Predators",2014,2024
+8476442,Matt Nieto,"Pittsburgh Penguins, Colorado Avalanche, San Jose Sharks",2014,2024
+8476483,Rickard Rakell,"Pittsburgh Penguins, Anaheim Ducks",2013,2024
+8476994,Vinnie Hinostroza,"Pittsburgh Penguins, Buffalo Sabres, Florida Panthers, Chicago Blackhawks, Arizona Coyotes",2016,2024
+8477244,Chad Ruhwedel,"Pittsburgh Penguins, Buffalo Sabres",2013,2024
+8477341,Andreas Johnsson,"Pittsburgh Penguins, New Jersey Devils, San Jose Sharks, Toronto Maple Leafs",2018,2024
+8477355,Will Butcher,"Pittsburgh Penguins, Buffalo Sabres, New Jersey Devils",2018,2024
+8477404,Jake Guentzel,Pittsburgh Penguins,2017,2024
+8477435,Ryan Graves,"Pittsburgh Penguins, New Jersey Devils, Colorado Avalanche",2019,2024
+8477465,Tristan Jarry,Pittsburgh Penguins,2017,2024
+8477968,Alex Nedeljkovic,"Pittsburgh Penguins, Detroit Red Wings, Carolina Hurricanes",2017,2024
+8477969,Marcus Pettersson,"Pittsburgh Penguins, Anaheim Ducks",2018,2024
+8478017,Mark Friedman,"Pittsburgh Penguins, Philadelphia Flyers",2019,2024
+8478424,Jansen Harkins,"Pittsburgh Penguins, Winnipeg Jets",2020,2024
+8478569,Noel Acciari,"Pittsburgh Penguins, Toronto Maple Leafs, St. Louis Blues, Florida Panthers, Boston Bruins",2016,2024
+8478854,Ryan Shea,Pittsburgh Penguins,2024,2024
+8479423,Alex Nylander,"Pittsburgh Penguins, Chicago Blackhawks, Buffalo Sabres",2017,2024
+8479514,Rem Pitlick,"Pittsburgh Penguins, Montréal Canadiens, Minnesota Wild, Nashville Predators",2019,2024
+8479533,Joona Koppanen,"Pittsburgh Penguins, Boston Bruins",2023,2024
+8480058,Pierre-Olivier Joseph,Pittsburgh Penguins,2021,2024
+8480883,Ty Smith,"Pittsburgh Penguins, New Jersey Devils",2021,2024
+8481591,Sam Poulin,Pittsburgh Penguins,2023,2024
+8481703,Valtteri Puustinen,Pittsburgh Penguins,2022,2024
+8482055,Drew O'Connor,Pittsburgh Penguins,2021,2024
+8482241,Radim Zohorna,"Pittsburgh Penguins, Toronto Maple Leafs, Calgary Flames",2021,2024
+8482456,Raivis Ansons,Pittsburgh Penguins,2024,2024
+8483503,Owen Pickering,Pittsburgh Penguins,2024,2024
+8473419,Brad Marchand,Boston Bruins,2010,2024
+8473473,Milan Lucic,"Boston Bruins, Calgary Flames, Edmonton Oilers, Los Angeles Kings",2008,2024
+8474031,Kevin Shattenkirk,"Boston Bruins, Anaheim Ducks, Tampa Bay Lightning, New York Rangers, Washington Capitals, St. Louis Blues, Colorado Avalanche",2011,2024
+8474037,James van Riemsdyk,"Boston Bruins, Philadelphia Flyers, Toronto Maple Leafs",2010,2024
+8475745,Charlie Coyle,"Boston Bruins, Minnesota Wild",2013,2024
+8475762,Derek Forbort,"Boston Bruins, Winnipeg Jets, Calgary Flames, Los Angeles Kings",2016,2024
+8476854,Hampus Lindholm,"Boston Bruins, Anaheim Ducks",2014,2024
+8476891,Matt Grzelcyk,Boston Bruins,2017,2024
+8476999,Linus Ullmark,"Boston Bruins, Buffalo Sabres",2016,2024
+8477126,Jayson Megna,"Boston Bruins, Colorado Avalanche, Anaheim Ducks, Vancouver Canucks, New York Rangers, Pittsburgh Penguins",2014,2024
+8477887,Patrick Brown,"Boston Bruins, Philadelphia Flyers, Ottawa Senators, Vegas Golden Knights, Carolina Hurricanes",2015,2024
+8477956,David Pastrnak,Boston Bruins,2015,2024
+8478401,Pavel Zacha,"Boston Bruins, New Jersey Devils",2016,2024
+8478409,Anthony Richard,"Boston Bruins, Montréal Canadiens, Nashville Predators",2019,2024
+8478415,Jakub Zboril,Boston Bruins,2019,2024
+8478421,A.J. Greer,"Boston Bruins, New Jersey Devils, Colorado Avalanche",2017,2024
+8478443,Brandon Carlo,Boston Bruins,2017,2024
+8478450,Parker Wotherspoon,"Boston Bruins, New York Islanders",2023,2024
+8478498,Jake DeBrusk,Boston Bruins,2018,2024
+8479252,Dan Renouf,"Boston Bruins, Detroit Red Wings, Colorado Avalanche",2017,2024
+8479325,Charlie McAvoy,Boston Bruins,2017,2024
+8479365,Trent Frederic,Boston Bruins,2019,2024
+8479546,Oskar Steen,Boston Bruins,2021,2024
+8479987,Morgan Geekie,"Boston Bruins, Seattle Kraken, Carolina Hurricanes",2020,2024
+8480003,Jesper Boqvist,"Boston Bruins, New Jersey Devils",2020,2024
+8480054,Reilly Walsh,"Boston Bruins, New Jersey Devils",2022,2024
+8480070,Ian Mitchell,"Boston Bruins, Chicago Blackhawks",2021,2024
+8480280,Jeremy Swayman,Boston Bruins,2021,2024
+8480828,Michael Callahan,Boston Bruins,2024,2024
+8480831,Alec Regula,"Boston Bruins, Chicago Blackhawks",2021,2024
+8480880,Jakub Lauko,Boston Bruins,2023,2024
+8481556,John Beecher,Boston Bruins,2024,2024
+8482479,Trevor Kuntar,Boston Bruins,2024,2024
+8482511,Mason Lohrei,Boston Bruins,2024,2024
+8482763,Fabian Lysell,Boston Bruins,2024,2024
+8483397,Marc McLaughlin,Boston Bruins,2022,2024
+8483505,Matthew Poitras,Boston Bruins,2024,2024
+8483548,Brandon Bussi,Boston Bruins,2024,2024
+8483567,Georgii Merkulov,Boston Bruins,2024,2024
+8473446,Erik Johnson,"Buffalo Sabres, Colorado Avalanche, St. Louis Blues",2008,2024
+8473449,Kyle Okposo,"Buffalo Sabres, New York Islanders",2008,2024
+8475784,Jeff Skinner,"Buffalo Sabres, Carolina Hurricanes",2011,2024
+8476878,Zemgus Girgensons,Buffalo Sabres,2014,2024
+8477365,Connor Clifton,"Buffalo Sabres, Boston Bruins",2019,2024
+8477480,Eric Comrie,"Buffalo Sabres, Winnipeg Jets, New Jersey Devils, Detroit Red Wings",2017,2024
+8477949,Alex Tuch,"Buffalo Sabres, Vegas Golden Knights, Minnesota Wild",2017,2024
+8478109,Victor Olofsson,Buffalo Sabres,2019,2024
+8478413,Jordan Greenway,"Buffalo Sabres, Minnesota Wild",2018,2024
+8479348,Kale Clague,"Buffalo Sabres, Montréal Canadiens, Los Angeles Kings",2020,2024
+8479370,Tyson Jost,"Buffalo Sabres, Minnesota Wild, Colorado Avalanche",2017,2024
+8479388,Riley Stillman,"Buffalo Sabres, Vancouver Canucks, Chicago Blackhawks, Florida Panthers",2019,2024
+8479419,Brett Murray,Buffalo Sabres,2021,2024
+8479420,Tage Thompson,"Buffalo Sabres, St. Louis Blues",2018,2024
+8479999,Casey Mittelstadt,Buffalo Sabres,2018,2024
+8480035,Henri Jokiharju,"Buffalo Sabres, Chicago Blackhawks",2019,2024
+8480045,Ukko-Pekka Luukkonen,Buffalo Sabres,2021,2024
+8480196,Jacob Bryson,Buffalo Sabres,2021,2024
+8480807,Mattias Samuelsson,Buffalo Sabres,2021,2024
+8480839,Rasmus Dahlin,Buffalo Sabres,2019,2024
+8481522,Peyton Krebs,"Buffalo Sabres, Vegas Golden Knights",2021,2024
+8481528,Dylan Cozens,Buffalo Sabres,2021,2024
+8481564,Ryan Johnson,Buffalo Sabres,2024,2024
+8481751,Lukas Rousek,Buffalo Sabres,2023,2024
+8482061,Brandon Biro,Buffalo Sabres,2022,2024
+8482097,Jack Quinn,Buffalo Sabres,2022,2024
+8482175,JJ Peterka,Buffalo Sabres,2022,2024
+8482221,Devon Levi,Buffalo Sabres,2023,2024
+8482671,Owen Power,Buffalo Sabres,2022,2024
+8482765,Isak Rosen,Buffalo Sabres,2024,2024
+8483468,Jiri Kulich,Buffalo Sabres,2024,2024
+8483512,Matt Savoie,Buffalo Sabres,2024,2024
+8484145,Zach Benson,Buffalo Sabres,2024,2024
+8474596,Jake Allen,"Montréal Canadiens, St. Louis Blues",2012,2024
+8475233,David Savard,"Montréal Canadiens, Tampa Bay Lightning, Columbus Blue Jackets",2012,2024
+8475848,Brendan Gallagher,Montréal Canadiens,2013,2024
+8476469,Joel Armia,"Montréal Canadiens, Winnipeg Jets, Buffalo Sabres",2015,2024
+8476871,Tanner Pearson,"Montréal Canadiens, Vancouver Canucks, Pittsburgh Penguins, Los Angeles Kings",2013,2024
+8476875,Mike Matheson,"Montréal Canadiens, Pittsburgh Penguins, Florida Panthers",2016,2024
+8476981,Josh Anderson,"Montréal Canadiens, Columbus Blue Jackets",2015,2024
+8477497,Sean Monahan,"Montréal Canadiens, Calgary Flames",2014,2024
+8478133,Jake Evans,Montréal Canadiens,2020,2024
+8478470,Sam Montembeault,"Montréal Canadiens, Florida Panthers",2019,2024
+8479543,Michael Pezzetta,Montréal Canadiens,2022,2024
+8480018,Nick Suzuki,Montréal Canadiens,2020,2024
+8480051,Cayden Primeau,Montréal Canadiens,2020,2024
+8480184,Gustav Lindström,"Montréal Canadiens, Detroit Red Wings",2020,2024
+8480192,Johnathan Kovacevic,"Montréal Canadiens, Winnipeg Jets",2022,2024
+8480887,Jordan Harris,Montréal Canadiens,2022,2024
+8481058,Jesse Ylönen,Montréal Canadiens,2021,2024
+8481093,Rafael Harvey-Pinard,Montréal Canadiens,2022,2024
+8481523,Kirby Dach,"Montréal Canadiens, Chicago Blackhawks",2020,2024
+8481540,Cole Caufield,Montréal Canadiens,2021,2024
+8481555,Mattias Norlinder,Montréal Canadiens,2022,2024
+8481618,Alex Newhook,"Montréal Canadiens, Colorado Avalanche",2021,2024
+8482087,Kaiden Guhle,Montréal Canadiens,2023,2024
+8482111,Justin Barron,"Montréal Canadiens, Colorado Avalanche",2022,2024
+8482476,Emil Heineman,Montréal Canadiens,2024,2024
+8482733,Logan Mailloux,Montréal Canadiens,2024,2024
+8482964,Arber Xhekaj,Montréal Canadiens,2023,2024
+8483515,Juraj Slafkovsky,Montréal Canadiens,2023,2024
+8480064,Josh Norris,Ottawa Senators,2020,2024
+8473512,Claude Giroux,"Ottawa Senators, Philadelphia Flyers, Florida Panthers",2008,2024
+8474612,Travis Hamonic,"Ottawa Senators, Vancouver Canucks, Calgary Flames, New York Islanders",2011,2024
+8475765,Vladimir Tarasenko,"Ottawa Senators, New York Rangers, St. Louis Blues",2013,2024
+8476341,Anton Forsberg,"Ottawa Senators, Carolina Hurricanes, Chicago Blackhawks, Columbus Blue Jackets",2015,2024
+8476914,Joonas Korpisalo,"Ottawa Senators, Los Angeles Kings, Columbus Blue Jackets",2016,2024
+8477330,Dominik Kubalik,"Ottawa Senators, Detroit Red Wings, Chicago Blackhawks",2020,2024
+8478078,Rourke Chartier,"Ottawa Senators, San Jose Sharks",2019,2024
+8478146,Matthew Highmore,"Ottawa Senators, St. Louis Blues, Vancouver Canucks, Chicago Blackhawks",2018,2024
+8478147,Bokondji Imama,"Ottawa Senators, Arizona Coyotes",2022,2024
+8478469,Thomas Chabot,Ottawa Senators,2017,2024
+8478472,Mathieu Joseph,"Ottawa Senators, Tampa Bay Lightning",2019,2024
+8478491,Jacob Larsson,"Ottawa Senators, Anaheim Ducks",2017,2024
+8479345,Jakob Chychrun,"Ottawa Senators, Arizona Coyotes",2017,2024
+8479772,Zack MacEwen,"Ottawa Senators, Philadelphia Flyers, Los Angeles Kings, Vancouver Canucks",2019,2024
+8480073,Erik Brannstrom,Ottawa Senators,2019,2024
+8480208,Drake Batherson,Ottawa Senators,2019,2024
+8480355,Mark Kastelic,Ottawa Senators,2022,2024
+8480448,Parker Kelly,Ottawa Senators,2021,2024
+8480801,Brady Tkachuk,Ottawa Senators,2019,2024
+8480879,Jacob Bernard-Docker,Ottawa Senators,2021,2024
+8481102,Egor Sokolov,Ottawa Senators,2022,2024
+8481544,Mads Sogaard,Ottawa Senators,2022,2024
+8481679,Maxence Guenette,Ottawa Senators,2023,2024
+8482092,Ridly Greig,Ottawa Senators,2023,2024
+8482105,Jake Sanderson,Ottawa Senators,2023,2024
+8482116,Tim Stützle,Ottawa Senators,2021,2024
+8482162,Roby Jarventie,Ottawa Senators,2024,2024
+8482245,Artem Zub,Ottawa Senators,2021,2024
+8482674,Tyler Boucher,Ottawa Senators,2024,2024
+8484314,Jiri Smejkal,Ottawa Senators,2024,2024
+8474162,Jake Muzzin,"Toronto Maple Leafs, Los Angeles Kings",2011,2024
+8481582,Nicholas Robertson,Toronto Maple Leafs,2020,2024
+8470966,Mark Giordano,"Toronto Maple Leafs, Seattle Kraken, Calgary Flames",2006,2024
+8471817,Ryan Reaves,"Toronto Maple Leafs, New York Rangers, Minnesota Wild, Vegas Golden Knights, Pittsburgh Penguins, St. Louis Blues",2011,2024
+8474673,TJ Brodie,"Toronto Maple Leafs, Calgary Flames",2011,2024
+8474889,Martin Jones,"Toronto Maple Leafs, Seattle Kraken, Philadelphia Flyers, San Jose Sharks, Los Angeles Kings",2014,2024
+8475160,Kyle Clifford,"Toronto Maple Leafs, St. Louis Blues, Los Angeles Kings",2011,2024
+8475166,John Tavares,"Toronto Maple Leafs, New York Islanders",2010,2024
+8475714,Calle Jarnkrok,"Toronto Maple Leafs, Calgary Flames, Seattle Kraken, Nashville Predators",2014,2024
+8475906,John Klingberg,"Toronto Maple Leafs, Anaheim Ducks, Minnesota Wild, Dallas Stars",2015,2024
+8476853,Morgan Rielly,Toronto Maple Leafs,2014,2024
+8476931,Jake McCabe,"Toronto Maple Leafs, Chicago Blackhawks, Buffalo Sabres",2014,2024
+8477479,Tyler Bertuzzi,"Toronto Maple Leafs, Boston Bruins, Detroit Red Wings",2017,2024
+8477503,Max Domi,"Toronto Maple Leafs, Chicago Blackhawks, Dallas Stars, Carolina Hurricanes, Columbus Blue Jackets, Montréal Canadiens, Arizona Coyotes",2016,2024
+8477939,William Nylander,Toronto Maple Leafs,2016,2024
+8478021,William Lagesson,"Toronto Maple Leafs, Montréal Canadiens, Edmonton Oilers",2020,2024
+8478043,Sam Lafferty,"Toronto Maple Leafs, Chicago Blackhawks, Pittsburgh Penguins",2020,2024
+8478483,Mitchell Marner,Toronto Maple Leafs,2017,2024
+8478492,Ilya Samsonov,"Toronto Maple Leafs, Washington Capitals",2020,2024
+8479318,Auston Matthews,Toronto Maple Leafs,2017,2024
+8479320,Max Lajoie,"Toronto Maple Leafs, Carolina Hurricanes, Ottawa Senators",2019,2024
+8479361,Joseph Woll,Toronto Maple Leafs,2022,2024
+8479580,Dylan Gambrell,"Toronto Maple Leafs, Ottawa Senators, San Jose Sharks",2018,2024
+8479982,Conor Timmins,"Toronto Maple Leafs, Arizona Coyotes, Colorado Avalanche",2020,2024
+8480043,Timothy Liljegren,Toronto Maple Leafs,2020,2024
+8480144,David Kampf,"Toronto Maple Leafs, Chicago Blackhawks",2018,2024
+8480995,Pontus Holmberg,Toronto Maple Leafs,2023,2024
+8481122,Simon Benoit,"Toronto Maple Leafs, Anaheim Ducks",2021,2024
+8481614,Mikko Kokkonen,Toronto Maple Leafs,2024,2024
+8482259,Bobby McMann,Toronto Maple Leafs,2023,2024
+8482720,Matthew Knies,Toronto Maple Leafs,2023,2024
+8483489,Fraser Minten,Toronto Maple Leafs,2024,2024
+8484158,Easton Cowan,Toronto Maple Leafs,2024,2024
+8480830,Andrei Svechnikov,Carolina Hurricanes,2019,2024
+8470613,Brent Burns,"Carolina Hurricanes, San Jose Sharks, Minnesota Wild",2004,2024
+8473533,Jordan Staal,"Carolina Hurricanes, Pittsburgh Penguins",2007,2024
+8475200,Dmitry Orlov,"Carolina Hurricanes, Boston Bruins, Washington Capitals",2012,2024
+8475855,Jesper Fast,"Carolina Hurricanes, New York Rangers",2014,2024
+8475883,Frederik Andersen,"Carolina Hurricanes, Toronto Maple Leafs, Anaheim Ducks",2014,2024
+8476474,Stefan Noesen,"Carolina Hurricanes, Toronto Maple Leafs, San Jose Sharks, Pittsburgh Penguins, New Jersey Devils, Anaheim Ducks",2015,2024
+8476869,Brady Skjei,"Carolina Hurricanes, New York Rangers",2016,2024
+8476882,Teuvo Teravainen,"Carolina Hurricanes, Chicago Blackhawks",2014,2024
+8476921,Jordan Martinook,"Carolina Hurricanes, Arizona Coyotes",2015,2024
+8476958,Jaccob Slavin,Carolina Hurricanes,2016,2024
+8477293,Antti Raanta,"Carolina Hurricanes, Arizona Coyotes, New York Rangers, Chicago Blackhawks",2014,2024
+8477488,Brett Pesce,Carolina Hurricanes,2016,2024
+8477950,Tony DeAngelo,"Carolina Hurricanes, Philadelphia Flyers, New York Rangers, Arizona Coyotes",2017,2024
+8477962,Brendan Lemieux,"Carolina Hurricanes, Philadelphia Flyers, Los Angeles Kings, New York Rangers, Winnipeg Jets",2018,2024
+8478047,Michael Bunting,"Carolina Hurricanes, Toronto Maple Leafs, Arizona Coyotes",2019,2024
+8478427,Sebastian Aho,Carolina Hurricanes,2017,2024
+8478452,Caleb Jones,"Carolina Hurricanes, Chicago Blackhawks, Edmonton Oilers",2019,2024
+8478970,Jalen Chatfield,"Carolina Hurricanes, Vancouver Canucks",2021,2024
+8479639,Dylan Coghlan,"Carolina Hurricanes, Vegas Golden Knights",2021,2024
+8480039,Martin Necas,Carolina Hurricanes,2018,2024
+8480829,Jesperi Kotkaniemi,"Carolina Hurricanes, Montréal Canadiens",2019,2024
+8480835,Jack Drury,Carolina Hurricanes,2022,2024
+8481562,Domenick Fensore,Carolina Hurricanes,2024,2024
+8481576,Ryan Suzuki,Carolina Hurricanes,2024,2024
+8481579,Jamieson Rees,Carolina Hurricanes,2024,2024
+8481611,Pyotr Kochetkov,Carolina Hurricanes,2022,2024
+8481615,Anttoni Honka,Carolina Hurricanes,2024,2024
+8481677,Blake Murray,Carolina Hurricanes,2024,2024
+8482080,Noel Gunler,Carolina Hurricanes,2024,2024
+8482093,Seth Jarvis,Carolina Hurricanes,2022,2024
+8482102,Vasily Ponomarev,Carolina Hurricanes,2024,2024
+8482187,Ronan Seeley,Carolina Hurricanes,2024,2024
+8482785,Justin Robidas,Carolina Hurricanes,2024,2024
+8482860,Aleksi Heimosalmi,Carolina Hurricanes,2024,2024
+8483560,Griffin Mendel,Carolina Hurricanes,2024,2024
+8484293,Yaniv Perets,Carolina Hurricanes,2024,2024
+8484392,Felix Unger Sorum,Carolina Hurricanes,2024,2024
+8474610,Zac Dalpe,"Florida Panthers, Columbus Blue Jackets, Minnesota Wild, Buffalo Sabres, Vancouver Canucks, Carolina Hurricanes",2011,2024
+8475171,Oliver Ekman-Larsson,"Florida Panthers, Vancouver Canucks, Arizona Coyotes",2015,2024
+8475179,Dmitry Kulikov,"Florida Panthers, Pittsburgh Penguins, Anaheim Ducks, Minnesota Wild, New Jersey Devils, Edmonton Oilers, Winnipeg Jets, Buffalo Sabres",2010,2024
+8475683,Sergei Bobrovsky,"Florida Panthers, Columbus Blue Jackets, Philadelphia Flyers",2011,2024
+8476393,Nick Cousins,"Florida Panthers, Nashville Predators, Montréal Canadiens, Vegas Golden Knights, Arizona Coyotes, Philadelphia Flyers",2015,2024
+8476422,Mike Reilly,"Florida Panthers, Boston Bruins, Ottawa Senators, Montréal Canadiens, Minnesota Wild",2016,2024
+8476932,Anthony Stolarz,"Florida Panthers, Anaheim Ducks, Philadelphia Flyers, Edmonton Oilers",2017,2024
+8477409,Carter Verhaeghe,"Florida Panthers, Tampa Bay Lightning",2020,2024
+8477493,Aleksander Barkov,Florida Panthers,2014,2024
+8477932,Aaron Ekblad,Florida Panthers,2015,2024
+8477933,Sam Reinhart,"Florida Panthers, Buffalo Sabres",2015,2024
+8477935,Sam Bennett,"Florida Panthers, Calgary Flames",2015,2024
+8477986,Brandon Montour,"Florida Panthers, Buffalo Sabres, Anaheim Ducks",2017,2024
+8478055,Gustav Forsling,"Florida Panthers, Chicago Blackhawks",2017,2024
+8478542,Evan Rodrigues,"Florida Panthers, Colorado Avalanche, Pittsburgh Penguins, Buffalo Sabres",2016,2024
+8478831,Kevin Stenlund,"Florida Panthers, Winnipeg Jets, Columbus Blue Jackets",2019,2024
+8478859,Niko Mikkola,"Florida Panthers, New York Rangers, St. Louis Blues",2020,2024
+8478904,Steven Lorentz,"Florida Panthers, San Jose Sharks, Carolina Hurricanes",2021,2024
+8479066,Ryan Lomberg,"Florida Panthers, Calgary Flames",2018,2024
+8479314,Matthew Tkachuk,"Florida Panthers, Calgary Flames",2017,2024
+8479367,William Lockwood,"Florida Panthers, Vancouver Canucks",2021,2024
+8479372,Josh Mahura,"Florida Panthers, Anaheim Ducks",2019,2024
+8479578,Casey Fitzgerald,"Florida Panthers, Buffalo Sabres",2022,2024
+8480185,Eetu Luostarinen,"Florida Panthers, Carolina Hurricanes",2020,2024
+8480384,Alexander True,"Florida Panthers, Seattle Kraken, San Jose Sharks",2020,2024
+8480844,Grigori Denisenko,Florida Panthers,2021,2024
+8481206,John Ludvig,Florida Panthers,2024,2024
+8482088,Justin Sourdif,Florida Panthers,2024,2024
+8482113,Anton Lundell,Florida Panthers,2022,2024
+8482641,Matt Kiersted,Florida Panthers,2021,2024
+8482713,Mackie Samoskevich,Florida Panthers,2024,2024
+8484304,Uvis Balinskis,Florida Panthers,2024,2024
+8474564,Steven Stamkos,Tampa Bay Lightning,2009,2024
+8474567,Zach Bogosian,"Tampa Bay Lightning, Toronto Maple Leafs, Buffalo Sabres, Winnipeg Jets",2012,2024
+8475167,Victor Hedman,Tampa Bay Lightning,2010,2024
+8475177,Calvin de Haan,"Tampa Bay Lightning, Carolina Hurricanes, Chicago Blackhawks, New York Islanders",2012,2024
+8476453,Nikita Kucherov,Tampa Bay Lightning,2014,2024
+8476822,Luke Glendening,"Tampa Bay Lightning, Dallas Stars, Detroit Red Wings",2014,2024
+8476883,Andrei Vasilevskiy,Tampa Bay Lightning,2015,2024
+8477035,Matt Tomkins,Tampa Bay Lightning,2024,2024
+8477353,Tyler Motte,"Tampa Bay Lightning, New York Rangers, Ottawa Senators, Vancouver Canucks, Columbus Blue Jackets, Chicago Blackhawks",2017,2024
+8477426,Nicholas Paul,"Tampa Bay Lightning, Ottawa Senators",2016,2024
+8477839,Conor Sheary,"Tampa Bay Lightning, Washington Capitals, Pittsburgh Penguins, Buffalo Sabres",2016,2024
+8477938,Haydn Fleury,"Tampa Bay Lightning, Seattle Kraken, Carolina Hurricanes, Anaheim Ducks",2018,2024
+8477992,Jonas Johansson,"Tampa Bay Lightning, Colorado Avalanche, Florida Panthers, Buffalo Sabres",2020,2024
+8478010,Brayden Point,Tampa Bay Lightning,2017,2024
+8478178,Darren Raddysh,Tampa Bay Lightning,2022,2024
+8478416,Erik Cernak,Tampa Bay Lightning,2019,2024
+8478519,Anthony Cirelli,Tampa Bay Lightning,2018,2024
+8479410,Mikhail Sergachev,"Tampa Bay Lightning, Montréal Canadiens",2017,2024
+8479542,Brandon Hagel,"Tampa Bay Lightning, Chicago Blackhawks",2020,2024
+8479591,Michael Eyssimont,"Tampa Bay Lightning, San Jose Sharks, Winnipeg Jets",2022,2024
+8479661,Tanner Jeannot,"Tampa Bay Lightning, Nashville Predators",2021,2024
+8479718,Alex Barré-Boulet,"Tampa Bay Lightning, Seattle Kraken",2021,2024
+8480246,Nick Perbix,Tampa Bay Lightning,2023,2024
+8480863,Gabriel Fortier,Tampa Bay Lightning,2022,2024
+8484325,Waltteri Merela,Tampa Bay Lightning,2024,2024
+8474157,Max Pacioretty,"Washington Capitals, Carolina Hurricanes, Vegas Golden Knights, Montréal Canadiens",2009,2024
+8471214,Alex Ovechkin,Washington Capitals,2006,2024
+8471698,T.J. Oshie,"Washington Capitals, St. Louis Blues",2009,2024
+8473563,Nicklas Backstrom,Washington Capitals,2008,2024
+8474590,John Carlson,Washington Capitals,2010,2024
+8475311,Darcy Kuemper,"Washington Capitals, Colorado Avalanche, Arizona Coyotes, Los Angeles Kings, Minnesota Wild",2013,2024
+8475324,Nick Jensen,"Washington Capitals, Detroit Red Wings",2017,2024
+8475343,Nic Dowd,"Washington Capitals, Vancouver Canucks, Los Angeles Kings",2016,2024
+8475744,Evgeny Kuznetsov,Washington Capitals,2014,2024
+8475795,Dylan McIlrath,"Washington Capitals, Detroit Red Wings, New York Rangers, Florida Panthers",2014,2024
+8475958,Michael Sgarbossa,"Washington Capitals, Florida Panthers, Anaheim Ducks, Colorado Avalanche",2013,2024
+8476441,Joel Edmundson,"Washington Capitals, Montréal Canadiens, Carolina Hurricanes, St. Louis Blues",2016,2024
+8476880,Tom Wilson,Washington Capitals,2013,2024
+8477511,Anthony Mantha,"Washington Capitals, Detroit Red Wings",2016,2024
+8477845,Trevor van Riemsdyk,"Washington Capitals, Carolina Hurricanes, Chicago Blackhawks",2015,2024
+8477947,Sonny Milano,"Washington Capitals, Anaheim Ducks, Columbus Blue Jackets",2016,2024
+8477979,Nicolas Aube-Kubel,"Washington Capitals, Toronto Maple Leafs, Philadelphia Flyers, Colorado Avalanche",2019,2024
+8478440,Dylan Strome,"Washington Capitals, Chicago Blackhawks, Arizona Coyotes",2017,2024
+8479292,Charlie Lindgren,"Washington Capitals, St. Louis Blues, Montréal Canadiens",2016,2024
+8479321,Lucas Johansen,Washington Capitals,2022,2024
+8479359,Beck Malenstyn,Washington Capitals,2020,2024
+8479522,Hardy Haman Aktell,Washington Capitals,2024,2024
+8479547,Matthew Phillips,"Washington Capitals, Calgary Flames",2021,2024
+8480796,Martin Fehervary,Washington Capitals,2020,2024
+8480823,Alexander Alexeyev,Washington Capitals,2022,2024
+8480873,Rasmus Sandin,"Washington Capitals, Toronto Maple Leafs",2020,2024
+8481441,Joe Snively,Washington Capitals,2022,2024
+8481580,Connor McMichael,Washington Capitals,2021,2024
+8481656,Aliaksei Protas,Washington Capitals,2022,2024
+8482148,Hendrix Lapierre,Washington Capitals,2022,2024
+8482411,Hunter Shepard,Washington Capitals,2024,2024
+8482639,Alex Limoges,Washington Capitals,2024,2024
+8482861,Vincent Iorio,Washington Capitals,2023,2024
+8483491,Ivan Miroshnichenko,Washington Capitals,2024,2024
+8483532,Clay Stevenson,Washington Capitals,2024,2024
+8470621,Corey Perry,"Chicago Blackhawks, Tampa Bay Lightning, Montréal Canadiens, Dallas Stars, Anaheim Ducks",2006,2024
+8473422,Nick Foligno,"Chicago Blackhawks, Boston Bruins, Toronto Maple Leafs, Columbus Blue Jackets, Ottawa Senators",2008,2024
+8474870,Tyler Johnson,"Chicago Blackhawks, Tampa Bay Lightning",2013,2024
+8475791,Taylor Hall,"Chicago Blackhawks, Boston Bruins, Buffalo Sabres, New Jersey Devils, Arizona Coyotes, Edmonton Oilers",2011,2024
+8475797,Jarred Tinordi,"Chicago Blackhawks, New York Rangers, Boston Bruins, Nashville Predators, Montréal Canadiens, Arizona Coyotes",2013,2024
+8475852,Petr Mrazek,"Chicago Blackhawks, Toronto Maple Leafs, Carolina Hurricanes, Philadelphia Flyers, Detroit Red Wings",2013,2024
+8476278,Colin Blackwell,"Chicago Blackhawks, Toronto Maple Leafs, Seattle Kraken, New York Rangers, Nashville Predators",2019,2024
+8476473,Connor Murphy,"Chicago Blackhawks, Arizona Coyotes",2015,2024
+8476960,Andreas Athanasiou,"Chicago Blackhawks, Los Angeles Kings, Detroit Red Wings, Edmonton Oilers",2016,2024
+8477450,Jason Dickinson,"Chicago Blackhawks, Vancouver Canucks, Dallas Stars",2016,2024
+8477495,Seth Jones,"Chicago Blackhawks, Columbus Blue Jackets, Nashville Predators",2014,2024
+8477987,Ryan Donato,"Chicago Blackhawks, Seattle Kraken, San Jose Sharks, Minnesota Wild, Boston Bruins",2018,2024
+8478224,Luke Philp,Chicago Blackhawks,2023,2024
+8479315,Joey Anderson,"Chicago Blackhawks, Toronto Maple Leafs, New Jersey Devils",2019,2024
+8479383,Boris Katchouk,"Chicago Blackhawks, Tampa Bay Lightning",2022,2024
+8479390,Taylor Raddysh,"Chicago Blackhawks, Tampa Bay Lightning",2022,2024
+8479458,Nikita Zaitsev,"Chicago Blackhawks, Ottawa Senators, Toronto Maple Leafs",2017,2024
+8480025,MacKenzie Entwistle,Chicago Blackhawks,2021,2024
+8480252,Cole Guttman,Chicago Blackhawks,2023,2024
+8480798,Philipp Kurashev,Chicago Blackhawks,2021,2024
+8481147,Reese Johnson,Chicago Blackhawks,2021,2024
+8481568,Alex Vlasic,Chicago Blackhawks,2022,2024
+8482117,Lukas Reichel,Chicago Blackhawks,2022,2024
+8482176,Wyatt Kaiser,Chicago Blackhawks,2023,2024
+8482192,Isaak Phillips,Chicago Blackhawks,2022,2024
+8482703,Colton Dach,Chicago Blackhawks,2024,2024
+8482821,Arvid Soderblom,Chicago Blackhawks,2022,2024
+8483466,Kevin Korchinski,Chicago Blackhawks,2024,2024
+8483530,Jaxson Stauber,Chicago Blackhawks,2023,2024
+8483677,Samuel Savoie,Chicago Blackhawks,2024,2024
+8484144,Connor Bedard,Chicago Blackhawks,2024,2024
+8473503,James Reimer,"Detroit Red Wings, San Jose Sharks, Carolina Hurricanes, Florida Panthers, Toronto Maple Leafs",2011,2024
+8473507,Jeff Petry,"Detroit Red Wings, Pittsburgh Penguins, Montréal Canadiens, Edmonton Oilers",2011,2024
+8474102,David Perron,"Detroit Red Wings, St. Louis Blues, Vegas Golden Knights, Pittsburgh Penguins, Anaheim Ducks, Edmonton Oilers",2008,2024
+8475279,Ben Chiarot,"Detroit Red Wings, Montréal Canadiens, Florida Panthers, Winnipeg Jets",2014,2024
+8475718,Justin Holl,"Detroit Red Wings, Toronto Maple Leafs",2018,2024
+8476874,Olli Maatta,"Detroit Red Wings, Los Angeles Kings, Chicago Blackhawks, Pittsburgh Penguins",2014,2024
+8476906,Shayne Gostisbehere,"Detroit Red Wings, Carolina Hurricanes, Arizona Coyotes, Philadelphia Flyers",2015,2024
+8477429,Andrew Copp,"Detroit Red Wings, New York Rangers, Winnipeg Jets",2015,2024
+8477456,J.T. Compher,"Detroit Red Wings, Colorado Avalanche",2017,2024
+8477946,Dylan Larkin,Detroit Red Wings,2016,2024
+8477952,Robby Fabbri,"Detroit Red Wings, St. Louis Blues",2016,2024
+8478013,Jake Walman,"Detroit Red Wings, St. Louis Blues",2020,2024
+8478024,Ville Husso,"Detroit Red Wings, St. Louis Blues",2021,2024
+8478432,Christian Fischer,"Detroit Red Wings, Arizona Coyotes",2017,2024
+8478466,Daniel Sprong,"Detroit Red Wings, Seattle Kraken, Washington Capitals, Anaheim Ducks, Pittsburgh Penguins",2016,2024
+8478512,Austin Czarnik,"Detroit Red Wings, New York Islanders, Seattle Kraken, Calgary Flames, Boston Bruins",2017,2024
+8479312,Alex Lyon,"Detroit Red Wings, Florida Panthers, Carolina Hurricanes, Philadelphia Flyers",2018,2024
+8479337,Alex DeBrincat,"Detroit Red Wings, Ottawa Senators, Chicago Blackhawks",2018,2024
+8479364,Tim Gettinger,"Detroit Red Wings, New York Rangers",2019,2024
+8479588,Nolan Stevens,Detroit Red Wings,2024,2024
+8479644,Matt Luff,"Detroit Red Wings, Nashville Predators, Los Angeles Kings",2019,2024
+8479992,Michael Rasmussen,Detroit Red Wings,2019,2024
+8480011,Klim Kostin,"Detroit Red Wings, Edmonton Oilers, St. Louis Blues",2020,2024
+8480813,Joe Veleno,Detroit Red Wings,2021,2024
+8480862,Jared McIsaac,Detroit Red Wings,2024,2024
+8481013,Jonatan Berggren,Detroit Red Wings,2023,2024
+8481433,Taro Hirose,Detroit Red Wings,2019,2024
+8481479,Brogan Rafferty,"Detroit Red Wings, Vancouver Canucks",2019,2024
+8481542,Moritz Seider,Detroit Red Wings,2022,2024
+8481587,Antti Tuomisto,Detroit Red Wings,2024,2024
+8481607,Albert Johansson,Detroit Red Wings,2024,2024
+8481725,Elmer Soderblom,Detroit Red Wings,2023,2024
+8482078,Lucas Raymond,Detroit Red Wings,2022,2024
+8482106,Cross Hanas,Detroit Red Wings,2024,2024
+8482163,Eemil Viro,Detroit Red Wings,2024,2024
+8482171,William Wallinder,Detroit Red Wings,2024,2024
+8482251,Wyatt Newpower,Detroit Red Wings,2024,2024
+8482571,John Lethemon,Detroit Red Wings,2024,2024
+8482657,Sebastian Cossa,Detroit Red Wings,2024,2024
+8482762,Simon Edvinsson,Detroit Red Wings,2023,2024
+8482802,Carter Mazur,Detroit Red Wings,2024,2024
+8483464,Marco Kasper,Detroit Red Wings,2023,2024
+8483695,Amadeus Lombardi,Detroit Red Wings,2024,2024
+8484107,Alexandre Doucet,Detroit Red Wings,2024,2024
+8484160,Nate Danielson,Detroit Red Wings,2024,2024
+8474151,Ryan McDonagh,"Nashville Predators, Tampa Bay Lightning, New York Rangers",2011,2024
+8474568,Luke Schenn,"Nashville Predators, Toronto Maple Leafs, Vancouver Canucks, Tampa Bay Lightning, Anaheim Ducks, Arizona Coyotes, Philadelphia Flyers, Los Angeles Kings",2009,2024
+8474600,Roman Josi,Nashville Predators,2012,2024
+8474679,Gustav Nyquist,"Nashville Predators, Columbus Blue Jackets, Minnesota Wild, Detroit Red Wings, San Jose Sharks",2012,2024
+8475158,Ryan O'Reilly,"Nashville Predators, Toronto Maple Leafs, St. Louis Blues, Buffalo Sabres, Colorado Avalanche",2010,2024
+8475197,Tyson Barrie,"Nashville Predators, Edmonton Oilers, Toronto Maple Leafs, Colorado Avalanche",2012,2024
+8476873,Mark Jankowski,"Nashville Predators, Buffalo Sabres, Pittsburgh Penguins, Calgary Flames",2017,2024
+8476887,Filip Forsberg,Nashville Predators,2013,2024
+8476925,Colton Sissons,Nashville Predators,2014,2024
+8477424,Juuse Saros,Nashville Predators,2016,2024
+8477446,Michael McCarron,"Nashville Predators, Montréal Canadiens",2016,2024
+8478438,Tommy Novak,Nashville Predators,2022,2024
+8478468,Jeremy Lauzon,"Nashville Predators, Seattle Kraken, Boston Bruins",2019,2024
+8478495,Denis Gurianov,"Nashville Predators, Montréal Canadiens, Dallas Stars",2017,2024
+8478508,Yakov Trenin,Nashville Predators,2020,2024
+8478851,Alexandre Carrier,Nashville Predators,2017,2024
+8479371,Dante Fabbro,Nashville Predators,2019,2024
+8479996,Cody Glass,"Nashville Predators, Vegas Golden Knights",2020,2024
+8480748,Kiefer Sherwood,"Nashville Predators, Colorado Avalanche, Anaheim Ducks",2019,2024
+8480947,Kevin Lankinen,"Nashville Predators, Chicago Blackhawks",2021,2024
+8481239,Samuel Fagemo,"Nashville Predators, Los Angeles Kings",2022,2024
+8481577,Philip Tomasino,Nashville Predators,2022,2024
+8481704,Juuso Parssinen,Nashville Predators,2023,2024
+8481743,Marc Del Gaizo,Nashville Predators,2024,2024
+8482062,Cole Smith,Nashville Predators,2021,2024
+8482146,Luke Evangelista,Nashville Predators,2023,2024
+8483879,Nolan Burke,Nashville Predators,2024,2024
+8474145,Robert Bortuzzo,"St. Louis Blues, Pittsburgh Penguins",2012,2024
+8474618,Marco Scandella,"St. Louis Blues, Buffalo Sabres, Montréal Canadiens, Minnesota Wild",2011,2024
+8475170,Brayden Schenn,"St. Louis Blues, Philadelphia Flyers, Los Angeles Kings",2010,2024
+8475181,Nick Leddy,"St. Louis Blues, Detroit Red Wings, New York Islanders, Chicago Blackhawks",2011,2024
+8475753,Justin Faulk,"St. Louis Blues, Carolina Hurricanes",2012,2024
+8475763,Kevin Hayes,"St. Louis Blues, Philadelphia Flyers, New York Rangers, Winnipeg Jets",2015,2024
+8476412,Jordan Binnington,St. Louis Blues,2016,2024
+8476438,Brandon Saad,"St. Louis Blues, Colorado Avalanche, Chicago Blackhawks, Columbus Blue Jackets",2012,2024
+8476792,Torey Krug,"St. Louis Blues, Boston Bruins",2012,2024
+8476876,Malcolm Subban,"St. Louis Blues, Buffalo Sabres, Chicago Blackhawks, Vegas Golden Knights, Boston Bruins",2015,2024
+8476892,Colton Parayko,St. Louis Blues,2016,2024
+8476897,Oskar Sundqvist,"St. Louis Blues, Detroit Red Wings, Minnesota Wild, Pittsburgh Penguins",2016,2024
+8476907,Mackenzie MacEachern,"St. Louis Blues, Carolina Hurricanes",2019,2024
+8477402,Pavel Buchnevich,"St. Louis Blues, New York Rangers",2017,2024
+8477573,Nathan Walker,"St. Louis Blues, Washington Capitals, Edmonton Oilers",2018,2024
+8477944,Jakub Vrana,"St. Louis Blues, Detroit Red Wings, Washington Capitals",2017,2024
+8477953,Kasperi Kapanen,"St. Louis Blues, Pittsburgh Penguins, Toronto Maple Leafs",2016,2024
+8478104,Sammy Blais,"St. Louis Blues, New York Rangers",2018,2024
+8479385,Jordan Kyrou,St. Louis Blues,2019,2024
+8480023,Robert Thomas,St. Louis Blues,2019,2024
+8480157,Calle Rosen,"St. Louis Blues, Toronto Maple Leafs, Colorado Avalanche",2018,2024
+8480281,Alexey Toropchenko,St. Louis Blues,2022,2024
+8480981,Joel Hofer,St. Louis Blues,2022,2024
+8481000,Mathias Laferriere,St. Louis Blues,2024,2024
+8481006,Tyler Tucker,St. Louis Blues,2023,2024
+8481059,Scott Perunovich,St. Louis Blues,2022,2024
+8481543,Nikita Alexandrov,St. Louis Blues,2023,2024
+8482089,Jake Neighbours,St. Louis Blues,2022,2024
+8482516,Matthew Kessel,St. Louis Blues,2023,2024
+8482737,Zachary Bolduc,St. Louis Blues,2024,2024
+8482784,Zach Dean,St. Louis Blues,2024,2024
+8478430,Oliver Kylington,Calgary Flames,2016,2024
+8474150,Mikael Backlund,Calgary Flames,2009,2024
+8474593,Jacob Markstrom,"Calgary Flames, Vancouver Canucks, Florida Panthers",2011,2024
+8475172,Nazem Kadri,"Calgary Flames, Colorado Avalanche, Toronto Maple Leafs",2010,2024
+8475690,Chris Tanev,"Calgary Flames, Vancouver Canucks",2011,2024
+8476399,Blake Coleman,"Calgary Flames, Tampa Bay Lightning, New Jersey Devils",2017,2024
+8476456,Jonathan Huberdeau,"Calgary Flames, Florida Panthers",2013,2024
+8477346,MacKenzie Weegar,"Calgary Flames, Florida Panthers",2017,2024
+8477496,Elias Lindholm,"Calgary Flames, Carolina Hurricanes",2014,2024
+8477507,Nikita Zadorov,"Calgary Flames, Chicago Blackhawks, Colorado Avalanche, Buffalo Sabres",2014,2024
+8477851,Jordan Oesterle,"Calgary Flames, Detroit Red Wings, Arizona Coyotes, Chicago Blackhawks, Edmonton Oilers",2015,2024
+8478211,Dryden Hunt,"Calgary Flames, New York Rangers, Toronto Maple Leafs, Colorado Avalanche, Arizona Coyotes, Florida Panthers",2018,2024
+8478233,Andrew Mangiapane,Calgary Flames,2018,2024
+8478396,Noah Hanifin,"Calgary Flames, Carolina Hurricanes",2016,2024
+8478397,Rasmus Andersson,Calgary Flames,2017,2024
+8478435,Dan Vladar,"Calgary Flames, Boston Bruins",2020,2024
+8478502,Dennis Gilbert,"Calgary Flames, Colorado Avalanche, Chicago Blackhawks",2019,2024
+8479291,Kevin Rooney,"Calgary Flames, New York Rangers, New Jersey Devils",2017,2024
+8479346,Dillon Dube,Calgary Flames,2019,2024
+8480008,Adam Ruzicka,Calgary Flames,2021,2024
+8480084,Nick DeSimone,Calgary Flames,2023,2024
+8481028,Martin Pospisil,Calgary Flames,2024,2024
+8481041,Mathias Emilio Pettersen,Calgary Flames,2024,2024
+8481068,Yegor Sharangovich,"Calgary Flames, New Jersey Devils",2021,2024
+8481592,Jakob Pelletier,Calgary Flames,2023,2024
+8481655,Cole Schwindt,"Calgary Flames, Florida Panthers",2022,2024
+8481692,Dustin Wolf,Calgary Flames,2023,2024
+8482066,Colton Poolman,Calgary Flames,2024,2024
+8482074,Connor Zary,Calgary Flames,2024,2024
+8482173,Jeremie Poirier,Calgary Flames,2024,2024
+8482470,Ilya Solovyov,Calgary Flames,2024,2024
+8482652,Walker Duehr,Calgary Flames,2022,2024
+8482679,Matt Coronato,Calgary Flames,2023,2024
+8482889,Lucas Ciona,Calgary Flames,2024,2024
+8483609,Adam Klapka,Calgary Flames,2024,2024
+8484180,Samuel Honzek,Calgary Flames,2024,2024
+8471677,Jack Johnson,"Colorado Avalanche, Chicago Blackhawks, New York Rangers, Pittsburgh Penguins, Columbus Blue Jackets, Los Angeles Kings",2007,2024
+8471699,Andrew Cogliano,"Colorado Avalanche, San Jose Sharks, Dallas Stars, Anaheim Ducks, Edmonton Oilers",2008,2024
+8475193,Tomas Tatar,"Colorado Avalanche, New Jersey Devils, Montréal Canadiens, Detroit Red Wings, Vegas Golden Knights",2011,2024
+8475780,Chris Wagner,"Colorado Avalanche, Boston Bruins, New York Islanders, Anaheim Ducks",2015,2024
+8475793,Ryan Johansen,"Colorado Avalanche, Nashville Predators, Columbus Blue Jackets",2012,2024
+8476312,Josh Manson,"Colorado Avalanche, Anaheim Ducks",2015,2024
+8476779,Brad Hunt,"Colorado Avalanche, Vancouver Canucks, Minnesota Wild, Vegas Golden Knights, Nashville Predators, St. Louis Blues, Edmonton Oilers",2014,2024
+8477073,Kurtis MacDermid,"Colorado Avalanche, Los Angeles Kings",2018,2024
+8477425,Miles Wood,"Colorado Avalanche, New Jersey Devils",2016,2024
+8477476,Artturi Lehkonen,"Colorado Avalanche, Montréal Canadiens",2017,2024
+8477492,Nathan MacKinnon,Colorado Avalanche,2014,2024
+8477494,Jonathan Drouin,"Colorado Avalanche, Montréal Canadiens, Tampa Bay Lightning",2015,2024
+8477501,Valeri Nichushkin,"Colorado Avalanche, Dallas Stars",2014,2024
+8478028,Fredrik Olofsson,"Colorado Avalanche, Dallas Stars",2023,2024
+8478038,Devon Toews,"Colorado Avalanche, New York Islanders",2019,2024
+8478420,Mikko Rantanen,Colorado Avalanche,2016,2024
+8479362,Riley Tufte,"Colorado Avalanche, Dallas Stars",2022,2024
+8479398,Samuel Girard,"Colorado Avalanche, Nashville Predators",2018,2024
+8479525,Ross Colton,"Colorado Avalanche, Tampa Bay Lightning",2021,2024
+8479594,Nate Clurman,Colorado Avalanche,2024,2024
+8480069,Cale Makar,Colorado Avalanche,2019,2024
+8480382,Alexandar Georgiev,"Colorado Avalanche, New York Rangers",2018,2024
+8480925,Pavel Francouz,Colorado Avalanche,2019,2024
+8481020,Justus Annunen,Colorado Avalanche,2022,2024
+8481186,Logan O'Connor,Colorado Avalanche,2019,2024
+8481524,Bowen Byram,Colorado Avalanche,2021,2024
+8481529,Trent Miner,Colorado Avalanche,2024,2024
+8481595,Alex Beaucage,Colorado Avalanche,2024,2024
+8482072,Jack Ahcan,"Colorado Avalanche, Boston Bruins",2021,2024
+8482147,Jean-Luc Foudy,Colorado Avalanche,2023,2024
+8482712,Oskar Olausson,Colorado Avalanche,2023,2024
+8483570,Ben Meyers,Colorado Avalanche,2022,2024
+8484255,Jason Polin,Colorado Avalanche,2024,2024
+8484258,Sam Malinski,Colorado Avalanche,2024,2024
+8484259,Ondrej Pavel,Colorado Avalanche,2024,2024
+8474089,Brad Malone,"Edmonton Oilers, Carolina Hurricanes, Colorado Avalanche",2012,2024
+8475169,Evander Kane,"Edmonton Oilers, San Jose Sharks, Buffalo Sabres, Winnipeg Jets",2012,2024
+8475218,Mattias Ekholm,"Edmonton Oilers, Nashville Predators",2012,2024
+8475717,Calvin Pickard,"Edmonton Oilers, Detroit Red Wings, Philadelphia Flyers, Arizona Coyotes, Toronto Maple Leafs, Colorado Avalanche",2015,2024
+8475786,Zach Hyman,"Edmonton Oilers, Toronto Maple Leafs",2016,2024
+8475789,Jack Campbell,"Edmonton Oilers, Toronto Maple Leafs, Los Angeles Kings, Dallas Stars",2014,2024
+8476454,Ryan Nugent-Hopkins,Edmonton Oilers,2012,2024
+8476495,Seth Griffith,"Edmonton Oilers, Buffalo Sabres, Toronto Maple Leafs, Florida Panthers, Boston Bruins",2015,2024
+8476879,Cody Ceci,"Edmonton Oilers, Pittsburgh Penguins, Toronto Maple Leafs, Ottawa Senators",2014,2024
+8476967,Brett Kulak,"Edmonton Oilers, Montréal Canadiens, Calgary Flames",2015,2024
+8477015,Connor Brown,"Edmonton Oilers, Washington Capitals, Ottawa Senators, Toronto Maple Leafs",2016,2024
+8477406,Mattias Janmark,"Edmonton Oilers, Vegas Golden Knights, Chicago Blackhawks, Dallas Stars",2016,2024
+8477498,Darnell Nurse,Edmonton Oilers,2015,2024
+8477934,Leon Draisaitl,Edmonton Oilers,2015,2024
+8477998,Warren Foegele,"Edmonton Oilers, Carolina Hurricanes",2018,2024
+8478402,Connor McDavid,Edmonton Oilers,2016,2024
+8478585,Derek Ryan,"Edmonton Oilers, Calgary Flames, Carolina Hurricanes",2016,2024
+8478967,Lane Pederson,"Edmonton Oilers, Vancouver Canucks, Columbus Blue Jackets, San Jose Sharks, Arizona Coyotes",2021,2024
+8479338,Markus Niemelainen,Edmonton Oilers,2022,2024
+8479341,Cam Dineen,"Edmonton Oilers, Arizona Coyotes",2022,2024
+8479416,Ben Gleason,"Edmonton Oilers, Dallas Stars",2019,2024
+8479576,Vincent Desharnais,Edmonton Oilers,2023,2024
+8479973,Stuart Skinner,Edmonton Oilers,2021,2024
+8480274,Philip Kemp,Edmonton Oilers,2024,2024
+8480802,Ryan McLeod,Edmonton Oilers,2021,2024
+8480803,Evan Bouchard,Edmonton Oilers,2019,2024
+8481534,Raphael Lavoie,Edmonton Oilers,2024,2024
+8481598,Philip Broberg,Edmonton Oilers,2022,2024
+8482077,Dylan Holloway,Edmonton Oilers,2022,2024
+8477359,Tucker Poolman,"Vancouver Canucks, Winnipeg Jets",2018,2024
+8481624,Ilya Mikheyev,"Vancouver Canucks, Toronto Maple Leafs",2020,2024
+8474013,Ian Cole,"Vancouver Canucks, Tampa Bay Lightning, Carolina Hurricanes, Colorado Avalanche, Minnesota Wild, Pittsburgh Penguins, Columbus Blue Jackets, St. Louis Blues",2011,2024
+8474574,Tyler Myers,"Vancouver Canucks, Winnipeg Jets, Buffalo Sabres",2010,2024
+8476468,J.T. Miller,"Vancouver Canucks, Tampa Bay Lightning, New York Rangers",2013,2024
+8476858,Phillip Di Giuseppe,"Vancouver Canucks, New York Rangers, Carolina Hurricanes, Nashville Predators",2016,2024
+8476927,Teddy Blueger,"Vancouver Canucks, Pittsburgh Penguins, Vegas Golden Knights",2019,2024
+8477369,Carson Soucy,"Vancouver Canucks, Seattle Kraken, Minnesota Wild",2018,2024
+8477967,Thatcher Demko,Vancouver Canucks,2018,2024
+8478057,Dakota Joshua,"Vancouver Canucks, St. Louis Blues",2021,2024
+8478444,Brock Boeser,Vancouver Canucks,2017,2024
+8478454,Noah Juulsen,"Vancouver Canucks, Florida Panthers, Montréal Canadiens",2018,2024
+8478463,Anthony Beauvillier,"Vancouver Canucks, New York Islanders",2017,2024
+8478465,Guillaume Brisebois,Vancouver Canucks,2019,2024
+8478846,Christian Wolanin,"Vancouver Canucks, Buffalo Sabres, Los Angeles Kings, Ottawa Senators",2018,2024
+8478856,Conor Garland,"Vancouver Canucks, Arizona Coyotes",2019,2024
+8479193,Casey DeSmith,"Vancouver Canucks, Pittsburgh Penguins",2018,2024
+8479425,Filip Hronek,"Vancouver Canucks, Detroit Red Wings",2019,2024
+8480012,Elias Pettersson,Vancouver Canucks,2019,2024
+8480021,Jack Studnicka,"Vancouver Canucks, Boston Bruins",2020,2024
+8480459,Pius Suter,"Vancouver Canucks, Detroit Red Wings, Chicago Blackhawks",2021,2024
+8480800,Quinn Hughes,Vancouver Canucks,2019,2024
+8481535,Nils Hoglander,Vancouver Canucks,2021,2024
+8482496,Nils Aman,Vancouver Canucks,2023,2024
+8483808,Andrei Kuzmenko,Vancouver Canucks,2023,2024
+8484287,Cole McWard,Vancouver Canucks,2023,2024
+8471774,Alex Stalock,"Anaheim Ducks, Chicago Blackhawks, San Jose Sharks, Minnesota Wild",2011,2024
+8473986,Alex Killorn,"Anaheim Ducks, Tampa Bay Lightning",2013,2024
+8474641,Adam Henrique,"Anaheim Ducks, New Jersey Devils",2011,2024
+8475164,Jakob Silfverberg,"Anaheim Ducks, Ottawa Senators",2012,2024
+8475461,Andrew Agozzino,"Anaheim Ducks, San Jose Sharks, Ottawa Senators, Pittsburgh Penguins, Colorado Avalanche",2015,2024
+8475462,Radko Gudas,"Anaheim Ducks, Florida Panthers, Washington Capitals, Philadelphia Flyers, Tampa Bay Lightning",2013,2024
+8475764,Cam Fowler,Anaheim Ducks,2011,2024
+8475842,Sam Carrick,"Anaheim Ducks, Toronto Maple Leafs",2015,2024
+8476434,John Gibson,Anaheim Ducks,2014,2024
+8476458,Ryan Strome,"Anaheim Ducks, New York Rangers, Edmonton Oilers, New York Islanders",2014,2024
+8476934,Brock McGinn,"Anaheim Ducks, Pittsburgh Penguins, Carolina Hurricanes",2016,2024
+8477462,Robert Hagg,"Anaheim Ducks, Detroit Red Wings, Buffalo Sabres, Florida Panthers, Philadelphia Flyers",2017,2024
+8478029,Chase De Leo,"Anaheim Ducks, New Jersey Devils, Winnipeg Jets",2016,2024
+8478366,Frank Vatrano,"Anaheim Ducks, New York Rangers, Florida Panthers, Boston Bruins",2016,2024
+8478446,Glenn Gawdin,"Anaheim Ducks, Calgary Flames",2021,2024
+8478841,Colton White,"Anaheim Ducks, New Jersey Devils",2019,2024
+8478873,Troy Terry,Anaheim Ducks,2018,2024
+8479368,Max Jones,Anaheim Ducks,2019,2024
+8480001,Urho Vaakanainen,"Anaheim Ducks, Boston Bruins",2019,2024
+8480806,Isac Lundestrom,Anaheim Ducks,2019,2024
+8480843,Lukas Dostal,Anaheim Ducks,2022,2024
+8480870,Benoit-Olivier Groulx,Anaheim Ducks,2022,2024
+8480950,Ilya Lyubushkin,"Anaheim Ducks, Buffalo Sabres, Toronto Maple Leafs, Arizona Coyotes",2019,2024
+8481517,Brett Leason,"Anaheim Ducks, Washington Capitals",2022,2024
+8481533,Trevor Zegras,Anaheim Ducks,2021,2024
+8481575,Lassi Thomson,"Anaheim Ducks, Ottawa Senators",2022,2024
+8481605,Jackson LaCombe,Anaheim Ducks,2023,2024
+8481754,Nikita Nesterenko,Anaheim Ducks,2023,2024
+8482477,Calle Clang,Anaheim Ducks,2024,2024
+8482745,Mason McTavish,Anaheim Ducks,2022,2024
+8482803,Olen Zellweger,Anaheim Ducks,2024,2024
+8483482,Tristan Luneau,Anaheim Ducks,2024,2024
+8483490,Pavel Mintyukov,Anaheim Ducks,2024,2024
+8483521,Noah Warren,Anaheim Ducks,2024,2024
+8483630,Pavol Regenda,Anaheim Ducks,2023,2024
+8484153,Leo Carlsson,Anaheim Ducks,2024,2024
+8482919,Justin Ertel,Dallas Stars,2024,2024
+8484146,Tristan Bertucci,Dallas Stars,2024,2024
+8484172,Brad Gardiner,Dallas Stars,2024,2024
+8484468,Angus MacDonell,Dallas Stars,2024,2024
+8470600,Ryan Suter,"Dallas Stars, Minnesota Wild, Nashville Predators",2006,2024
+8470794,Joe Pavelski,"Dallas Stars, San Jose Sharks",2007,2024
+8473994,Jamie Benn,Dallas Stars,2010,2024
+8474149,Evgenii Dadonov,"Dallas Stars, Montréal Canadiens, Vegas Golden Knights, Ottawa Senators, Florida Panthers",2010,2024
+8475168,Matt Duchene,"Dallas Stars, Nashville Predators, Ottawa Senators, Columbus Blue Jackets, Colorado Avalanche",2010,2024
+8475225,Craig Smith,"Dallas Stars, Boston Bruins, Washington Capitals, Nashville Predators",2012,2024
+8475755,Alexander Petrovic,"Dallas Stars, Florida Panthers, Edmonton Oilers",2013,2024
+8475794,Tyler Seguin,"Dallas Stars, Boston Bruins",2011,2024
+8475809,Scott Wedgewood,"Dallas Stars, New Jersey Devils, Arizona Coyotes",2016,2024
+8475825,Jani Hakanpää,"Dallas Stars, Carolina Hurricanes, Anaheim Ducks",2020,2024
+8476889,Radek Faksa,Dallas Stars,2016,2024
+8476902,Esa Lindell,Dallas Stars,2016,2024
+8477810,Joel Hanley,"Dallas Stars, Arizona Coyotes, Montréal Canadiens",2016,2024
+8478449,Roope Hintz,Dallas Stars,2019,2024
+8478975,Mason Marchment,"Dallas Stars, Florida Panthers, Toronto Maple Leafs",2020,2024
+8479351,Sam Steel,"Dallas Stars, Minnesota Wild, Anaheim Ducks",2019,2024
+8479979,Jake Oettinger,Dallas Stars,2020,2024
+8480027,Jason Robertson,Dallas Stars,2020,2024
+8480036,Miro Heiskanen,Dallas Stars,2019,2024
+8480840,Oskar Back,Dallas Stars,2024,2024
+8480848,Ty Dellandrea,Dallas Stars,2021,2024
+8480878,Nils Lundkvist,"Dallas Stars, New York Rangers",2022,2024
+8480988,Riley Damiani,Dallas Stars,2022,2024
+8481581,Thomas Harley,Dallas Stars,2020,2024
+8481712,Matej Blumel,Dallas Stars,2023,2024
+8482051,Jerad Rosburg,Dallas Stars,2024,2024
+8482145,Mavrik Bourque,Dallas Stars,2024,2024
+8482465,Remi Poirier,Dallas Stars,2024,2024
+8482702,Logan Stankoven,Dallas Stars,2024,2024
+8482740,Wyatt Johnston,Dallas Stars,2023,2024
+8483425,Lian Bichsel,Dallas Stars,2024,2024
+8484124,Chase Wheatcroft,Dallas Stars,2024,2024
+8471685,Anze Kopitar,Los Angeles Kings,2007,2024
+8473453,Trevor Lewis,"Los Angeles Kings, Calgary Flames, Winnipeg Jets",2009,2024
+8474563,Drew Doughty,Los Angeles Kings,2009,2024
+8475660,Cam Talbot,"Los Angeles Kings, Ottawa Senators, Minnesota Wild, Calgary Flames, Philadelphia Flyers, Edmonton Oilers, New York Rangers",2014,2024
+8476479,Phillip Danault,"Los Angeles Kings, Montréal Canadiens, Chicago Blackhawks",2015,2024
+8477831,Pheonix Copley,"Los Angeles Kings, Washington Capitals, St. Louis Blues",2016,2024
+8477942,Kevin Fiala,"Los Angeles Kings, Minnesota Wild, Nashville Predators",2015,2024
+8477960,Adrian Kempe,Los Angeles Kings,2017,2024
+8477971,Andreas Englund,"Los Angeles Kings, Chicago Blackhawks, Colorado Avalanche, Ottawa Senators",2017,2024
+8478042,Viktor Arvidsson,"Los Angeles Kings, Nashville Predators",2015,2024
+8478882,Vladislav Gavrikov,"Los Angeles Kings, Columbus Blue Jackets",2019,2024
+8478911,Matt Roy,Los Angeles Kings,2019,2024
+8479336,Carl Grundstrom,Los Angeles Kings,2019,2024
+8479400,Pierre-Luc Dubois,"Los Angeles Kings, Winnipeg Jets, Columbus Blue Jackets",2018,2024
+8479496,David Rittich,"Los Angeles Kings, Winnipeg Jets, Nashville Predators, Toronto Maple Leafs, Calgary Flames",2017,2024
+8479675,Trevor Moore,"Los Angeles Kings, Toronto Maple Leafs",2019,2024
+8479994,Jaret Anderson-Dolan,Los Angeles Kings,2019,2024
+8479998,Mikey Anderson,Los Angeles Kings,2020,2024
+8480805,Tyler Madden,Los Angeles Kings,2024,2024
+8481481,Blake Lizotte,Los Angeles Kings,2019,2024
+8481532,Alex Turcotte,Los Angeles Kings,2022,2024
+8481560,Arthur Kaliyev,Los Angeles Kings,2021,2024
+8481600,Tobias Bjornfot,Los Angeles Kings,2020,2024
+8481606,Jordan Spence,Los Angeles Kings,2022,2024
+8481732,Andre Lee,Los Angeles Kings,2024,2024
+8482124,Quinton Byfield,Los Angeles Kings,2021,2024
+8482155,Alex Laferriere,Los Angeles Kings,2024,2024
+8482730,Brandt Clarke,Los Angeles Kings,2023,2024
+8471709,Marc-Edouard Vlasic,San Jose Sharks,2007,2024
+8474053,Logan Couture,San Jose Sharks,2010,2024
+8474884,Mike Hoffman,"San Jose Sharks, Montréal Canadiens, St. Louis Blues, Florida Panthers, Ottawa Senators",2012,2024
+8475798,Mikael Granlund,"San Jose Sharks, Pittsburgh Penguins, Nashville Predators, Minnesota Wild",2013,2024
+8476881,Tomas Hertl,San Jose Sharks,2014,2024
+8476988,Matt Benning,"San Jose Sharks, Nashville Predators, Edmonton Oilers",2017,2024
+8477335,Kyle Burroughs,"San Jose Sharks, Vancouver Canucks, Colorado Avalanche",2021,2024
+8477407,Anthony Duclair,"San Jose Sharks, Florida Panthers, Ottawa Senators, Columbus Blue Jackets, Chicago Blackhawks, Arizona Coyotes, New York Rangers",2015,2024
+8477846,Ryan Carpenter,"San Jose Sharks, New York Rangers, Chicago Blackhawks, Calgary Flames, Vegas Golden Knights",2016,2024
+8478039,Kaapo Kahkonen,"San Jose Sharks, Minnesota Wild",2020,2024
+8478067,Oskar Lindblom,"San Jose Sharks, Philadelphia Flyers",2018,2024
+8478099,Kevin Labanc,San Jose Sharks,2017,2024
+8478406,Mackenzie Blackwood,"San Jose Sharks, New Jersey Devils",2019,2024
+8479316,Luke Kunin,"San Jose Sharks, Nashville Predators, Minnesota Wild",2018,2024
+8479379,Givani Smith,"San Jose Sharks, Florida Panthers, Detroit Red Wings",2020,2024
+8479439,Jacob MacDonald,"San Jose Sharks, Colorado Avalanche, Florida Panthers",2019,2024
+8479983,Mario Ferraro,San Jose Sharks,2020,2024
+8480160,Radim Simek,San Jose Sharks,2019,2024
+8480172,Jan Rutta,"San Jose Sharks, Pittsburgh Penguins, Tampa Bay Lightning, Chicago Blackhawks",2018,2024
+8480188,Fabian Zetterlund,"San Jose Sharks, New Jersey Devils",2022,2024
+8480216,Jacob Peterson,"San Jose Sharks, Dallas Stars",2022,2024
+8480219,Leon Gawanke,San Jose Sharks,2024,2024
+8480821,Filip Zadina,"San Jose Sharks, Detroit Red Wings",2019,2024
+8480834,Ty Emberson,San Jose Sharks,2024,2024
+8481477,Nico Sturm,"San Jose Sharks, Colorado Avalanche, Minnesota Wild",2019,2024
+8481537,Nikita Okhotiuk,"San Jose Sharks, New Jersey Devils",2022,2024
+8481567,Henry Thrun,San Jose Sharks,2023,2024
+8481812,Nikolai Knyzhov,San Jose Sharks,2020,2024
+8482133,Thomas Bordeleau,San Jose Sharks,2022,2024
+8482222,Alexander Barabanov,"San Jose Sharks, Toronto Maple Leafs",2021,2024
+8482667,William Eklund,San Jose Sharks,2022,2024
+8482934,Artem Guryev,San Jose Sharks,2024,2024
+8483618,Mitchell Russell,San Jose Sharks,2024,2024
+8484313,Valtteri Pulli,San Jose Sharks,2024,2024
+8475790,Erik Gudbranson,"Columbus Blue Jackets, Calgary Flames, Ottawa Senators, Nashville Predators, Pittsburgh Penguins, Anaheim Ducks, Vancouver Canucks, Florida Panthers",2012,2024
+8476346,Johnny Gaudreau,"Columbus Blue Jackets, Calgary Flames",2014,2024
+8476374,Sean Kuraly,"Columbus Blue Jackets, Boston Bruins",2017,2024
+8476432,Boone Jenner,Columbus Blue Jackets,2014,2024
+8476867,Brendan Gaunce,"Columbus Blue Jackets, Boston Bruins, Vancouver Canucks",2016,2024
+8476923,Damon Severson,"Columbus Blue Jackets, New Jersey Devils",2015,2024
+8477484,Spencer Martin,"Columbus Blue Jackets, Vancouver Canucks, Colorado Avalanche",2017,2024
+8478007,Elvis Merzlikins,Columbus Blue Jackets,2020,2024
+8478458,Jack Roslovic,"Columbus Blue Jackets, Winnipeg Jets",2017,2024
+8478460,Zach Werenski,Columbus Blue Jackets,2017,2024
+8478500,Ivan Provorov,"Columbus Blue Jackets, Philadelphia Flyers",2017,2024
+8479339,Patrik Laine,"Columbus Blue Jackets, Winnipeg Jets",2017,2024
+8479369,Andrew Peeke,Columbus Blue Jackets,2020,2024
+8479402,Jake Bean,"Columbus Blue Jackets, Carolina Hurricanes",2019,2024
+8479671,Mathieu Olivier,"Columbus Blue Jackets, Nashville Predators",2020,2024
+8479941,Justin Danforth,Columbus Blue Jackets,2022,2024
+8480074,Alexandre Texier,Columbus Blue Jackets,2019,2024
+8480193,Daniil Tarasov,Columbus Blue Jackets,2022,2024
+8480205,Emil Bemstrom,Columbus Blue Jackets,2020,2024
+8480292,Carson Meyer,Columbus Blue Jackets,2022,2024
+8480441,Trey Fix-Wolansky,Columbus Blue Jackets,2022,2024
+8480762,Eric Robinson,Columbus Blue Jackets,2018,2024
+8480853,Liam Foudy,Columbus Blue Jackets,2020,2024
+8480871,Adam Boqvist,"Columbus Blue Jackets, Chicago Blackhawks",2020,2024
+8480893,Kirill Marchenko,Columbus Blue Jackets,2023,2024
+8481161,Jake Christiansen,Columbus Blue Jackets,2022,2024
+8481716,Dmitri Voronkov,Columbus Blue Jackets,2024,2024
+8482399,Billy Sweezey,Columbus Blue Jackets,2023,2024
+8482475,Yegor Chinakhov,Columbus Blue Jackets,2022,2024
+8482623,Josh Dunne,Columbus Blue Jackets,2021,2024
+8482660,Kent Johnson,Columbus Blue Jackets,2022,2024
+8482678,Corson Ceulemans,Columbus Blue Jackets,2024,2024
+8482705,Cole Sillinger,Columbus Blue Jackets,2022,2024
+8482711,Stanislav Svozil,Columbus Blue Jackets,2023,2024
+8482744,James Malatesta,Columbus Blue Jackets,2024,2024
+8482982,Jet Greaves,Columbus Blue Jackets,2023,2024
+8483045,Cameron Butler,Columbus Blue Jackets,2024,2024
+8483460,David Jiricek,Columbus Blue Jackets,2023,2024
+8483485,Denton Mateychuk,Columbus Blue Jackets,2024,2024
+8483565,Nick Blankenburg,Columbus Blue Jackets,2022,2024
+8483620,Marcus Bjork,Columbus Blue Jackets,2023,2024
+8483688,Jordan Dumais,Columbus Blue Jackets,2024,2024
+8484125,Hunter McKown,Columbus Blue Jackets,2023,2024
+8484166,Adam Fantilli,Columbus Blue Jackets,2024,2024
+8470594,Marc-Andre Fleury,"Minnesota Wild, Chicago Blackhawks, Vegas Golden Knights, Pittsburgh Penguins",2004,2024
+8471274,Alex Goligoski,"Minnesota Wild, Arizona Coyotes, Dallas Stars, Pittsburgh Penguins",2008,2024
+8474034,Pat Maroon,"Minnesota Wild, Tampa Bay Lightning, St. Louis Blues, New Jersey Devils, Edmonton Oilers, Anaheim Ducks",2012,2024
+8474716,Jared Spurgeon,Minnesota Wild,2011,2024
+8475149,Marcus Johansson,"Minnesota Wild, Washington Capitals, Seattle Kraken, Buffalo Sabres, New Jersey Devils, Boston Bruins",2011,2024
+8475220,Marcus Foligno,"Minnesota Wild, Buffalo Sabres",2012,2024
+8475692,Mats Zuccarello,"Minnesota Wild, New York Rangers, Dallas Stars",2011,2024
+8475750,Jon Merrill,"Minnesota Wild, Montréal Canadiens, Detroit Red Wings, Vegas Golden Knights, New Jersey Devils",2014,2024
+8476463,Jonas Brodin,Minnesota Wild,2013,2024
+8476915,Jujhar Khaira,"Minnesota Wild, Chicago Blackhawks, Edmonton Oilers",2016,2024
+8477451,Ryan Hartman,"Minnesota Wild, Philadelphia Flyers, Nashville Predators, Chicago Blackhawks",2015,2024
+8477464,Nic Petan,"Minnesota Wild, Vancouver Canucks, Toronto Maple Leafs, Winnipeg Jets",2016,2024
+8477541,Dakota Mermis,"Minnesota Wild, New Jersey Devils, Arizona Coyotes",2018,2024
+8477919,Frederick Gaudreau,"Minnesota Wild, Pittsburgh Penguins, Nashville Predators",2017,2024
+8478136,Jake Middleton,"Minnesota Wild, San Jose Sharks",2019,2024
+8478493,Joel Eriksson Ek,Minnesota Wild,2017,2024
+8478864,Kirill Kaprizov,Minnesota Wild,2021,2024
+8479406,Filip Gustavsson,"Minnesota Wild, Ottawa Senators",2021,2024
+8479520,Brandon Duhaime,Minnesota Wild,2022,2024
+8479968,Vinni Lettieri,"Minnesota Wild, Boston Bruins, Anaheim Ducks, New York Rangers",2018,2024
+8480267,Sammy Walker,Minnesota Wild,2023,2024
+8480884,Calen Addison,Minnesota Wild,2021,2024
+8480980,Connor Dewar,Minnesota Wild,2022,2024
+8481012,Sam Hentges,Minnesota Wild,2024,2024
+8481557,Matt Boldy,Minnesota Wild,2022,2024
+8482079,Marco Rossi,Minnesota Wild,2022,2024
+8482094,Daemon Hunt,Minnesota Wild,2024,2024
+8482122,Brock Faber,Minnesota Wild,2023,2024
+8482661,Jesper Wallstedt,Minnesota Wild,2024,2024
+8482829,Michael Milne,Minnesota Wild,2024,2024
+8482863,Caedan Bankier,Minnesota Wild,2024,2024
+8475455,Brenden Dillon,"Winnipeg Jets, Washington Capitals, San Jose Sharks, Dallas Stars",2012,2024
+8475799,Nino Niederreiter,"Winnipeg Jets, Nashville Predators, Carolina Hurricanes, Minnesota Wild, New York Islanders",2011,2024
+8476316,Laurent Brossoit,"Winnipeg Jets, Vegas Golden Knights, Edmonton Oilers",2015,2024
+8476331,Dylan DeMelo,"Winnipeg Jets, Ottawa Senators, San Jose Sharks",2016,2024
+8476392,Adam Lowry,Winnipeg Jets,2015,2024
+8476460,Mark Scheifele,Winnipeg Jets,2012,2024
+8476480,Vladislav Namestnikov,"Winnipeg Jets, Tampa Bay Lightning, Detroit Red Wings, Dallas Stars, New York Rangers, Ottawa Senators, Colorado Avalanche",2014,2024
+8476945,Connor Hellebuyck,Winnipeg Jets,2016,2024
+8476952,Dominic Toninato,"Winnipeg Jets, Florida Panthers, Colorado Avalanche",2018,2024
+8477085,Ashton Sautner,"Winnipeg Jets, Vancouver Canucks",2018,2024
+8477220,Nate Schmidt,"Winnipeg Jets, Vancouver Canucks, Vegas Golden Knights, Washington Capitals",2014,2024
+8477504,Josh Morrissey,Winnipeg Jets,2016,2024
+8477940,Nikolaj Ehlers,Winnipeg Jets,2016,2024
+8478398,Kyle Connor,Winnipeg Jets,2017,2024
+8478476,Kyle Capobianco,"Winnipeg Jets, Arizona Coyotes",2018,2024
+8478891,Mason Appleton,"Winnipeg Jets, Seattle Kraken",2019,2024
+8479378,Logan Stanley,Winnipeg Jets,2021,2024
+8479536,Axel Jonsson-Fjallby,"Winnipeg Jets, Washington Capitals",2022,2024
+8479705,Jeffrey Viel,"Winnipeg Jets, San Jose Sharks",2021,2024
+8480014,Gabriel Vilardi,"Winnipeg Jets, Los Angeles Kings",2020,2024
+8480049,Dylan Samberg,Winnipeg Jets,2022,2024
+8480113,Alex Iafallo,"Winnipeg Jets, Los Angeles Kings",2018,2024
+8480145,Neal Pionk,"Winnipeg Jets, New York Rangers",2018,2024
+8480289,Morgan Barron,"Winnipeg Jets, New York Rangers",2021,2024
+8480420,Collin Delia,"Winnipeg Jets, Vancouver Canucks, Chicago Blackhawks",2018,2024
+8480845,Rasmus Kupari,"Winnipeg Jets, Los Angeles Kings",2021,2024
+8480990,Declan Chisholm,Winnipeg Jets,2022,2024
+8481019,David Gustafsson,Winnipeg Jets,2020,2024
+8481572,Ville Heinola,Winnipeg Jets,2020,2024
+8481695,Henri Nikkanen,Winnipeg Jets,2024,2024
+8482149,Cole Perfetti,Winnipeg Jets,2022,2024
+8482408,Jeff Malott,Winnipeg Jets,2022,2024
+8483471,Brad Lambert,Winnipeg Jets,2024,2024
+8484135,Parker Ford,Winnipeg Jets,2024,2024
+8475722,Jason Zucker,"Arizona Coyotes, Pittsburgh Penguins, Minnesota Wild",2012,2024
+8475760,Nick Bjugstad,"Arizona Coyotes, Edmonton Oilers, Minnesota Wild, Pittsburgh Penguins, Florida Panthers",2013,2024
+8476329,Travis Boyd,"Arizona Coyotes, Toronto Maple Leafs, Vancouver Canucks, Washington Capitals",2018,2024
+8476856,Matt Dumba,"Arizona Coyotes, Minnesota Wild",2014,2024
+8477021,Alex Kerfoot,"Arizona Coyotes, Toronto Maple Leafs, Colorado Avalanche",2018,2024
+8477070,Liam O'Brien,"Arizona Coyotes, Colorado Avalanche, Washington Capitals",2015,2024
+8477384,Josh Brown,"Arizona Coyotes, Boston Bruins, Ottawa Senators, Florida Panthers",2019,2024
+8477951,Nick Schmaltz,"Arizona Coyotes, Chicago Blackhawks",2017,2024
+8478408,Travis Dermott,"Arizona Coyotes, Vancouver Canucks, Toronto Maple Leafs",2018,2024
+8478474,Lawson Crouse,Arizona Coyotes,2017,2024
+8478872,Karel Vejmelka,Arizona Coyotes,2022,2024
+8478971,Connor Ingram,"Arizona Coyotes, Nashville Predators",2022,2024
+8479343,Clayton Keller,Arizona Coyotes,2017,2024
+8479442,Troy Stecher,"Arizona Coyotes, Calgary Flames, Detroit Red Wings, Los Angeles Kings, Vancouver Canucks",2017,2024
+8479619,Michael Carcone,Arizona Coyotes,2022,2024
+8479976,Juuso Valimaki,"Arizona Coyotes, Calgary Flames",2019,2024
+8480434,Sean Durzi,"Arizona Coyotes, Los Angeles Kings",2022,2024
+8480849,Barrett Hayton,Arizona Coyotes,2020,2024
+8480855,Jack McBain,Arizona Coyotes,2022,2024
+8481711,Matias Maccelli,Arizona Coyotes,2022,2024
+8482655,J.J. Moser,Arizona Coyotes,2022,2024
+8482699,Dylan Guenther,Arizona Coyotes,2023,2024
+8483431,Logan Cooley,Arizona Coyotes,2024,2024
+8474166,Alec Martinez,"Vegas Golden Knights, Los Angeles Kings",2010,2024
+8474565,Alex Pietrangelo,"Vegas Golden Knights, St. Louis Blues",2009,2024
+8475188,Brayden McNabb,"Vegas Golden Knights, Los Angeles Kings, Buffalo Sabres",2012,2024
+8475913,Mark Stone,"Vegas Golden Knights, Ottawa Senators",2012,2024
+8476448,William Karlsson,"Vegas Golden Knights, Columbus Blue Jackets, Anaheim Ducks",2015,2024
+8476539,Jonathan Marchessault,"Vegas Golden Knights, Florida Panthers, Tampa Bay Lightning, Columbus Blue Jackets",2013,2024
+8476905,Chandler Stephenson,"Vegas Golden Knights, Washington Capitals",2016,2024
+8477018,Ben Hutton,"Vegas Golden Knights, Toronto Maple Leafs, Anaheim Ducks, Los Angeles Kings, Vancouver Canucks",2016,2024
+8477447,Shea Theodore,"Vegas Golden Knights, Anaheim Ducks",2016,2024
+8477478,William Carrier,"Vegas Golden Knights, Buffalo Sabres",2017,2024
+8477964,Ivan Barbashev,"Vegas Golden Knights, St. Louis Blues",2017,2024
+8478020,Michael Amadio,"Vegas Golden Knights, Toronto Maple Leafs, Ottawa Senators, Los Angeles Kings",2018,2024
+8478403,Jack Eichel,"Vegas Golden Knights, Buffalo Sabres",2016,2024
+8478434,Keegan Kolesar,Vegas Golden Knights,2020,2024
+8478462,Nicolas Roy,"Vegas Golden Knights, Carolina Hurricanes",2018,2024
+8478499,Adin Hill,"Vegas Golden Knights, San Jose Sharks, Arizona Coyotes",2018,2024
+8479353,Brett Howden,"Vegas Golden Knights, New York Rangers",2019,2024
+8479980,Nicolas Hague,Vegas Golden Knights,2020,2024
+8480238,Jiri Patera,Vegas Golden Knights,2023,2024
+8480313,Logan Thompson,Vegas Golden Knights,2021,2024
+8480727,Zach Whitecloud,Vegas Golden Knights,2018,2024
+8481032,Paul Cotter,Vegas Golden Knights,2022,2024
+8481167,Brayden Pachal,Vegas Golden Knights,2022,2024
+8481527,Kaedan Korczak,Vegas Golden Knights,2022,2024
+8481604,Pavel Dorofeyev,Vegas Golden Knights,2022,2024
+8474586,Jordan Eberle,"Seattle Kraken, New York Islanders, Edmonton Oilers",2011,2024
+8474602,Justin Schultz,"Seattle Kraken, Washington Capitals, Pittsburgh Penguins, Edmonton Oilers",2013,2024
+8475208,Brian Dumoulin,"Seattle Kraken, Pittsburgh Penguins",2014,2024
+8475768,Jaden Schwartz,"Seattle Kraken, St. Louis Blues",2012,2024
+8475831,Philipp Grubauer,"Seattle Kraken, Colorado Avalanche, Washington Capitals",2013,2024
+8476323,Max McCormick,"Seattle Kraken, Carolina Hurricanes, Ottawa Senators",2016,2024
+8476457,Adam Larsson,"Seattle Kraken, Edmonton Oilers, New Jersey Devils",2012,2024
+8476467,Jamie Oleksiak,"Seattle Kraken, Dallas Stars, Pittsburgh Penguins",2013,2024
+8476826,Yanni Gourde,"Seattle Kraken, Tampa Bay Lightning",2016,2024
+8476904,Chris Driedger,"Seattle Kraken, Florida Panthers, Ottawa Senators",2015,2024
+8476913,Devin Shore,"Seattle Kraken, Edmonton Oilers, Anaheim Ducks, Columbus Blue Jackets, Dallas Stars",2016,2024
+8476941,Connor Carrick,"Seattle Kraken, Boston Bruins, New Jersey Devils, Dallas Stars, Toronto Maple Leafs, Washington Capitals",2014,2024
+8477034,Jaycob Megna,"Seattle Kraken, San Jose Sharks, Anaheim Ducks",2017,2024
+8477401,John Hayden,"Seattle Kraken, Buffalo Sabres, Arizona Coyotes, New Jersey Devils, Chicago Blackhawks",2017,2024
+8477416,Oliver Bjorkstrand,"Seattle Kraken, Columbus Blue Jackets",2016,2024
+8477444,Andre Burakovsky,"Seattle Kraken, Colorado Avalanche, Washington Capitals",2015,2024
+8477467,Gustav Olofsson,"Seattle Kraken, Montréal Canadiens, Minnesota Wild",2016,2024
+8477505,Alex Wennberg,"Seattle Kraken, Florida Panthers, Columbus Blue Jackets",2015,2024
+8477930,Pierre-Edouard Bellemare,"Seattle Kraken, Tampa Bay Lightning, Colorado Avalanche, Vegas Golden Knights, Philadelphia Flyers",2015,2024
+8477955,Jared McCann,"Seattle Kraken, Pittsburgh Penguins, Florida Panthers, Vancouver Canucks",2016,2024
+8478407,Vince Dunn,"Seattle Kraken, St. Louis Blues",2018,2024
+8478840,Will Borgen,"Seattle Kraken, Buffalo Sabres",2019,2024
+8478848,Ales Stezka,Seattle Kraken,2024,2024
+8478888,Cameron Hughes,"Seattle Kraken, Boston Bruins",2020,2024
+8478916,Joey Daccord,"Seattle Kraken, Ottawa Senators",2019,2024
+8479249,Andrew Poturalski,"Seattle Kraken, Carolina Hurricanes",2017,2024
+8479293,Brandon Tanev,"Seattle Kraken, Pittsburgh Penguins, Winnipeg Jets",2016,2024
+8479977,Kailer Yamamoto,"Seattle Kraken, Edmonton Oilers",2018,2024
+8479985,Cale Fleury,"Seattle Kraken, Montréal Canadiens",2020,2024
+8479986,Kole Lind,"Seattle Kraken, Vancouver Canucks",2021,2024
+8480009,Eeli Tolvanen,"Seattle Kraken, Nashville Predators",2018,2024
+8480226,Marián Studenic,"Seattle Kraken, Dallas Stars, New Jersey Devils",2021,2024
+8480761,Mitch Reinke,"Seattle Kraken, St. Louis Blues",2018,2024
+8480869,Luke Henman,Seattle Kraken,2024,2024
+8481486,Jimmy Schuldt,"Seattle Kraken, Vegas Golden Knights",2019,2024
+8481789,Tye Kartye,Seattle Kraken,2023,2024
+8482665,Matty Beniers,Seattle Kraken,2022,2024
+8482858,Ryker Evans,Seattle Kraken,2024,2024
+8483524,Shane Wright,Seattle Kraken,2023,2024
+8483599,Peetro Seppala,Seattle Kraken,2024,2024
+8483635,Ville Petman,Seattle Kraken,2024,2024
 8470610,Zach Parise,"New York Islanders, Minnesota Wild, New Jersey Devils",2006,2023
-8473504,Cal Clutterbuck,"New York Islanders, Minnesota Wild",2008,2023
 8474573,Josh Bailey,New York Islanders,2009,2023
-8474709,Matt Martin,"New York Islanders, Toronto Maple Leafs",2010,2023
-8475151,Kyle Palmieri,"New York Islanders, New Jersey Devils, Anaheim Ducks",2011,2023
-8475231,Casey Cizikas,New York Islanders,2012,2023
-8475314,Anders Lee,New York Islanders,2013,2023
-8475754,Brock Nelson,New York Islanders,2013,2023
 8476404,Andy Andreoff,"New York Islanders, Philadelphia Flyers, Los Angeles Kings",2015,2023
-8476419,Jean-Gabriel Pageau,"New York Islanders, Ottawa Senators",2013,2023
-8476429,Scott Mayfield,New York Islanders,2014,2023
-8476917,Adam Pelech,New York Islanders,2016,2023
-8477392,Hudson Fasching,"New York Islanders, Arizona Coyotes, Buffalo Sabres",2016,2023
-8477500,Bo Horvat,"New York Islanders, Vancouver Canucks",2015,2023
-8477506,Ryan Pulock,New York Islanders,2016,2023
-8477527,Ross Johnston,New York Islanders,2016,2023
-8478115,Pierre Engvall,"New York Islanders, Toronto Maple Leafs",2020,2023
 8478367,Cole Bardreau,New York Islanders,2020,2023
 8478373,Nikita Soshnikov,"New York Islanders, St. Louis Blues, Toronto Maple Leafs",2016,2023
-8478445,Mathew Barzal,New York Islanders,2017,2023
-8478450,Parker Wotherspoon,New York Islanders,2023,2023
-8478463,Anthony Beauvillier,"New York Islanders, Vancouver Canucks",2017,2023
 8479356,Kieffer Bellows,"New York Islanders, Philadelphia Flyers",2020,2023
-8479395,Dennis Cholowski,"New York Islanders, Washington Capitals, Seattle Kraken, Detroit Red Wings",2019,2023
-8479526,Otto Koivula,New York Islanders,2020,2023
-8480071,Robin Salo,New York Islanders,2022,2023
-8480222,Sebastian Aho,New York Islanders,2018,2023
-8480242,Arnaud Durandeau,New York Islanders,2023,2023
-8480789,Oliver Wahlstrom,New York Islanders,2020,2023
-8480865,Noah Dobson,New York Islanders,2020,2023
-8481014,Alexander Romanov,"New York Islanders, Montréal Canadiens",2021,2023
-8481541,Samuel Bolduc,New York Islanders,2023,2023
-8481601,Simon Holmstrom,New York Islanders,2023,2023
-8482207,William Dufour,New York Islanders,2023,2023
 8482691,Aatu Raty,"New York Islanders, Vancouver Canucks",2023,2023
-8473575,Semyon Varlamov,"New York Islanders, Colorado Avalanche, Washington Capitals",2009,2023
-8478009,Ilya Sorokin,New York Islanders,2021,2023
-8471817,Ryan Reaves,"New York Rangers, Minnesota Wild, Vegas Golden Knights, Pittsburgh Penguins, St. Louis Blues",2011,2023
 8474141,Patrick Kane,"New York Rangers, Chicago Blackhawks",2008,2023
-8475184,Chris Kreider,New York Rangers,2012,2023
-8475765,Vladimir Tarasenko,"New York Rangers, St. Louis Blues",2013,2023
-8476389,Vincent Trocheck,"New York Rangers, Carolina Hurricanes, Florida Panthers",2014,2023
-8476459,Mika Zibanejad,"New York Rangers, Ottawa Senators",2012,2023
-8476624,Barclay Goodrow,"New York Rangers, Tampa Bay Lightning, San Jose Sharks",2015,2023
-8476885,Jacob Trouba,"New York Rangers, Winnipeg Jets",2014,2023
-8476918,Jimmy Vesey,"New York Rangers, New Jersey Devils, Toronto Maple Leafs, Vancouver Canucks, Buffalo Sabres",2017,2023
-8477353,Tyler Motte,"New York Rangers, Ottawa Senators, Vancouver Canucks, Columbus Blue Jackets, Chicago Blackhawks",2017,2023
-8477380,Jonny Brodzinski,"New York Rangers, San Jose Sharks, Los Angeles Kings",2017,2023
-8477433,Ben Harpur,"New York Rangers, Nashville Predators, Ottawa Senators",2016,2023
-8477846,Ryan Carpenter,"New York Rangers, Chicago Blackhawks, Calgary Flames, Vegas Golden Knights, San Jose Sharks",2016,2023
-8478104,Sammy Blais,"New York Rangers, St. Louis Blues",2018,2023
-8478211,Dryden Hunt,"New York Rangers, Toronto Maple Leafs, Colorado Avalanche, Arizona Coyotes, Florida Panthers",2018,2023
-8478550,Artemi Panarin,"New York Rangers, Columbus Blue Jackets, Chicago Blackhawks",2016,2023
-8478859,Niko Mikkola,"New York Rangers, St. Louis Blues",2020,2023
-8479323,Adam Fox,New York Rangers,2020,2023
-8479324,Ryan Lindgren,New York Rangers,2019,2023
-8479328,Julien Gauthier,"New York Rangers, Ottawa Senators, Carolina Hurricanes",2020,2023
 8479333,Libor Hajek,New York Rangers,2019,2023
 8479991,Jake Leschyshyn,"New York Rangers, Vegas Golden Knights",2022,2023
-8480078,Filip Chytil,New York Rangers,2018,2023
-8480817,K'Andre Miller,New York Rangers,2021,2023
 8480833,Vitali Kravtsov,"New York Rangers, Vancouver Canucks",2021,2023
-8481554,Kaapo Kakko,New York Rangers,2020,2023
-8481708,Zac Jones,New York Rangers,2021,2023
-8482073,Braden Schneider,New York Rangers,2022,2023
-8482109,Alexis Lafrenière,New York Rangers,2021,2023
-8482157,Will Cuylle,New York Rangers,2023,2023
 8470860,Jaroslav Halak,"New York Rangers, Vancouver Canucks, Boston Bruins, New York Islanders, Washington Capitals, St. Louis Blues, Montréal Canadiens",2007,2023
-8478048,Igor Shesterkin,New York Rangers,2020,2023
 8474027,Justin Braun,"Philadelphia Flyers, New York Rangers, San Jose Sharks",2011,2023
-8474037,James van Riemsdyk,"Philadelphia Flyers, Toronto Maple Leafs",2010,2023
-8475235,Nicolas Deslauriers,"Philadelphia Flyers, Anaheim Ducks, Minnesota Wild, Montréal Canadiens, Buffalo Sabres",2014,2023
-8475763,Kevin Hayes,"Philadelphia Flyers, New York Rangers, Winnipeg Jets",2015,2023
 8476310,Lukas Sedlak,"Philadelphia Flyers, Colorado Avalanche, Columbus Blue Jackets",2017,2023
-8476372,Nick Seeler,"Philadelphia Flyers, Chicago Blackhawks, Minnesota Wild",2018,2023
-8476872,Scott Laughton,Philadelphia Flyers,2013,2023
-8477499,Rasmus Ristolainen,"Philadelphia Flyers, Buffalo Sabres",2014,2023
-8477887,Patrick Brown,"Philadelphia Flyers, Ottawa Senators, Vegas Golden Knights, Carolina Hurricanes",2015,2023
-8477948,Travis Sanheim,Philadelphia Flyers,2018,2023
-8477950,Tony DeAngelo,"Philadelphia Flyers, Carolina Hurricanes, New York Rangers, Arizona Coyotes",2017,2023
-8477962,Brendan Lemieux,"Philadelphia Flyers, Los Angeles Kings, New York Rangers, Winnipeg Jets",2018,2023
 8478051,Max Willman,Philadelphia Flyers,2022,2023
 8478173,Hayden Hodgson,Philadelphia Flyers,2022,2023
-8478439,Travis Konecny,Philadelphia Flyers,2017,2023
-8478500,Ivan Provorov,Philadelphia Flyers,2017,2023
-8479322,Wade Allison,Philadelphia Flyers,2021,2023
-8479550,Tanner Laczynski,Philadelphia Flyers,2021,2023
-8479772,Zack MacEwen,"Philadelphia Flyers, Los Angeles Kings, Vancouver Canucks",2019,2023
-8480015,Owen Tippett,"Philadelphia Flyers, Florida Panthers",2018,2023
-8480028,Morgan Frost,Philadelphia Flyers,2020,2023
-8480220,Noah Cates,Philadelphia Flyers,2022,2023
 8480245,Olle Lycksell,Philadelphia Flyers,2023,2023
-8480797,Joel Farabee,Philadelphia Flyers,2020,2023
-8480874,Adam Ginning,Philadelphia Flyers,2023,2023
-8481178,Egor Zamula,Philadelphia Flyers,2021,2023
-8481521,Ronnie Attard,Philadelphia Flyers,2022,2023
-8481546,Cam York,Philadelphia Flyers,2021,2023
-8482159,Tyson Foerster,Philadelphia Flyers,2023,2023
 8482452,Elliot Desnoyers,Philadelphia Flyers,2023,2023
 8482654,Jackson Cates,Philadelphia Flyers,2021,2023
-8478433,Felix Sandstrom,Philadelphia Flyers,2022,2023
-8479394,Carter Hart,Philadelphia Flyers,2019,2023
-8481035,Samuel Ersson,Philadelphia Flyers,2023,2023
-8470604,Jeff Carter,"Pittsburgh Penguins, Los Angeles Kings, Columbus Blue Jackets, Philadelphia Flyers",2006,2023
-8471215,Evgeni Malkin,Pittsburgh Penguins,2007,2023
-8471675,Sidney Crosby,Pittsburgh Penguins,2006,2023
-8471724,Kris Letang,Pittsburgh Penguins,2007,2023
-8473507,Jeff Petry,"Pittsburgh Penguins, Montréal Canadiens, Edmonton Oilers",2011,2023
-8474009,Nick Bonino,"Pittsburgh Penguins, San Jose Sharks, Minnesota Wild, Nashville Predators, Vancouver Canucks, Anaheim Ducks",2010,2023
-8475179,Dmitry Kulikov,"Pittsburgh Penguins, Anaheim Ducks, Minnesota Wild, New Jersey Devils, Edmonton Oilers, Winnipeg Jets, Buffalo Sabres, Florida Panthers",2010,2023
-8475208,Brian Dumoulin,Pittsburgh Penguins,2014,2023
-8475722,Jason Zucker,"Pittsburgh Penguins, Minnesota Wild",2012,2023
-8475798,Mikael Granlund,"Pittsburgh Penguins, Nashville Predators, Minnesota Wild",2013,2023
-8475810,Bryan Rust,Pittsburgh Penguins,2015,2023
 8476166,Taylor Fedun,"Pittsburgh Penguins, Dallas Stars, Buffalo Sabres, Vancouver Canucks, San Jose Sharks, Edmonton Oilers",2014,2023
 8476326,Josh Archibald,"Pittsburgh Penguins, Edmonton Oilers, Arizona Coyotes",2016,2023
-8476483,Rickard Rakell,"Pittsburgh Penguins, Anaheim Ducks",2013,2023
-8476927,Teddy Blueger,"Pittsburgh Penguins, Vegas Golden Knights",2019,2023
-8476934,Brock McGinn,"Pittsburgh Penguins, Anaheim Ducks, Carolina Hurricanes",2016,2023
-8477244,Chad Ruhwedel,"Pittsburgh Penguins, Buffalo Sabres",2013,2023
-8477404,Jake Guentzel,Pittsburgh Penguins,2017,2023
-8477953,Kasperi Kapanen,"Pittsburgh Penguins, St. Louis Blues, Toronto Maple Leafs",2016,2023
-8477969,Marcus Pettersson,"Pittsburgh Penguins, Anaheim Ducks",2018,2023
-8478017,Mark Friedman,"Pittsburgh Penguins, Philadelphia Flyers",2019,2023
 8478046,Danton Heinen,"Pittsburgh Penguins, Anaheim Ducks, Boston Bruins",2017,2023
-8479423,Alex Nylander,"Pittsburgh Penguins, Chicago Blackhawks, Buffalo Sabres",2017,2023
 8479465,Drake Caggiula,"Pittsburgh Penguins, Buffalo Sabres, Arizona Coyotes, Chicago Blackhawks, Edmonton Oilers",2017,2023
-8480058,Pierre-Olivier Joseph,Pittsburgh Penguins,2021,2023
-8480068,Ryan Poehling,"Pittsburgh Penguins, Montréal Canadiens",2019,2023
-8480172,Jan Rutta,"Pittsburgh Penguins, Tampa Bay Lightning, Chicago Blackhawks",2018,2023
 8480836,Jonathan Gruden,Pittsburgh Penguins,2023,2023
 8480842,Filip Hallander,Pittsburgh Penguins,2022,2023
-8480883,Ty Smith,"Pittsburgh Penguins, New Jersey Devils",2021,2023
-8481591,Sam Poulin,Pittsburgh Penguins,2023,2023
-8482055,Drew O'Connor,Pittsburgh Penguins,2021,2023
 8474682,Dustin Tokarski,"Pittsburgh Penguins, Buffalo Sabres, Anaheim Ducks, Montréal Canadiens, Tampa Bay Lightning",2010,2023
-8477465,Tristan Jarry,Pittsburgh Penguins,2017,2023
-8479193,Casey DeSmith,Pittsburgh Penguins,2018,2023
 8470638,Patrice Bergeron,Boston Bruins,2004,2023
 8471276,David Krejci,Boston Bruins,2007,2023
 8471873,Anton Stralman,"Boston Bruins, Arizona Coyotes, Florida Panthers, Tampa Bay Lightning, New York Rangers, Columbus Blue Jackets, Toronto Maple Leafs",2008,2023
-8473419,Brad Marchand,Boston Bruins,2010,2023
-8473422,Nick Foligno,"Boston Bruins, Toronto Maple Leafs, Columbus Blue Jackets, Ottawa Senators",2008,2023
-8475200,Dmitry Orlov,"Boston Bruins, Washington Capitals",2012,2023
-8475225,Craig Smith,"Boston Bruins, Washington Capitals, Nashville Predators",2012,2023
-8475745,Charlie Coyle,"Boston Bruins, Minnesota Wild",2013,2023
-8475762,Derek Forbort,"Boston Bruins, Winnipeg Jets, Calgary Flames, Los Angeles Kings",2016,2023
-8475780,Chris Wagner,"Boston Bruins, New York Islanders, Anaheim Ducks, Colorado Avalanche",2015,2023
-8475791,Taylor Hall,"Boston Bruins, Buffalo Sabres, New Jersey Devils, Arizona Coyotes, Edmonton Oilers",2011,2023
-8476422,Mike Reilly,"Boston Bruins, Ottawa Senators, Montréal Canadiens, Minnesota Wild",2016,2023
-8476854,Hampus Lindholm,"Boston Bruins, Anaheim Ducks",2014,2023
-8476891,Matt Grzelcyk,Boston Bruins,2017,2023
-8476941,Connor Carrick,"Boston Bruins, New Jersey Devils, Dallas Stars, Toronto Maple Leafs, Washington Capitals",2014,2023
-8477365,Connor Clifton,Boston Bruins,2019,2023
-8477479,Tyler Bertuzzi,"Boston Bruins, Detroit Red Wings",2017,2023
-8477903,Garnet Hathaway,"Boston Bruins, Washington Capitals, Calgary Flames",2016,2023
-8477931,Tomas Nosek,"Boston Bruins, Vegas Golden Knights, Detroit Red Wings",2016,2023
-8477956,David Pastrnak,Boston Bruins,2015,2023
-8478401,Pavel Zacha,"Boston Bruins, New Jersey Devils",2016,2023
-8478415,Jakub Zboril,Boston Bruins,2019,2023
-8478421,A.J. Greer,"Boston Bruins, New Jersey Devils, Colorado Avalanche",2017,2023
-8478443,Brandon Carlo,Boston Bruins,2017,2023
-8478498,Jake DeBrusk,Boston Bruins,2018,2023
-8479252,Dan Renouf,"Boston Bruins, Detroit Red Wings, Colorado Avalanche",2017,2023
-8479325,Charlie McAvoy,Boston Bruins,2017,2023
-8479365,Trent Frederic,Boston Bruins,2019,2023
-8479533,Joona Koppanen,Boston Bruins,2023,2023
-8479546,Oskar Steen,Boston Bruins,2021,2023
-8479968,Vinni Lettieri,"Boston Bruins, Anaheim Ducks, New York Rangers",2018,2023
-8480021,Jack Studnicka,"Boston Bruins, Vancouver Canucks",2020,2023
-8480880,Jakub Lauko,Boston Bruins,2023,2023
-8483397,Marc McLaughlin,Boston Bruins,2022,2023
-8476234,Keith Kinkaid,"Boston Bruins, Colorado Avalanche, New York Rangers, Montréal Canadiens, New Jersey Devils",2013,2023
-8476999,Linus Ullmark,"Boston Bruins, Buffalo Sabres",2016,2023
-8480280,Jeremy Swayman,Boston Bruins,2021,2023
-8473449,Kyle Okposo,"Buffalo Sabres, New York Islanders",2008,2023
 8475772,Riley Sheahan,"Buffalo Sabres, Seattle Kraken, Edmonton Oilers, Pittsburgh Penguins, Florida Panthers, Detroit Red Wings",2012,2023
-8475784,Jeff Skinner,"Buffalo Sabres, Carolina Hurricanes",2011,2023
-8476878,Zemgus Girgensons,Buffalo Sabres,2014,2023
-8476994,Vinnie Hinostroza,"Buffalo Sabres, Florida Panthers, Chicago Blackhawks, Arizona Coyotes",2016,2023
-8477949,Alex Tuch,"Buffalo Sabres, Vegas Golden Knights, Minnesota Wild",2017,2023
 8478075,Anders Bjork,"Buffalo Sabres, Chicago Blackhawks, Boston Bruins",2018,2023
-8478109,Victor Olofsson,Buffalo Sabres,2019,2023
-8478413,Jordan Greenway,"Buffalo Sabres, Minnesota Wild",2018,2023
 8479335,Rasmus Asplund,"Buffalo Sabres, Nashville Predators",2020,2023
-8479348,Kale Clague,"Buffalo Sabres, Montréal Canadiens, Los Angeles Kings",2020,2023
-8479370,Tyson Jost,"Buffalo Sabres, Minnesota Wild, Colorado Avalanche",2017,2023
-8479388,Riley Stillman,"Buffalo Sabres, Vancouver Canucks, Chicago Blackhawks, Florida Panthers",2019,2023
-8479420,Tage Thompson,"Buffalo Sabres, St. Louis Blues",2018,2023
-8479578,Casey Fitzgerald,"Buffalo Sabres, Florida Panthers",2022,2023
 8479602,Jeremy Davies,"Buffalo Sabres, Nashville Predators",2021,2023
-8479999,Casey Mittelstadt,Buffalo Sabres,2018,2023
-8480035,Henri Jokiharju,"Buffalo Sabres, Chicago Blackhawks",2019,2023
-8480196,Jacob Bryson,Buffalo Sabres,2021,2023
-8480807,Mattias Samuelsson,Buffalo Sabres,2021,2023
-8480839,Rasmus Dahlin,Buffalo Sabres,2019,2023
 8480935,Lawrence Pilut,Buffalo Sabres,2019,2023
-8480950,Ilya Lyubushkin,"Buffalo Sabres, Toronto Maple Leafs, Arizona Coyotes",2019,2023
-8481522,Peyton Krebs,"Buffalo Sabres, Vegas Golden Knights",2021,2023
-8481528,Dylan Cozens,Buffalo Sabres,2021,2023
-8481751,Lukas Rousek,Buffalo Sabres,2023,2023
-8482097,Jack Quinn,Buffalo Sabres,2022,2023
-8482175,JJ Peterka,Buffalo Sabres,2022,2023
-8482671,Owen Power,Buffalo Sabres,2022,2023
 8467950,Craig Anderson,"Buffalo Sabres, Washington Capitals, Ottawa Senators, Colorado Avalanche, Florida Panthers, Chicago Blackhawks",2003,2023
-8477480,Eric Comrie,"Buffalo Sabres, Winnipeg Jets, New Jersey Devils, Detroit Red Wings",2017,2023
-8480045,Ukko-Pekka Luukkonen,Buffalo Sabres,2021,2023
-8482221,Devon Levi,Buffalo Sabres,2023,2023
-8474149,Evgenii Dadonov,"Montréal Canadiens, Dallas Stars, Vegas Golden Knights, Ottawa Senators, Florida Panthers",2010,2023
-8474884,Mike Hoffman,"Montréal Canadiens, St. Louis Blues, Florida Panthers, Ottawa Senators",2012,2023
 8475227,Chris Wideman,"Montréal Canadiens, Ottawa Senators, Florida Panthers, Edmonton Oilers",2016,2023
-8475233,David Savard,"Montréal Canadiens, Tampa Bay Lightning, Columbus Blue Jackets",2012,2023
-8475848,Brendan Gallagher,Montréal Canadiens,2013,2023
 8475968,Alex Belzile,Montréal Canadiens,2020,2023
-8476441,Joel Edmundson,"Montréal Canadiens, Carolina Hurricanes, St. Louis Blues",2016,2023
-8476469,Joel Armia,"Montréal Canadiens, Winnipeg Jets, Buffalo Sabres",2015,2023
-8476875,Mike Matheson,"Montréal Canadiens, Pittsburgh Penguins, Florida Panthers",2016,2023
-8476919,Chris Tierney,"Montréal Canadiens, Florida Panthers, Ottawa Senators, San Jose Sharks",2015,2023
-8476981,Josh Anderson,"Montréal Canadiens, Columbus Blue Jackets",2015,2023
-8477494,Jonathan Drouin,"Montréal Canadiens, Tampa Bay Lightning",2015,2023
-8477497,Sean Monahan,"Montréal Canadiens, Calgary Flames",2014,2023
 8477989,Christian Dvorak,"Montréal Canadiens, Arizona Coyotes",2017,2023
-8478133,Jake Evans,Montréal Canadiens,2020,2023
-8478409,Anthony Richard,"Montréal Canadiens, Nashville Predators",2019,2023
-8478495,Denis Gurianov,"Montréal Canadiens, Dallas Stars",2017,2023
 8479329,Frederic Allard,"Montréal Canadiens, Nashville Predators",2021,2023
-8479514,Rem Pitlick,"Montréal Canadiens, Minnesota Wild, Nashville Predators",2019,2023
-8479543,Michael Pezzetta,Montréal Canadiens,2022,2023
-8480018,Nick Suzuki,Montréal Canadiens,2020,2023
 8480034,Joel Teasdale,Montréal Canadiens,2023,2023
-8480192,Johnathan Kovacevic,"Montréal Canadiens, Winnipeg Jets",2022,2023
-8480887,Jordan Harris,Montréal Canadiens,2022,2023
-8481058,Jesse Ylonen,Montréal Canadiens,2021,2023
-8481093,Rafael Harvey-Pinard,Montréal Canadiens,2022,2023
 8481461,Corey Schueneman,Montréal Canadiens,2022,2023
-8481523,Kirby Dach,"Montréal Canadiens, Chicago Blackhawks",2020,2023
-8481540,Cole Caufield,Montréal Canadiens,2021,2023
 8482081,Sean Farrell,Montréal Canadiens,2023,2023
-8482087,Kaiden Guhle,Montréal Canadiens,2023,2023
-8482111,Justin Barron,"Montréal Canadiens, Colorado Avalanche",2022,2023
-8482964,Arber Xhekaj,Montréal Canadiens,2023,2023
 8483424,Owen Beck,Montréal Canadiens,2023,2023
-8483515,Juraj Slafkovsky,Montréal Canadiens,2023,2023
 8483549,Lucas Condotta,Montréal Canadiens,2023,2023
-8474596,Jake Allen,"Montréal Canadiens, St. Louis Blues",2012,2023
-8478470,Sam Montembeault,"Montréal Canadiens, Florida Panthers",2019,2023
-8480051,Cayden Primeau,Montréal Canadiens,2020,2023
-8473512,Claude Giroux,"Ottawa Senators, Philadelphia Flyers, Florida Panthers",2008,2023
 8473544,Derick Brassard,"Ottawa Senators, Philadelphia Flyers, Edmonton Oilers, Arizona Coyotes, New York Islanders, Pittsburgh Penguins, Florida Panthers, Colorado Avalanche, New York Rangers, Columbus Blue Jackets",2008,2023
 8474207,Nick Holden,"Ottawa Senators, Vegas Golden Knights, New York Rangers, Boston Bruins, Colorado Avalanche, Columbus Blue Jackets",2011,2023
-8474612,Travis Hamonic,"Ottawa Senators, Vancouver Canucks, Calgary Flames, New York Islanders",2011,2023
 8475766,Austin Watson,"Ottawa Senators, Nashville Predators",2013,2023
 8477471,Dillon Heatherington,"Ottawa Senators, Dallas Stars",2018,2023
-8478078,Rourke Chartier,"Ottawa Senators, San Jose Sharks",2019,2023
-8478469,Thomas Chabot,Ottawa Senators,2017,2023
-8478472,Mathieu Joseph,"Ottawa Senators, Tampa Bay Lightning",2019,2023
-8478491,Jacob Larsson,"Ottawa Senators, Anaheim Ducks",2017,2023
-8479337,Alex DeBrincat,"Ottawa Senators, Chicago Blackhawks",2018,2023
-8479345,Jakob Chychrun,"Ottawa Senators, Arizona Coyotes",2017,2023
-8479458,Nikita Zaitsev,"Ottawa Senators, Chicago Blackhawks, Toronto Maple Leafs",2017,2023
-8479580,Dylan Gambrell,"Ottawa Senators, San Jose Sharks",2018,2023
-8480064,Josh Norris,Ottawa Senators,2020,2023
-8480073,Erik Brannstrom,Ottawa Senators,2019,2023
-8480208,Drake Batherson,Ottawa Senators,2019,2023
-8480355,Mark Kastelic,Ottawa Senators,2022,2023
-8480448,Parker Kelly,Ottawa Senators,2021,2023
-8480801,Brady Tkachuk,Ottawa Senators,2019,2023
-8480879,Jacob Bernard-Docker,Ottawa Senators,2021,2023
-8481102,Egor Sokolov,Ottawa Senators,2022,2023
 8481422,Jacob Lucchini,Ottawa Senators,2023,2023
-8481575,Lassi Thomson,Ottawa Senators,2022,2023
 8481596,Shane Pinto,Ottawa Senators,2021,2023
-8481679,Maxence Guenette,Ottawa Senators,2023,2023
-8482092,Ridly Greig,Ottawa Senators,2023,2023
 8482095,Tyler Kleven,Ottawa Senators,2023,2023
-8482105,Jake Sanderson,Ottawa Senators,2023,2023
-8482116,Tim Stützle,Ottawa Senators,2021,2023
-8482245,Artem Zub,Ottawa Senators,2021,2023
-8475660,Cam Talbot,"Ottawa Senators, Minnesota Wild, Calgary Flames, Philadelphia Flyers, Edmonton Oilers, New York Rangers",2014,2023
-8476341,Anton Forsberg,"Ottawa Senators, Carolina Hurricanes, Chicago Blackhawks, Columbus Blue Jackets",2015,2023
-8476433,Magnus Hellberg,"Ottawa Senators, Detroit Red Wings, New York Rangers, Nashville Predators",2014,2023
 8480263,Dylan Ferguson,"Ottawa Senators, Vegas Golden Knights",2018,2023
 8480867,Kevin Mandolese,Ottawa Senators,2023,2023
-8481544,Mads Sogaard,Ottawa Senators,2022,2023
 8482447,Leevi Merilainen,Ottawa Senators,2023,2023
-8470966,Mark Giordano,"Toronto Maple Leafs, Seattle Kraken, Calgary Flames",2006,2023
-8474162,Jake Muzzin,"Toronto Maple Leafs, Los Angeles Kings",2011,2023
 8474190,Wayne Simmonds,"Toronto Maple Leafs, New Jersey Devils, Buffalo Sabres, Philadelphia Flyers, Nashville Predators, Los Angeles Kings",2009,2023
-8474568,Luke Schenn,"Toronto Maple Leafs, Vancouver Canucks, Tampa Bay Lightning, Anaheim Ducks, Arizona Coyotes, Philadelphia Flyers, Los Angeles Kings",2009,2023
-8474673,TJ Brodie,"Toronto Maple Leafs, Calgary Flames",2011,2023
 8474818,Jordie Benn,"Toronto Maple Leafs, Minnesota Wild, Vancouver Canucks, Winnipeg Jets, Montréal Canadiens, Dallas Stars",2012,2023
-8475158,Ryan O'Reilly,"Toronto Maple Leafs, St. Louis Blues, Buffalo Sabres, Colorado Avalanche",2010,2023
-8475160,Kyle Clifford,"Toronto Maple Leafs, St. Louis Blues, Los Angeles Kings",2011,2023
-8475166,John Tavares,"Toronto Maple Leafs, New York Islanders",2010,2023
-8475714,Calle Jarnkrok,"Toronto Maple Leafs, Calgary Flames, Seattle Kraken, Nashville Predators",2014,2023
-8475718,Justin Holl,Toronto Maple Leafs,2018,2023
-8476853,Morgan Rielly,Toronto Maple Leafs,2014,2023
-8476931,Jake McCabe,"Toronto Maple Leafs, Chicago Blackhawks, Buffalo Sabres",2014,2023
-8476979,Erik Gustafsson,"Toronto Maple Leafs, Washington Capitals, Chicago Blackhawks, Philadelphia Flyers, Montréal Canadiens, Calgary Flames",2016,2023
-8477021,Alex Kerfoot,"Toronto Maple Leafs, Colorado Avalanche",2018,2023
-8477939,William Nylander,Toronto Maple Leafs,2016,2023
-8477979,Nicolas Aube-Kubel,"Toronto Maple Leafs, Washington Capitals, Philadelphia Flyers, Colorado Avalanche",2019,2023
-8478043,Sam Lafferty,"Toronto Maple Leafs, Chicago Blackhawks, Pittsburgh Penguins",2020,2023
-8478047,Michael Bunting,"Toronto Maple Leafs, Arizona Coyotes",2019,2023
-8478483,Mitchell Marner,Toronto Maple Leafs,2017,2023
-8478569,Noel Acciari,"Toronto Maple Leafs, St. Louis Blues, Florida Panthers, Boston Bruins",2016,2023
 8478843,Denis Malgin,"Toronto Maple Leafs, Colorado Avalanche, Florida Panthers",2017,2023
-8479315,Joey Anderson,"Toronto Maple Leafs, Chicago Blackhawks, New Jersey Devils",2019,2023
-8479318,Auston Matthews,Toronto Maple Leafs,2017,2023
 8479376,Victor Mete,"Toronto Maple Leafs, Ottawa Senators, Montréal Canadiens",2018,2023
 8479944,Zach Aston-Reese,"Toronto Maple Leafs, Pittsburgh Penguins, Anaheim Ducks",2018,2023
-8479982,Conor Timmins,"Toronto Maple Leafs, Arizona Coyotes, Colorado Avalanche",2020,2023
-8480043,Timothy Liljegren,Toronto Maple Leafs,2020,2023
-8480144,David Kampf,"Toronto Maple Leafs, Chicago Blackhawks",2018,2023
 8480439,Mac Hollowell,Toronto Maple Leafs,2023,2023
 8480820,Filip Kral,Toronto Maple Leafs,2023,2023
-8480873,Rasmus Sandin,"Toronto Maple Leafs, Washington Capitals",2020,2023
 8480977,Semyon Der-Arguchintsev,Toronto Maple Leafs,2023,2023
-8480995,Pontus Holmberg,Toronto Maple Leafs,2023,2023
-8481582,Nicholas Robertson,Toronto Maple Leafs,2020,2023
 8481720,Nick Abruzzese,Toronto Maple Leafs,2022,2023
-8482241,Radim Zohorna,"Toronto Maple Leafs, Calgary Flames, Pittsburgh Penguins",2021,2023
-8482259,Bobby McMann,Toronto Maple Leafs,2023,2023
 8482634,Alex Steeves,Toronto Maple Leafs,2022,2023
-8482720,Matthew Knies,Toronto Maple Leafs,2023,2023
 8476899,Matt Murray,"Toronto Maple Leafs, Ottawa Senators, Pittsburgh Penguins",2016,2023
-8478492,Ilya Samsonov,"Toronto Maple Leafs, Washington Capitals",2020,2023
-8478902,Erik Kallgren,Toronto Maple Leafs,2022,2023
-8479361,Joseph Woll,Toronto Maple Leafs,2022,2023
 8483183,Jett Alexander,Toronto Maple Leafs,2023,2023
-8470613,Brent Burns,"Carolina Hurricanes, San Jose Sharks, Minnesota Wild",2004,2023
 8471669,Paul Stastny,"Carolina Hurricanes, Winnipeg Jets, Vegas Golden Knights, St. Louis Blues, Colorado Avalanche",2007,2023
-8473533,Jordan Staal,"Carolina Hurricanes, Pittsburgh Penguins",2007,2023
-8474157,Max Pacioretty,"Carolina Hurricanes, Vegas Golden Knights, Montréal Canadiens",2009,2023
 8474613,Derek Stepan,"Carolina Hurricanes, Ottawa Senators, Arizona Coyotes, New York Rangers",2011,2023
-8475177,Calvin de Haan,"Carolina Hurricanes, Chicago Blackhawks, New York Islanders",2012,2023
-8475855,Jesper Fast,"Carolina Hurricanes, New York Rangers",2014,2023
-8476474,Stefan Noesen,"Carolina Hurricanes, Toronto Maple Leafs, San Jose Sharks, Pittsburgh Penguins, New Jersey Devils, Anaheim Ducks",2015,2023
-8476869,Brady Skjei,"Carolina Hurricanes, New York Rangers",2016,2023
-8476882,Teuvo Teravainen,"Carolina Hurricanes, Chicago Blackhawks",2014,2023
-8476906,Shayne Gostisbehere,"Carolina Hurricanes, Arizona Coyotes, Philadelphia Flyers",2015,2023
-8476921,Jordan Martinook,"Carolina Hurricanes, Arizona Coyotes",2015,2023
-8476958,Jaccob Slavin,Carolina Hurricanes,2016,2023
-8477488,Brett Pesce,Carolina Hurricanes,2016,2023
 8478131,Ondrej Kase,"Carolina Hurricanes, Toronto Maple Leafs, Boston Bruins, Anaheim Ducks",2017,2023
-8478427,Sebastian Aho,Carolina Hurricanes,2017,2023
-8478970,Jalen Chatfield,"Carolina Hurricanes, Vancouver Canucks",2021,2023
-8479320,Max Lajoie,"Carolina Hurricanes, Ottawa Senators",2019,2023
 8479344,Jesse Puljujarvi,"Carolina Hurricanes, Edmonton Oilers",2017,2023
-8479639,Dylan Coghlan,"Carolina Hurricanes, Vegas Golden Knights",2021,2023
-8480039,Martin Necas,Carolina Hurricanes,2018,2023
-8480829,Jesperi Kotkaniemi,"Carolina Hurricanes, Montréal Canadiens",2019,2023
-8480830,Andrei Svechnikov,Carolina Hurricanes,2019,2023
-8480835,Jack Drury,Carolina Hurricanes,2022,2023
-8482093,Seth Jarvis,Carolina Hurricanes,2022,2023
-8476907,Mackenzie MacEachern,"Carolina Hurricanes, St. Louis Blues",2019,2023
-8475883,Frederik Andersen,"Carolina Hurricanes, Toronto Maple Leafs, Anaheim Ducks",2014,2023
-8477293,Antti Raanta,"Carolina Hurricanes, Arizona Coyotes, New York Rangers, Chicago Blackhawks",2014,2023
-8481611,Pyotr Kochetkov,Carolina Hurricanes,2022,2023
 8470595,Eric Staal,"Florida Panthers, Buffalo Sabres, Montréal Canadiens, Minnesota Wild, New York Rangers, Carolina Hurricanes",2004,2023
-8471686,Marc Staal,"Florida Panthers, Detroit Red Wings, New York Rangers",2008,2023
 8471887,Patric Hornqvist,"Florida Panthers, Pittsburgh Penguins, Nashville Predators",2009,2023
-8474610,Zac Dalpe,"Florida Panthers, Columbus Blue Jackets, Minnesota Wild, Buffalo Sabres, Vancouver Canucks, Carolina Hurricanes",2011,2023
-8475462,Radko Gudas,"Florida Panthers, Washington Capitals, Philadelphia Flyers, Tampa Bay Lightning",2013,2023
-8476393,Nick Cousins,"Florida Panthers, Nashville Predators, Montréal Canadiens, Vegas Golden Knights, Arizona Coyotes, Philadelphia Flyers",2015,2023
-8477407,Anthony Duclair,"Florida Panthers, Ottawa Senators, Columbus Blue Jackets, Chicago Blackhawks, Arizona Coyotes, New York Rangers",2015,2023
-8477409,Carter Verhaeghe,"Florida Panthers, Tampa Bay Lightning",2020,2023
-8477493,Aleksander Barkov,Florida Panthers,2014,2023
-8477932,Aaron Ekblad,Florida Panthers,2015,2023
-8477933,Sam Reinhart,"Florida Panthers, Buffalo Sabres",2015,2023
-8477935,Sam Bennett,"Florida Panthers, Calgary Flames",2015,2023
-8477986,Brandon Montour,"Florida Panthers, Buffalo Sabres, Anaheim Ducks",2017,2023
-8478055,Gustav Forsling,"Florida Panthers, Chicago Blackhawks",2017,2023
 8478400,Colin White,"Florida Panthers, Ottawa Senators",2017,2023
 8478870,Rudolfs Balcers,"Florida Panthers, Tampa Bay Lightning, San Jose Sharks, Ottawa Senators",2019,2023
-8479066,Ryan Lomberg,"Florida Panthers, Calgary Flames",2018,2023
-8479314,Matthew Tkachuk,"Florida Panthers, Calgary Flames",2017,2023
-8479372,Josh Mahura,"Florida Panthers, Anaheim Ducks",2019,2023
-8479379,Givani Smith,"Florida Panthers, Detroit Red Wings",2020,2023
 8479523,Lucas Carlsson,"Florida Panthers, Chicago Blackhawks",2020,2023
 8480037,Aleksi Heponiemi,Florida Panthers,2021,2023
-8480185,Eetu Luostarinen,"Florida Panthers, Carolina Hurricanes",2020,2023
-8480844,Grigori Denisenko,Florida Panthers,2021,2023
-8482113,Anton Lundell,Florida Panthers,2022,2023
-8482641,Matt Kiersted,Florida Panthers,2021,2023
 8483641,Anton Levtchi,Florida Panthers,2023,2023
-8475683,Sergei Bobrovsky,"Florida Panthers, Columbus Blue Jackets, Philadelphia Flyers",2011,2023
-8479312,Alex Lyon,"Florida Panthers, Carolina Hurricanes, Philadelphia Flyers",2018,2023
 8481519,Spencer Knight,Florida Panthers,2021,2023
-8470621,Corey Perry,"Tampa Bay Lightning, Montréal Canadiens, Dallas Stars, Anaheim Ducks",2006,2023
-8473986,Alex Killorn,Tampa Bay Lightning,2013,2023
-8474013,Ian Cole,"Tampa Bay Lightning, Carolina Hurricanes, Colorado Avalanche, Minnesota Wild, Pittsburgh Penguins, Columbus Blue Jackets, St. Louis Blues",2011,2023
-8474034,Pat Maroon,"Tampa Bay Lightning, St. Louis Blues, New Jersey Devils, Edmonton Oilers, Anaheim Ducks",2012,2023
-8474564,Steven Stamkos,Tampa Bay Lightning,2009,2023
-8474567,Zach Bogosian,"Tampa Bay Lightning, Toronto Maple Leafs, Buffalo Sabres, Winnipeg Jets",2012,2023
-8475167,Victor Hedman,Tampa Bay Lightning,2010,2023
-8476453,Nikita Kucherov,Tampa Bay Lightning,2014,2023
-8476480,Vladislav Namestnikov,"Tampa Bay Lightning, Winnipeg Jets, Detroit Red Wings, Dallas Stars, New York Rangers, Ottawa Senators, Colorado Avalanche",2014,2023
-8477426,Nicholas Paul,"Tampa Bay Lightning, Ottawa Senators",2016,2023
-8477930,Pierre-Edouard Bellemare,"Tampa Bay Lightning, Colorado Avalanche, Vegas Golden Knights, Philadelphia Flyers",2015,2023
-8477938,Haydn Fleury,"Tampa Bay Lightning, Seattle Kraken, Carolina Hurricanes, Anaheim Ducks",2018,2023
-8478010,Brayden Point,Tampa Bay Lightning,2017,2023
-8478178,Darren Raddysh,Tampa Bay Lightning,2022,2023
-8478416,Erik Cernak,Tampa Bay Lightning,2019,2023
-8478519,Anthony Cirelli,Tampa Bay Lightning,2018,2023
 8479026,Philippe Myers,"Tampa Bay Lightning, Nashville Predators, Philadelphia Flyers",2019,2023
-8479410,Mikhail Sergachev,"Tampa Bay Lightning, Montréal Canadiens",2017,2023
-8479525,Ross Colton,Tampa Bay Lightning,2021,2023
-8479542,Brandon Hagel,"Tampa Bay Lightning, Chicago Blackhawks",2020,2023
-8479591,Michael Eyssimont,"Tampa Bay Lightning, San Jose Sharks, Winnipeg Jets",2022,2023
-8479661,Tanner Jeannot,"Tampa Bay Lightning, Nashville Predators",2021,2023
-8479718,Alex Barré-Boulet,"Tampa Bay Lightning, Seattle Kraken",2021,2023
-8479984,Cal Foote,"Tampa Bay Lightning, Nashville Predators",2021,2023
-8480246,Nick Perbix,Tampa Bay Lightning,2023,2023
-8480863,Gabriel Fortier,Tampa Bay Lightning,2022,2023
 8481043,Cole Koepke,Tampa Bay Lightning,2023,2023
 8470880,Brian Elliott,"Tampa Bay Lightning, Philadelphia Flyers, Calgary Flames, St. Louis Blues, Ottawa Senators, Colorado Avalanche",2008,2023
-8476883,Andrei Vasilevskiy,Tampa Bay Lightning,2015,2023
-8471214,Alex Ovechkin,Washington Capitals,2006,2023
-8471698,T.J. Oshie,"Washington Capitals, St. Louis Blues",2009,2023
-8473563,Nicklas Backstrom,Washington Capitals,2008,2023
-8474189,Lars Eller,"Washington Capitals, Colorado Avalanche, Montréal Canadiens, St. Louis Blues",2010,2023
-8474590,John Carlson,Washington Capitals,2010,2023
-8475149,Marcus Johansson,"Washington Capitals, Minnesota Wild, Seattle Kraken, Buffalo Sabres, New Jersey Devils, Boston Bruins",2011,2023
-8475324,Nick Jensen,"Washington Capitals, Detroit Red Wings",2017,2023
-8475343,Nic Dowd,"Washington Capitals, Vancouver Canucks, Los Angeles Kings",2016,2023
 8475625,Matt Irwin,"Washington Capitals, Buffalo Sabres, Nashville Predators, Anaheim Ducks, Boston Bruins, San Jose Sharks",2013,2023
-8475744,Evgeny Kuznetsov,Washington Capitals,2014,2023
-8475795,Dylan McIlrath,"Washington Capitals, Detroit Red Wings, New York Rangers, Florida Panthers",2014,2023
-8476880,Tom Wilson,Washington Capitals,2013,2023
-8477015,Connor Brown,"Washington Capitals, Ottawa Senators, Toronto Maple Leafs",2016,2023
-8477511,Anthony Mantha,"Washington Capitals, Detroit Red Wings",2016,2023
-8477839,Conor Sheary,"Washington Capitals, Pittsburgh Penguins, Buffalo Sabres",2016,2023
-8477845,Trevor van Riemsdyk,"Washington Capitals, Carolina Hurricanes, Chicago Blackhawks",2015,2023
-8477947,Sonny Milano,"Washington Capitals, Anaheim Ducks, Columbus Blue Jackets",2016,2023
-8478440,Dylan Strome,"Washington Capitals, Chicago Blackhawks, Arizona Coyotes",2017,2023
 8478506,Gabriel Carlsson,"Washington Capitals, Columbus Blue Jackets",2017,2023
-8479321,Lucas Johansen,Washington Capitals,2022,2023
-8479359,Beck Malenstyn,Washington Capitals,2020,2023
 8479404,Henrik Borgstrom,"Washington Capitals, Chicago Blackhawks, Florida Panthers",2018,2023
-8480796,Martin Fehervary,Washington Capitals,2020,2023
-8480823,Alexander Alexeyev,Washington Capitals,2022,2023
-8481441,Joe Snively,Washington Capitals,2022,2023
-8481580,Connor McMichael,Washington Capitals,2021,2023
-8481656,Aliaksei Protas,Washington Capitals,2022,2023
-8482861,Vincent Iorio,Washington Capitals,2023,2023
-8475311,Darcy Kuemper,"Washington Capitals, Colorado Avalanche, Arizona Coyotes, Los Angeles Kings, Minnesota Wild",2013,2023
-8479292,Charlie Lindgren,"Washington Capitals, St. Louis Blues, Montréal Canadiens",2016,2023
-8471677,Jack Johnson,"Chicago Blackhawks, Colorado Avalanche, New York Rangers, Pittsburgh Penguins, Columbus Blue Jackets, Los Angeles Kings",2007,2023
 8473604,Jonathan Toews,Chicago Blackhawks,2008,2023
-8474870,Tyler Johnson,"Chicago Blackhawks, Tampa Bay Lightning",2013,2023
-8475797,Jarred Tinordi,"Chicago Blackhawks, New York Rangers, Boston Bruins, Nashville Predators, Montréal Canadiens, Arizona Coyotes",2013,2023
-8476278,Colin Blackwell,"Chicago Blackhawks, Toronto Maple Leafs, Seattle Kraken, New York Rangers, Nashville Predators",2019,2023
-8476473,Connor Murphy,"Chicago Blackhawks, Arizona Coyotes",2015,2023
-8476915,Jujhar Khaira,"Chicago Blackhawks, Edmonton Oilers",2016,2023
-8476960,Andreas Athanasiou,"Chicago Blackhawks, Los Angeles Kings, Detroit Red Wings, Edmonton Oilers",2016,2023
 8477210,Buddy Robinson,"Chicago Blackhawks, Anaheim Ducks, Calgary Flames, Ottawa Senators",2016,2023
-8477450,Jason Dickinson,"Chicago Blackhawks, Vancouver Canucks, Dallas Stars",2016,2023
-8477495,Seth Jones,"Chicago Blackhawks, Columbus Blue Jackets, Nashville Predators",2014,2023
-8477503,Max Domi,"Chicago Blackhawks, Dallas Stars, Carolina Hurricanes, Columbus Blue Jackets, Montréal Canadiens, Arizona Coyotes",2016,2023
-8477971,Andreas Englund,"Chicago Blackhawks, Colorado Avalanche, Ottawa Senators",2017,2023
-8478224,Luke Philp,Chicago Blackhawks,2023,2023
-8478452,Caleb Jones,"Chicago Blackhawks, Edmonton Oilers",2019,2023
 8478455,Austin Wagner,"Chicago Blackhawks, Los Angeles Kings",2019,2023
 8478881,Brett Seney,"Chicago Blackhawks, Toronto Maple Leafs, New Jersey Devils",2019,2023
-8479383,Boris Katchouk,"Chicago Blackhawks, Tampa Bay Lightning",2022,2023
-8479390,Taylor Raddysh,"Chicago Blackhawks, Tampa Bay Lightning",2022,2023
-8480025,MacKenzie Entwistle,Chicago Blackhawks,2021,2023
-8480070,Ian Mitchell,Chicago Blackhawks,2021,2023
-8480252,Cole Guttman,Chicago Blackhawks,2023,2023
 8480328,David Gust,Chicago Blackhawks,2023,2023
-8480798,Philipp Kurashev,Chicago Blackhawks,2021,2023
-8480831,Alec Regula,Chicago Blackhawks,2021,2023
-8481147,Reese Johnson,Chicago Blackhawks,2021,2023
-8481568,Alex Vlasic,Chicago Blackhawks,2022,2023
-8482117,Lukas Reichel,Chicago Blackhawks,2022,2023
-8482176,Wyatt Kaiser,Chicago Blackhawks,2023,2023
-8482192,Isaak Phillips,Chicago Blackhawks,2022,2023
 8482635,Mike Hardman,Chicago Blackhawks,2021,2023
 8483619,Filip Roos,Chicago Blackhawks,2023,2023
 8471418,Anton Khudobin,"Chicago Blackhawks, Dallas Stars, Boston Bruins, Anaheim Ducks, Carolina Hurricanes, Minnesota Wild",2010,2023
-8471774,Alex Stalock,"Chicago Blackhawks, San Jose Sharks, Minnesota Wild",2011,2023
-8475852,Petr Mrazek,"Chicago Blackhawks, Toronto Maple Leafs, Carolina Hurricanes, Philadelphia Flyers, Detroit Red Wings",2013,2023
 8479380,Dylan Wells,Chicago Blackhawks,2023,2023
-8482821,Arvid Soderblom,Chicago Blackhawks,2022,2023
-8483530,Jaxson Stauber,Chicago Blackhawks,2023,2023
-8474102,David Perron,"Detroit Red Wings, St. Louis Blues, Vegas Golden Knights, Pittsburgh Penguins, Anaheim Ducks, Edmonton Oilers",2008,2023
 8475163,Alex Chiasson,"Detroit Red Wings, Vancouver Canucks, Edmonton Oilers, Washington Capitals, Calgary Flames, Ottawa Senators, Dallas Stars",2013,2023
-8475279,Ben Chiarot,"Detroit Red Wings, Montréal Canadiens, Florida Panthers, Winnipeg Jets",2014,2023
-8476874,Olli Maatta,"Detroit Red Wings, Los Angeles Kings, Chicago Blackhawks, Pittsburgh Penguins",2014,2023
-8476897,Oskar Sundqvist,"Detroit Red Wings, Minnesota Wild, St. Louis Blues, Pittsburgh Penguins",2016,2023
-8477330,Dominik Kubalik,"Detroit Red Wings, Chicago Blackhawks",2020,2023
-8477429,Andrew Copp,"Detroit Red Wings, New York Rangers, Winnipeg Jets",2015,2023
 8477454,Adam Erne,"Detroit Red Wings, Tampa Bay Lightning",2017,2023
-8477462,Robert Hagg,"Detroit Red Wings, Buffalo Sabres, Florida Panthers, Philadelphia Flyers",2017,2023
-8477851,Jordan Oesterle,"Detroit Red Wings, Arizona Coyotes, Chicago Blackhawks, Edmonton Oilers",2015,2023
-8477944,Jakub Vrana,"Detroit Red Wings, St. Louis Blues, Washington Capitals",2017,2023
-8477946,Dylan Larkin,Detroit Red Wings,2016,2023
-8477952,Robby Fabbri,"Detroit Red Wings, St. Louis Blues",2016,2023
-8478013,Jake Walman,"Detroit Red Wings, St. Louis Blues",2020,2023
-8478512,Austin Czarnik,"Detroit Red Wings, New York Islanders, Seattle Kraken, Calgary Flames, Boston Bruins",2017,2023
-8479425,Filip Hronek,"Detroit Red Wings, Vancouver Canucks",2019,2023
-8479644,Matt Luff,"Detroit Red Wings, Nashville Predators, Los Angeles Kings",2019,2023
-8479992,Michael Rasmussen,Detroit Red Wings,2019,2023
-8480184,Gustav Lindstrom,Detroit Red Wings,2020,2023
-8480459,Pius Suter,"Detroit Red Wings, Chicago Blackhawks",2021,2023
-8480813,Joe Veleno,Detroit Red Wings,2021,2023
-8480821,Filip Zadina,Detroit Red Wings,2019,2023
-8481013,Jonatan Berggren,Detroit Red Wings,2023,2023
-8481433,Taro Hirose,Detroit Red Wings,2019,2023
-8481542,Moritz Seider,Detroit Red Wings,2022,2023
-8481725,Elmer Soderblom,Detroit Red Wings,2023,2023
-8482078,Lucas Raymond,Detroit Red Wings,2022,2023
-8482762,Simon Edvinsson,Detroit Red Wings,2023,2023
-8483464,Marco Kasper,Detroit Red Wings,2023,2023
-8477968,Alex Nedeljkovic,"Detroit Red Wings, Carolina Hurricanes",2017,2023
-8478024,Ville Husso,"Detroit Red Wings, St. Louis Blues",2021,2023
-8474151,Ryan McDonagh,"Nashville Predators, Tampa Bay Lightning, New York Rangers",2011,2023
-8474600,Roman Josi,Nashville Predators,2012,2023
 8474697,Mark Borowiecki,"Nashville Predators, Ottawa Senators",2012,2023
-8475168,Matt Duchene,"Nashville Predators, Ottawa Senators, Columbus Blue Jackets, Colorado Avalanche",2010,2023
-8475197,Tyson Barrie,"Nashville Predators, Edmonton Oilers, Toronto Maple Leafs, Colorado Avalanche",2012,2023
-8475218,Mattias Ekholm,"Nashville Predators, Edmonton Oilers",2012,2023
-8475793,Ryan Johansen,"Nashville Predators, Columbus Blue Jackets",2012,2023
-8475799,Nino Niederreiter,"Nashville Predators, Winnipeg Jets, Carolina Hurricanes, Minnesota Wild, New York Islanders",2011,2023
 8475857,Kevin Gravel,"Nashville Predators, Toronto Maple Leafs, Edmonton Oilers, Los Angeles Kings",2016,2023
-8476873,Mark Jankowski,"Nashville Predators, Buffalo Sabres, Pittsburgh Penguins, Calgary Flames",2017,2023
-8476887,Filip Forsberg,Nashville Predators,2013,2023
-8476925,Colton Sissons,Nashville Predators,2014,2023
-8477446,Michael McCarron,"Nashville Predators, Montréal Canadiens",2016,2023
 8477482,Zach Sanford,"Nashville Predators, Ottawa Senators, Winnipeg Jets, St. Louis Blues, Washington Capitals",2017,2023
 8477981,Roland McKeown,"Nashville Predators, Carolina Hurricanes",2018,2023
-8478438,Tommy Novak,Nashville Predators,2022,2023
-8478468,Jeremy Lauzon,"Nashville Predators, Seattle Kraken, Boston Bruins",2019,2023
-8478508,Yakov Trenin,Nashville Predators,2020,2023
-8478851,Alexandre Carrier,Nashville Predators,2017,2023
-8479371,Dante Fabbro,Nashville Predators,2019,2023
-8479996,Cody Glass,"Nashville Predators, Vegas Golden Knights",2020,2023
-8480009,Eeli Tolvanen,"Nashville Predators, Seattle Kraken",2018,2023
-8480748,Kiefer Sherwood,"Nashville Predators, Colorado Avalanche, Anaheim Ducks",2019,2023
 8480913,Jordan Gross,"Nashville Predators, Colorado Avalanche, Arizona Coyotes",2020,2023
 8481056,Spencer Stastney,Nashville Predators,2023,2023
 8481077,John Leonard,"Nashville Predators, San Jose Sharks",2021,2023
-8481577,Philip Tomasino,Nashville Predators,2022,2023
 8481585,Egor Afanasyev,Nashville Predators,2023,2023
-8481704,Juuso Parssinen,Nashville Predators,2023,2023
-8482062,Cole Smith,Nashville Predators,2021,2023
-8482146,Luke Evangelista,Nashville Predators,2023,2023
 8484256,Jake Livingstone,Nashville Predators,2023,2023
-8477424,Juuse Saros,Nashville Predators,2016,2023
-8480947,Kevin Lankinen,"Nashville Predators, Chicago Blackhawks",2021,2023
 8482137,Yaroslav Askarov,Nashville Predators,2023,2023
-8474145,Robert Bortuzzo,"St. Louis Blues, Pittsburgh Penguins",2012,2023
-8474618,Marco Scandella,"St. Louis Blues, Buffalo Sabres, Montréal Canadiens, Minnesota Wild",2011,2023
-8475170,Brayden Schenn,"St. Louis Blues, Philadelphia Flyers, Los Angeles Kings",2010,2023
-8475181,Nick Leddy,"St. Louis Blues, Detroit Red Wings, New York Islanders, Chicago Blackhawks",2011,2023
-8475752,Tyler Pitlick,"St. Louis Blues, Montréal Canadiens, Calgary Flames, Arizona Coyotes, Philadelphia Flyers, Dallas Stars, Edmonton Oilers",2014,2023
-8475753,Justin Faulk,"St. Louis Blues, Carolina Hurricanes",2012,2023
 8476410,Josh Leivo,"St. Louis Blues, Carolina Hurricanes, Calgary Flames, Vancouver Canucks, Toronto Maple Leafs",2014,2023
-8476438,Brandon Saad,"St. Louis Blues, Colorado Avalanche, Chicago Blackhawks, Columbus Blue Jackets",2012,2023
-8476792,Torey Krug,"St. Louis Blues, Boston Bruins",2012,2023
-8476892,Colton Parayko,St. Louis Blues,2016,2023
-8477402,Pavel Buchnevich,"St. Louis Blues, New York Rangers",2017,2023
 8477463,Steven Santini,"St. Louis Blues, Nashville Predators, New Jersey Devils",2016,2023
-8477573,Nathan Walker,"St. Louis Blues, Washington Capitals, Edmonton Oilers",2018,2023
-8477964,Ivan Barbashev,"St. Louis Blues, Vegas Golden Knights",2017,2023
-8478146,Matthew Highmore,"St. Louis Blues, Vancouver Canucks, Chicago Blackhawks",2018,2023
 8479366,Logan Brown,"St. Louis Blues, Ottawa Senators",2018,2023
 8479375,William Bitten,St. Louis Blues,2023,2023
-8479385,Jordan Kyrou,St. Louis Blues,2019,2023
-8480023,Robert Thomas,St. Louis Blues,2019,2023
 8480041,Dmitri Samorukov,"St. Louis Blues, Edmonton Oilers",2022,2023
-8480157,Calle Rosen,"St. Louis Blues, Toronto Maple Leafs, Colorado Avalanche",2018,2023
-8480281,Alexey Toropchenko,St. Louis Blues,2022,2023
-8481006,Tyler Tucker,St. Louis Blues,2023,2023
 8481070,Hugh McGing,St. Louis Blues,2023,2023
-8481543,Nikita Alexandrov,St. Louis Blues,2023,2023
-8482089,Jake Neighbours,St. Louis Blues,2022,2023
-8482516,Matthew Kessel,St. Louis Blues,2023,2023
 8471306,Thomas Greiss,"St. Louis Blues, Detroit Red Wings, New York Islanders, Pittsburgh Penguins, San Jose Sharks",2008,2023
-8476412,Jordan Binnington,St. Louis Blues,2016,2023
-8480981,Joel Hofer,St. Louis Blues,2022,2023
-8473453,Trevor Lewis,"Calgary Flames, Winnipeg Jets, Los Angeles Kings",2009,2023
-8473473,Milan Lucic,"Calgary Flames, Edmonton Oilers, Los Angeles Kings, Boston Bruins",2008,2023
-8474150,Mikael Backlund,Calgary Flames,2009,2023
 8474628,Michael Stone,"Calgary Flames, Arizona Coyotes",2015,2023
-8475172,Nazem Kadri,"Calgary Flames, Colorado Avalanche, Toronto Maple Leafs",2010,2023
-8475690,Chris Tanev,"Calgary Flames, Vancouver Canucks",2011,2023
-8475726,Tyler Toffoli,"Calgary Flames, Montréal Canadiens, Vancouver Canucks, Los Angeles Kings",2013,2023
-8476399,Blake Coleman,"Calgary Flames, Tampa Bay Lightning, New Jersey Devils",2017,2023
 8476439,Brett Ritchie,"Calgary Flames, Arizona Coyotes, Boston Bruins, Dallas Stars",2015,2023
-8476456,Jonathan Huberdeau,"Calgary Flames, Florida Panthers",2013,2023
-8477346,MacKenzie Weegar,"Calgary Flames, Florida Panthers",2017,2023
-8477496,Elias Lindholm,"Calgary Flames, Carolina Hurricanes",2014,2023
-8477507,Nikita Zadorov,"Calgary Flames, Chicago Blackhawks, Colorado Avalanche, Buffalo Sabres",2014,2023
 8477941,Nick Ritchie,"Calgary Flames, Arizona Coyotes, Toronto Maple Leafs, Boston Bruins, Anaheim Ducks",2016,2023
-8478233,Andrew Mangiapane,Calgary Flames,2018,2023
-8478396,Noah Hanifin,"Calgary Flames, Carolina Hurricanes",2016,2023
-8478397,Rasmus Andersson,Calgary Flames,2017,2023
-8478502,Dennis Gilbert,"Calgary Flames, Colorado Avalanche, Chicago Blackhawks",2019,2023
-8479291,Kevin Rooney,"Calgary Flames, New York Rangers, New Jersey Devils",2017,2023
-8479346,Dillon Dube,Calgary Flames,2019,2023
-8479442,Troy Stecher,"Calgary Flames, Arizona Coyotes, Detroit Red Wings, Los Angeles Kings, Vancouver Canucks",2017,2023
-8479547,Matthew Phillips,Calgary Flames,2021,2023
-8480008,Adam Ruzicka,Calgary Flames,2021,2023
-8480084,Nick DeSimone,Calgary Flames,2023,2023
-8481592,Jakob Pelletier,Calgary Flames,2023,2023
 8482067,Connor Mackey,"Calgary Flames, Arizona Coyotes",2021,2023
-8482652,Walker Duehr,Calgary Flames,2022,2023
-8482679,Matt Coronato,Calgary Flames,2023,2023
-8474593,Jacob Markstrom,"Calgary Flames, Vancouver Canucks, Florida Panthers",2011,2023
-8478435,Dan Vladar,"Calgary Flames, Boston Bruins",2020,2023
-8481692,Dustin Wolf,Calgary Flames,2023,2023
-8471699,Andrew Cogliano,"Colorado Avalanche, San Jose Sharks, Dallas Stars, Anaheim Ducks, Edmonton Oilers",2008,2023
 8471794,Darren Helm,"Colorado Avalanche, Detroit Red Wings",2008,2023
-8473446,Erik Johnson,"Colorado Avalanche, St. Louis Blues",2008,2023
-8476312,Josh Manson,"Colorado Avalanche, Anaheim Ducks",2015,2023
-8476442,Matt Nieto,"Colorado Avalanche, San Jose Sharks",2014,2023
-8476779,Brad Hunt,"Colorado Avalanche, Vancouver Canucks, Minnesota Wild, Vegas Golden Knights, Nashville Predators, St. Louis Blues, Edmonton Oilers",2014,2023
 8476851,Alex Galchenyuk,"Colorado Avalanche, Arizona Coyotes, Ottawa Senators, Toronto Maple Leafs, Pittsburgh Penguins, Minnesota Wild, Montréal Canadiens",2013,2023
 8476948,Charles Hudon,"Colorado Avalanche, Montréal Canadiens",2016,2023
-8477073,Kurtis MacDermid,"Colorado Avalanche, Los Angeles Kings",2018,2023
-8477126,Jayson Megna,"Colorado Avalanche, Anaheim Ducks, Vancouver Canucks, New York Rangers, Pittsburgh Penguins",2014,2023
 8477320,Anton Blidh,"Colorado Avalanche, Boston Bruins",2017,2023
-8477456,J.T. Compher,Colorado Avalanche,2017,2023
-8477476,Artturi Lehkonen,"Colorado Avalanche, Montréal Canadiens",2017,2023
-8477492,Nathan MacKinnon,Colorado Avalanche,2014,2023
-8477501,Valeri Nichushkin,"Colorado Avalanche, Dallas Stars",2014,2023
-8478038,Devon Toews,"Colorado Avalanche, New York Islanders",2019,2023
-8478420,Mikko Rantanen,Colorado Avalanche,2016,2023
-8478542,Evan Rodrigues,"Colorado Avalanche, Pittsburgh Penguins, Buffalo Sabres",2016,2023
-8479398,Samuel Girard,"Colorado Avalanche, Nashville Predators",2018,2023
-8479439,Jacob MacDonald,"Colorado Avalanche, San Jose Sharks, Florida Panthers",2019,2023
 8479573,Mikhail Maltsev,"Colorado Avalanche, New Jersey Devils",2021,2023
-8480032,Shane Bowers,Colorado Avalanche,2023,2023
-8480069,Cale Makar,Colorado Avalanche,2019,2023
 8480822,Martin Kaut,"Colorado Avalanche, San Jose Sharks",2020,2023
 8480846,Sampo Ranta,Colorado Avalanche,2021,2023
-8481186,Logan O'Connor,Colorado Avalanche,2019,2023
-8481524,Bowen Byram,Colorado Avalanche,2021,2023
-8481618,Alex Newhook,Colorado Avalanche,2021,2023
-8482147,Jean-Luc Foudy,Colorado Avalanche,2023,2023
 8482250,Callahan Burke,Colorado Avalanche,2023,2023
-8482712,Oskar Olausson,Colorado Avalanche,2023,2023
-8483570,Ben Meyers,Colorado Avalanche,2022,2023
-8477992,Jonas Johansson,"Colorado Avalanche, Florida Panthers, Buffalo Sabres",2020,2023
-8480382,Alexandar Georgiev,"Colorado Avalanche, New York Rangers",2018,2023
-8480925,Pavel Francouz,Colorado Avalanche,2019,2023
-8481020,Justus Annunen,Colorado Avalanche,2022,2023
-8474089,Brad Malone,"Edmonton Oilers, Carolina Hurricanes, Colorado Avalanche",2012,2023
 8474218,Jason Demers,"Edmonton Oilers, Arizona Coyotes, Florida Panthers, Dallas Stars, San Jose Sharks",2010,2023
-8475169,Evander Kane,"Edmonton Oilers, San Jose Sharks, Buffalo Sabres, Winnipeg Jets",2012,2023
-8475760,Nick Bjugstad,"Edmonton Oilers, Arizona Coyotes, Minnesota Wild, Pittsburgh Penguins, Florida Panthers",2013,2023
-8475786,Zach Hyman,"Edmonton Oilers, Toronto Maple Leafs",2016,2023
-8476454,Ryan Nugent-Hopkins,Edmonton Oilers,2012,2023
 8476850,Ryan Murray,"Edmonton Oilers, Colorado Avalanche, New Jersey Devils, Columbus Blue Jackets",2014,2023
-8476879,Cody Ceci,"Edmonton Oilers, Pittsburgh Penguins, Toronto Maple Leafs, Ottawa Senators",2014,2023
-8476913,Devin Shore,"Edmonton Oilers, Anaheim Ducks, Columbus Blue Jackets, Dallas Stars",2016,2023
-8476967,Brett Kulak,"Edmonton Oilers, Montréal Canadiens, Calgary Flames",2015,2023
-8477406,Mattias Janmark,"Edmonton Oilers, Vegas Golden Knights, Chicago Blackhawks, Dallas Stars",2016,2023
-8477498,Darnell Nurse,Edmonton Oilers,2015,2023
-8477934,Leon Draisaitl,Edmonton Oilers,2015,2023
-8477998,Warren Foegele,"Edmonton Oilers, Carolina Hurricanes",2018,2023
-8478402,Connor McDavid,Edmonton Oilers,2016,2023
-8478585,Derek Ryan,"Edmonton Oilers, Calgary Flames, Carolina Hurricanes",2016,2023
-8479338,Markus Niemelainen,Edmonton Oilers,2022,2023
 8479347,Tyler Benson,Edmonton Oilers,2020,2023
-8479576,Vincent Desharnais,Edmonton Oilers,2023,2023
-8479977,Kailer Yamamoto,Edmonton Oilers,2018,2023
-8480011,Klim Kostin,"Edmonton Oilers, St. Louis Blues",2020,2023
 8480468,James Hamblin,Edmonton Oilers,2023,2023
-8480802,Ryan McLeod,Edmonton Oilers,2021,2023
-8480803,Evan Bouchard,Edmonton Oilers,2019,2023
-8481598,Philip Broberg,Edmonton Oilers,2022,2023
-8482077,Dylan Holloway,Edmonton Oilers,2022,2023
-8475789,Jack Campbell,"Edmonton Oilers, Toronto Maple Leafs, Los Angeles Kings, Dallas Stars",2014,2023
-8479973,Stuart Skinner,Edmonton Oilers,2021,2023
 8483158,Matthew Berlin,Edmonton Oilers,2023,2023
-8474574,Tyler Myers,"Vancouver Canucks, Winnipeg Jets, Buffalo Sabres",2010,2023
-8475171,Oliver Ekman-Larsson,"Vancouver Canucks, Arizona Coyotes",2015,2023
-8476468,J.T. Miller,"Vancouver Canucks, Tampa Bay Lightning, New York Rangers",2013,2023
-8476858,Phillip Di Giuseppe,"Vancouver Canucks, New York Rangers, Carolina Hurricanes, Nashville Predators",2016,2023
-8476871,Tanner Pearson,"Vancouver Canucks, Pittsburgh Penguins, Los Angeles Kings",2013,2023
-8477335,Kyle Burroughs,"Vancouver Canucks, Colorado Avalanche",2021,2023
-8477359,Tucker Poolman,"Vancouver Canucks, Winnipeg Jets",2018,2023
-8478057,Dakota Joshua,"Vancouver Canucks, St. Louis Blues",2021,2023
-8478408,Travis Dermott,"Vancouver Canucks, Toronto Maple Leafs",2018,2023
-8478444,Brock Boeser,Vancouver Canucks,2017,2023
 8478451,Ethan Bear,"Vancouver Canucks, Carolina Hurricanes, Edmonton Oilers",2018,2023
-8478454,Noah Juulsen,"Vancouver Canucks, Florida Panthers, Montréal Canadiens",2018,2023
-8478465,Guillaume Brisebois,Vancouver Canucks,2019,2023
-8478846,Christian Wolanin,"Vancouver Canucks, Buffalo Sabres, Los Angeles Kings, Ottawa Senators",2018,2023
-8478856,Conor Garland,"Vancouver Canucks, Arizona Coyotes",2019,2023
-8478967,Lane Pederson,"Vancouver Canucks, Columbus Blue Jackets, San Jose Sharks, Arizona Coyotes",2021,2023
-8479367,William Lockwood,Vancouver Canucks,2021,2023
-8480012,Elias Pettersson,Vancouver Canucks,2019,2023
 8480056,Jack Rathbone,Vancouver Canucks,2021,2023
 8480326,Sheldon Dries,"Vancouver Canucks, Colorado Avalanche",2019,2023
-8480800,Quinn Hughes,Vancouver Canucks,2019,2023
-8481535,Nils Hoglander,Vancouver Canucks,2021,2023
 8481617,Vasily Podkolzin,Vancouver Canucks,2022,2023
-8481624,Ilya Mikheyev,"Vancouver Canucks, Toronto Maple Leafs",2020,2023
 8481683,Aidan McDonough,Vancouver Canucks,2023,2023
-8482496,Nils Aman,Vancouver Canucks,2023,2023
-8483808,Andrei Kuzmenko,Vancouver Canucks,2023,2023
 8484254,Akito Hirose,Vancouver Canucks,2023,2023
-8484287,Cole McWard,Vancouver Canucks,2023,2023
-8477484,Spencer Martin,"Vancouver Canucks, Colorado Avalanche",2017,2023
-8477967,Thatcher Demko,Vancouver Canucks,2018,2023
-8480420,Collin Delia,"Vancouver Canucks, Chicago Blackhawks",2018,2023
 8481668,Arturs Silovs,Vancouver Canucks,2023,2023
-8474031,Kevin Shattenkirk,"Anaheim Ducks, Tampa Bay Lightning, New York Rangers, Washington Capitals, St. Louis Blues, Colorado Avalanche",2011,2023
-8474641,Adam Henrique,"Anaheim Ducks, New Jersey Devils",2011,2023
 8474683,Derek Grant,"Anaheim Ducks, Philadelphia Flyers, Pittsburgh Penguins, Buffalo Sabres, Nashville Predators, Calgary Flames, Ottawa Senators",2013,2023
-8475164,Jakob Silfverberg,"Anaheim Ducks, Ottawa Senators",2012,2023
-8475764,Cam Fowler,Anaheim Ducks,2011,2023
-8475842,Sam Carrick,"Anaheim Ducks, Toronto Maple Leafs",2015,2023
-8475906,John Klingberg,"Anaheim Ducks, Minnesota Wild, Dallas Stars",2015,2023
 8476449,Scott Harrington,"Anaheim Ducks, San Jose Sharks, Columbus Blue Jackets, Toronto Maple Leafs, Pittsburgh Penguins",2015,2023
-8476458,Ryan Strome,"Anaheim Ducks, New York Rangers, Edmonton Oilers, New York Islanders",2014,2023
 8476470,Nathan Beaulieu,"Anaheim Ducks, Winnipeg Jets, Buffalo Sabres, Montréal Canadiens",2013,2023
 8477993,Justin Kirkland,Anaheim Ducks,2023,2023
-8478366,Frank Vatrano,"Anaheim Ducks, New York Rangers, Florida Panthers, Boston Bruins",2016,2023
-8478446,Glenn Gawdin,"Anaheim Ducks, Calgary Flames",2021,2023
-8478841,Colton White,"Anaheim Ducks, New Jersey Devils",2019,2023
-8478873,Troy Terry,Anaheim Ducks,2018,2023
-8479368,Max Jones,Anaheim Ducks,2019,2023
-8480001,Urho Vaakanainen,"Anaheim Ducks, Boston Bruins",2019,2023
 8480031,Max Comtois,Anaheim Ducks,2019,2023
 8480467,Austin Strand,"Anaheim Ducks, Los Angeles Kings",2021,2023
-8480806,Isac Lundestrom,Anaheim Ducks,2019,2023
-8480870,Benoit-Olivier Groulx,Anaheim Ducks,2022,2023
-8481122,Simon Benoit,Anaheim Ducks,2021,2023
-8481517,Brett Leason,"Anaheim Ducks, Washington Capitals",2022,2023
-8481533,Trevor Zegras,Anaheim Ducks,2021,2023
 8481563,Drew Helleson,Anaheim Ducks,2023,2023
-8481605,Jackson LaCombe,Anaheim Ducks,2023,2023
-8481754,Nikita Nesterenko,Anaheim Ducks,2023,2023
 8482142,Jamie Drysdale,Anaheim Ducks,2021,2023
-8482745,Mason McTavish,Anaheim Ducks,2022,2023
-8483630,Pavol Regenda,Anaheim Ducks,2023,2023
-8476434,John Gibson,Anaheim Ducks,2014,2023
-8476932,Anthony Stolarz,"Anaheim Ducks, Philadelphia Flyers, Edmonton Oilers",2017,2023
 8480042,Olle Eriksson Ek,Anaheim Ducks,2023,2023
-8480843,Lukas Dostal,Anaheim Ducks,2022,2023
-8470600,Ryan Suter,"Dallas Stars, Minnesota Wild, Nashville Predators",2006,2023
-8470794,Joe Pavelski,"Dallas Stars, San Jose Sharks",2007,2023
-8473994,Jamie Benn,Dallas Stars,2010,2023
-8475794,Tyler Seguin,"Dallas Stars, Boston Bruins",2011,2023
-8475825,Jani Hakanpää,"Dallas Stars, Carolina Hurricanes, Anaheim Ducks",2020,2023
-8476525,Colin Miller,"Dallas Stars, Buffalo Sabres, Vegas Golden Knights, Boston Bruins",2016,2023
-8476822,Luke Glendening,"Dallas Stars, Detroit Red Wings",2014,2023
-8476889,Radek Faksa,Dallas Stars,2016,2023
-8476902,Esa Lindell,Dallas Stars,2016,2023
-8477810,Joel Hanley,"Dallas Stars, Arizona Coyotes, Montréal Canadiens",2016,2023
-8478028,Fredrik Olofsson,Dallas Stars,2023,2023
-8478449,Roope Hintz,Dallas Stars,2019,2023
-8478975,Mason Marchment,"Dallas Stars, Florida Panthers, Toronto Maple Leafs",2020,2023
-8479362,Riley Tufte,Dallas Stars,2022,2023
 8479518,Fredrik Karlström,Dallas Stars,2022,2023
-8480027,Jason Robertson,Dallas Stars,2020,2023
-8480036,Miro Heiskanen,Dallas Stars,2019,2023
-8480216,Jacob Peterson,"Dallas Stars, San Jose Sharks",2022,2023
-8480226,Marián Studenič,"Dallas Stars, New Jersey Devils",2021,2023
-8480848,Ty Dellandrea,Dallas Stars,2021,2023
-8480878,Nils Lundkvist,"Dallas Stars, New York Rangers",2022,2023
-8481581,Thomas Harley,Dallas Stars,2020,2023
 8481641,Joel Kiviranta,Dallas Stars,2020,2023
-8481712,Matej Blumel,Dallas Stars,2023,2023
-8482740,Wyatt Johnston,Dallas Stars,2023,2023
-8475809,Scott Wedgewood,"Dallas Stars, New Jersey Devils, Arizona Coyotes",2016,2023
-8479979,Jake Oettinger,Dallas Stars,2020,2023
 8483575,Matt Murray,Dallas Stars,2023,2023
 8471303,Alexander Edler,"Los Angeles Kings, Vancouver Canucks",2007,2023
-8471685,Anze Kopitar,Los Angeles Kings,2007,2023
-8474563,Drew Doughty,Los Angeles Kings,2009,2023
-8476479,Phillip Danault,"Los Angeles Kings, Montréal Canadiens, Chicago Blackhawks",2015,2023
-8477942,Kevin Fiala,"Los Angeles Kings, Minnesota Wild, Nashville Predators",2015,2023
-8477960,Adrian Kempe,Los Angeles Kings,2017,2023
-8478042,Viktor Arvidsson,"Los Angeles Kings, Nashville Predators",2015,2023
-8478882,Vladislav Gavrikov,"Los Angeles Kings, Columbus Blue Jackets",2019,2023
-8478911,Matt Roy,Los Angeles Kings,2019,2023
-8479336,Carl Grundstrom,Los Angeles Kings,2019,2023
 8479421,Jacob Moverare,Los Angeles Kings,2022,2023
-8479675,Trevor Moore,"Los Angeles Kings, Toronto Maple Leafs",2019,2023
-8479994,Jaret Anderson-Dolan,Los Angeles Kings,2019,2023
-8479998,Mikey Anderson,Los Angeles Kings,2020,2023
-8480014,Gabriel Vilardi,Los Angeles Kings,2020,2023
 8480072,Lias Andersson,"Los Angeles Kings, New York Rangers",2018,2023
-8480113,Alex Iafallo,Los Angeles Kings,2018,2023
-8480336,Sean Walker,Los Angeles Kings,2019,2023
-8480434,Sean Durzi,Los Angeles Kings,2022,2023
-8480845,Rasmus Kupari,Los Angeles Kings,2021,2023
-8481239,Samuel Fagemo,Los Angeles Kings,2022,2023
-8481481,Blake Lizotte,Los Angeles Kings,2019,2023
-8481532,Alex Turcotte,Los Angeles Kings,2022,2023
-8481560,Arthur Kaliyev,Los Angeles Kings,2021,2023
-8481600,Tobias Bjornfot,Los Angeles Kings,2020,2023
-8481606,Jordan Spence,Los Angeles Kings,2022,2023
-8482124,Quinton Byfield,Los Angeles Kings,2021,2023
-8482730,Brandt Clarke,Los Angeles Kings,2023,2023
-8471734,Jonathan Quick,"Los Angeles Kings, Vegas Golden Knights",2008,2023
-8476914,Joonas Korpisalo,"Los Angeles Kings, Columbus Blue Jackets",2016,2023
-8477361,Cal Petersen,Los Angeles Kings,2019,2023
-8477831,Pheonix Copley,"Los Angeles Kings, Washington Capitals, St. Louis Blues",2016,2023
-8471709,Marc-Edouard Vlasic,San Jose Sharks,2007,2023
-8474053,Logan Couture,San Jose Sharks,2010,2023
-8474578,Erik Karlsson,"San Jose Sharks, Ottawa Senators",2010,2023
-8475461,Andrew Agozzino,"San Jose Sharks, Ottawa Senators, Anaheim Ducks, Pittsburgh Penguins, Colorado Avalanche",2015,2023
-8476881,Tomas Hertl,San Jose Sharks,2014,2023
 8476884,Derrick Pouliot,"San Jose Sharks, Vegas Golden Knights, Seattle Kraken, St. Louis Blues, Vancouver Canucks, Pittsburgh Penguins",2015,2023
-8476988,Matt Benning,"San Jose Sharks, Nashville Predators, Edmonton Oilers",2017,2023
-8477034,Jaycob Megna,"San Jose Sharks, Seattle Kraken, Anaheim Ducks",2017,2023
 8478058,CJ Suess,"San Jose Sharks, Winnipeg Jets",2020,2023
-8478067,Oskar Lindblom,"San Jose Sharks, Philadelphia Flyers",2018,2023
-8478099,Kevin Labanc,San Jose Sharks,2017,2023
 8478431,Evgeny Svechnikov,"San Jose Sharks, Winnipeg Jets, Detroit Red Wings",2017,2023
-8478904,Steven Lorentz,"San Jose Sharks, Carolina Hurricanes",2021,2023
-8479304,Kyle Criscuolo,"San Jose Sharks, Detroit Red Wings, Buffalo Sabres",2018,2023
-8479316,Luke Kunin,"San Jose Sharks, Nashville Predators, Minnesota Wild",2018,2023
 8479393,Noah Gregor,San Jose Sharks,2020,2023
-8479705,Jeffrey Viel,San Jose Sharks,2021,2023
 8479981,Jonah Gadjovich,"San Jose Sharks, Vancouver Canucks",2021,2023
-8479983,Mario Ferraro,San Jose Sharks,2020,2023
-8480160,Radim Simek,San Jose Sharks,2019,2023
-8481477,Nico Sturm,"San Jose Sharks, Colorado Avalanche, Minnesota Wild",2019,2023
-8481567,Henry Thrun,San Jose Sharks,2023,2023
-8481812,Nikolai Knyzhov,San Jose Sharks,2020,2023
 8482101,Danil Gushchin,San Jose Sharks,2023,2023
-8482133,Thomas Bordeleau,San Jose Sharks,2022,2023
 8482181,Tristen Robins,San Jose Sharks,2023,2023
 8482197,Adam Raska,San Jose Sharks,2022,2023
-8482222,Alexander Barabanov,"San Jose Sharks, Toronto Maple Leafs",2021,2023
-8482667,William Eklund,San Jose Sharks,2022,2023
 8482824,Nick Cicek,San Jose Sharks,2023,2023
-8473503,James Reimer,"San Jose Sharks, Carolina Hurricanes, Florida Panthers, Toronto Maple Leafs",2011,2023
 8477180,Aaron Dell,"San Jose Sharks, Buffalo Sabres, New Jersey Devils",2017,2023
-8478039,Kaapo Kahkonen,"San Jose Sharks, Minnesota Wild",2020,2023
 8480199,Eetu Makiniemi,San Jose Sharks,2023,2023
 8474161,Jakub Voracek,"Columbus Blue Jackets, Philadelphia Flyers",2009,2023
-8474679,Gustav Nyquist,"Columbus Blue Jackets, Minnesota Wild, Detroit Red Wings, San Jose Sharks",2012,2023
-8475790,Erik Gudbranson,"Columbus Blue Jackets, Calgary Flames, Ottawa Senators, Nashville Predators, Pittsburgh Penguins, Anaheim Ducks, Vancouver Canucks, Florida Panthers",2012,2023
-8476346,Johnny Gaudreau,"Columbus Blue Jackets, Calgary Flames",2014,2023
-8476374,Sean Kuraly,"Columbus Blue Jackets, Boston Bruins",2017,2023
-8476432,Boone Jenner,Columbus Blue Jackets,2014,2023
-8476867,Brendan Gaunce,"Columbus Blue Jackets, Boston Bruins, Vancouver Canucks",2016,2023
-8478458,Jack Roslovic,"Columbus Blue Jackets, Winnipeg Jets",2017,2023
-8478460,Zach Werenski,Columbus Blue Jackets,2017,2023
-8479339,Patrik Laine,"Columbus Blue Jackets, Winnipeg Jets",2017,2023
-8479369,Andrew Peeke,Columbus Blue Jackets,2020,2023
-8479402,Jake Bean,"Columbus Blue Jackets, Carolina Hurricanes",2019,2023
-8479671,Mathieu Olivier,"Columbus Blue Jackets, Nashville Predators",2020,2023
-8479941,Justin Danforth,Columbus Blue Jackets,2022,2023
 8479945,Gavin Bayreuther,"Columbus Blue Jackets, Dallas Stars",2019,2023
-8480205,Emil Bemstrom,Columbus Blue Jackets,2020,2023
-8480292,Carson Meyer,Columbus Blue Jackets,2022,2023
-8480441,Trey Fix-Wolansky,Columbus Blue Jackets,2022,2023
-8480762,Eric Robinson,Columbus Blue Jackets,2018,2023
-8480853,Liam Foudy,Columbus Blue Jackets,2020,2023
-8480871,Adam Boqvist,"Columbus Blue Jackets, Chicago Blackhawks",2020,2023
-8480893,Kirill Marchenko,Columbus Blue Jackets,2023,2023
 8481072,Tim Berni,Columbus Blue Jackets,2023,2023
-8481161,Jake Christiansen,Columbus Blue Jackets,2022,2023
 8481649,Joona Luoto,"Columbus Blue Jackets, Winnipeg Jets",2020,2023
 8481690,Tyler Angle,Columbus Blue Jackets,2023,2023
 8482179,Justin Richards,"Columbus Blue Jackets, New York Rangers",2021,2023
-8482399,Billy Sweezey,Columbus Blue Jackets,2023,2023
 8482448,Samuel Knazko,Columbus Blue Jackets,2023,2023
 8482451,Mikael Pyyhtia,Columbus Blue Jackets,2023,2023
-8482475,Yegor Chinakhov,Columbus Blue Jackets,2022,2023
-8482623,Josh Dunne,Columbus Blue Jackets,2021,2023
-8482660,Kent Johnson,Columbus Blue Jackets,2022,2023
-8482705,Cole Sillinger,Columbus Blue Jackets,2022,2023
-8482711,Stanislav Svozil,Columbus Blue Jackets,2023,2023
-8483460,David Jiricek,Columbus Blue Jackets,2023,2023
-8483565,Nick Blankenburg,Columbus Blue Jackets,2022,2023
-8483620,Marcus Bjork,Columbus Blue Jackets,2023,2023
-8484125,Hunter McKown,Columbus Blue Jackets,2023,2023
 8474636,Michael Hutchinson,"Columbus Blue Jackets, Toronto Maple Leafs, Colorado Avalanche, Florida Panthers, Winnipeg Jets",2014,2023
 8476903,Jon Gillies,"Columbus Blue Jackets, New Jersey Devils, St. Louis Blues, Calgary Flames",2017,2023
-8478007,Elvis Merzlikins,Columbus Blue Jackets,2020,2023
-8480193,Daniil Tarasov,Columbus Blue Jackets,2022,2023
-8482982,Jet Greaves,Columbus Blue Jackets,2023,2023
-8471274,Alex Goligoski,"Minnesota Wild, Arizona Coyotes, Dallas Stars, Pittsburgh Penguins",2008,2023
-8474716,Jared Spurgeon,Minnesota Wild,2011,2023
-8475220,Marcus Foligno,"Minnesota Wild, Buffalo Sabres",2012,2023
-8475692,Mats Zuccarello,"Minnesota Wild, New York Rangers, Dallas Stars",2011,2023
-8475750,Jon Merrill,"Minnesota Wild, Montréal Canadiens, Detroit Red Wings, Vegas Golden Knights, New Jersey Devils",2014,2023
 8476390,Joseph Cramarossa,"Minnesota Wild, Vancouver Canucks, Anaheim Ducks",2017,2023
 8476396,Steven Fogarty,"Minnesota Wild, Boston Bruins, Buffalo Sabres, New York Rangers",2018,2023
-8476463,Jonas Brodin,Minnesota Wild,2013,2023
-8476856,Matt Dumba,Minnesota Wild,2014,2023
-8477451,Ryan Hartman,"Minnesota Wild, Philadelphia Flyers, Nashville Predators, Chicago Blackhawks",2015,2023
-8477464,Nic Petan,"Minnesota Wild, Vancouver Canucks, Toronto Maple Leafs, Winnipeg Jets",2016,2023
-8477541,Dakota Mermis,"Minnesota Wild, New Jersey Devils, Arizona Coyotes",2018,2023
-8477919,Frederick Gaudreau,"Minnesota Wild, Pittsburgh Penguins, Nashville Predators",2017,2023
-8478136,Jake Middleton,"Minnesota Wild, San Jose Sharks",2019,2023
-8478493,Joel Eriksson Ek,Minnesota Wild,2017,2023
-8478864,Kirill Kaprizov,Minnesota Wild,2021,2023
-8479351,Sam Steel,"Minnesota Wild, Anaheim Ducks",2019,2023
-8479520,Brandon Duhaime,Minnesota Wild,2022,2023
 8479972,Mason Shaw,Minnesota Wild,2022,2023
-8480267,Sammy Walker,Minnesota Wild,2023,2023
 8480275,Nick Swaney,Minnesota Wild,2023,2023
-8480884,Calen Addison,Minnesota Wild,2021,2023
-8480980,Connor Dewar,Minnesota Wild,2022,2023
 8480994,Damien Giroux,Minnesota Wild,2023,2023
 8481550,Adam Beckman,Minnesota Wild,2022,2023
-8481557,Matt Boldy,Minnesota Wild,2022,2023
-8482079,Marco Rossi,Minnesota Wild,2022,2023
-8482122,Brock Faber,Minnesota Wild,2023,2023
-8470594,Marc-Andre Fleury,"Minnesota Wild, Chicago Blackhawks, Vegas Golden Knights, Pittsburgh Penguins",2004,2023
-8479406,Filip Gustavsson,"Minnesota Wild, Ottawa Senators",2021,2023
-8471218,Blake Wheeler,"Winnipeg Jets, Boston Bruins",2009,2023
 8474040,Sam Gagner,"Winnipeg Jets, Detroit Red Wings, Edmonton Oilers, Vancouver Canucks, Columbus Blue Jackets, Philadelphia Flyers, Arizona Coyotes",2008,2023
-8475455,Brenden Dillon,"Winnipeg Jets, Washington Capitals, San Jose Sharks, Dallas Stars",2012,2023
-8476331,Dylan DeMelo,"Winnipeg Jets, Ottawa Senators, San Jose Sharks",2016,2023
-8476392,Adam Lowry,Winnipeg Jets,2015,2023
-8476460,Mark Scheifele,Winnipeg Jets,2012,2023
-8476952,Dominic Toninato,"Winnipeg Jets, Florida Panthers, Colorado Avalanche",2018,2023
-8477220,Nate Schmidt,"Winnipeg Jets, Vancouver Canucks, Vegas Golden Knights, Washington Capitals",2014,2023
 8477357,Saku Maenalanen,"Winnipeg Jets, Carolina Hurricanes",2019,2023
-8477504,Josh Morrissey,Winnipeg Jets,2016,2023
-8477940,Nikolaj Ehlers,Winnipeg Jets,2016,2023
-8478398,Kyle Connor,Winnipeg Jets,2017,2023
-8478424,Jansen Harkins,Winnipeg Jets,2020,2023
-8478476,Kyle Capobianco,"Winnipeg Jets, Arizona Coyotes",2018,2023
-8478831,Kevin Stenlund,"Winnipeg Jets, Columbus Blue Jackets",2019,2023
-8478891,Mason Appleton,"Winnipeg Jets, Seattle Kraken",2019,2023
-8479378,Logan Stanley,Winnipeg Jets,2021,2023
-8479400,Pierre-Luc Dubois,"Winnipeg Jets, Columbus Blue Jackets",2018,2023
-8479536,Axel Jonsson-Fjallby,"Winnipeg Jets, Washington Capitals",2022,2023
-8480049,Dylan Samberg,Winnipeg Jets,2022,2023
-8480145,Neal Pionk,"Winnipeg Jets, New York Rangers",2018,2023
-8480289,Morgan Barron,"Winnipeg Jets, New York Rangers",2021,2023
 8480443,Kristian Reichel,Winnipeg Jets,2022,2023
-8480901,Karson Kuhlman,"Winnipeg Jets, Seattle Kraken, Boston Bruins",2019,2023
-8481019,David Gustafsson,Winnipeg Jets,2020,2023
-8481572,Ville Heinola,Winnipeg Jets,2020,2023
-8482149,Cole Perfetti,Winnipeg Jets,2022,2023
-8476945,Connor Hellebuyck,Winnipeg Jets,2016,2023
-8479496,David Rittich,"Winnipeg Jets, Nashville Predators, Toronto Maple Leafs, Calgary Flames",2017,2023
 8475178,Zack Kassian,"Arizona Coyotes, Edmonton Oilers, Vancouver Canucks, Buffalo Sabres",2012,2023
 8475747,Patrik Nemeth,"Arizona Coyotes, New York Rangers, Detroit Red Wings, Colorado Avalanche, Dallas Stars",2014,2023
-8476329,Travis Boyd,"Arizona Coyotes, Toronto Maple Leafs, Vancouver Canucks, Washington Capitals",2018,2023
-8477070,Liam O'Brien,"Arizona Coyotes, Colorado Avalanche, Washington Capitals",2015,2023
-8477384,Josh Brown,"Arizona Coyotes, Boston Bruins, Ottawa Senators, Florida Panthers",2019,2023
 8477460,Laurent Dauphin,"Arizona Coyotes, Montréal Canadiens",2016,2023
 8477520,Jean-Sebastien Dea,"Arizona Coyotes, Buffalo Sabres, New Jersey Devils, Pittsburgh Penguins",2017,2023
-8477951,Nick Schmaltz,"Arizona Coyotes, Chicago Blackhawks",2017,2023
 8478062,Dysin Mayo,Arizona Coyotes,2022,2023
-8478147,Bokondji Imama,Arizona Coyotes,2022,2023
-8478432,Christian Fischer,Arizona Coyotes,2017,2023
-8478474,Lawson Crouse,Arizona Coyotes,2017,2023
-8479343,Clayton Keller,Arizona Coyotes,2017,2023
-8479619,Michael Carcone,Arizona Coyotes,2022,2023
-8479976,Juuso Valimaki,"Arizona Coyotes, Calgary Flames",2019,2023
-8480849,Barrett Hayton,Arizona Coyotes,2020,2023
-8480855,Jack McBain,Arizona Coyotes,2022,2023
 8480890,Jan Jenik,Arizona Coyotes,2021,2023
 8480891,Michael Kesselring,Arizona Coyotes,2023,2023
 8480979,Nathan Smith,Arizona Coyotes,2022,2023
 8481599,Victor Soderstrom,Arizona Coyotes,2021,2023
 8481609,Vladislav Kolyachonok,Arizona Coyotes,2022,2023
-8481711,Matias Maccelli,Arizona Coyotes,2022,2023
-8482655,J.J. Moser,Arizona Coyotes,2022,2023
-8482699,Dylan Guenther,Arizona Coyotes,2023,2023
 8483597,Milos Kelemen,Arizona Coyotes,2023,2023
-8478872,Karel Vejmelka,Arizona Coyotes,2022,2023
-8478971,Connor Ingram,"Arizona Coyotes, Nashville Predators",2022,2023
 8481031,Ivan Prosvetov,Arizona Coyotes,2021,2023
 8473548,Phil Kessel,"Vegas Golden Knights, Arizona Coyotes, Pittsburgh Penguins, Toronto Maple Leafs, Boston Bruins",2007,2023
-8474166,Alec Martinez,"Vegas Golden Knights, Los Angeles Kings",2010,2023
-8474565,Alex Pietrangelo,"Vegas Golden Knights, St. Louis Blues",2009,2023
-8475188,Brayden McNabb,"Vegas Golden Knights, Los Angeles Kings, Buffalo Sabres",2012,2023
-8475191,Reilly Smith,"Vegas Golden Knights, Florida Panthers, Boston Bruins, Dallas Stars",2012,2023
 8475278,Byron Froese,"Vegas Golden Knights, Calgary Flames, Montréal Canadiens, Toronto Maple Leafs, Tampa Bay Lightning",2016,2023
-8475913,Mark Stone,"Vegas Golden Knights, Ottawa Senators",2012,2023
-8476448,William Karlsson,"Vegas Golden Knights, Columbus Blue Jackets, Anaheim Ducks",2015,2023
-8476539,Jonathan Marchessault,"Vegas Golden Knights, Florida Panthers, Tampa Bay Lightning, Columbus Blue Jackets",2013,2023
-8476905,Chandler Stephenson,"Vegas Golden Knights, Washington Capitals",2016,2023
-8477018,Ben Hutton,"Vegas Golden Knights, Toronto Maple Leafs, Anaheim Ducks, Los Angeles Kings, Vancouver Canucks",2016,2023
-8477447,Shea Theodore,"Vegas Golden Knights, Anaheim Ducks",2016,2023
-8477478,William Carrier,"Vegas Golden Knights, Buffalo Sabres",2017,2023
-8478020,Michael Amadio,"Vegas Golden Knights, Toronto Maple Leafs, Ottawa Senators, Los Angeles Kings",2018,2023
-8478403,Jack Eichel,"Vegas Golden Knights, Buffalo Sabres",2016,2023
-8478434,Keegan Kolesar,Vegas Golden Knights,2020,2023
-8478462,Nicolas Roy,"Vegas Golden Knights, Carolina Hurricanes",2018,2023
-8479353,Brett Howden,"Vegas Golden Knights, New York Rangers",2019,2023
-8479980,Nicolas Hague,Vegas Golden Knights,2020,2023
 8480007,Jonas Rondbjerg,Vegas Golden Knights,2022,2023
-8480727,Zach Whitecloud,Vegas Golden Knights,2018,2023
 8480776,Sheldon Rempal,"Vegas Golden Knights, Vancouver Canucks, Carolina Hurricanes, Los Angeles Kings",2019,2023
-8481032,Paul Cotter,Vegas Golden Knights,2022,2023
-8481167,Brayden Pachal,Vegas Golden Knights,2022,2023
-8481527,Kaedan Korczak,Vegas Golden Knights,2022,2023
-8481604,Pavel Dorofeyev,Vegas Golden Knights,2022,2023
 8482624,Daniil Miromanov,Vegas Golden Knights,2022,2023
-8476316,Laurent Brossoit,"Vegas Golden Knights, Winnipeg Jets, Edmonton Oilers",2015,2023
-8478499,Adin Hill,"Vegas Golden Knights, San Jose Sharks, Arizona Coyotes",2018,2023
-8480238,Jiri Patera,Vegas Golden Knights,2023,2023
-8480313,Logan Thompson,Vegas Golden Knights,2021,2023
-8474586,Jordan Eberle,"Seattle Kraken, New York Islanders, Edmonton Oilers",2011,2023
-8474602,Justin Schultz,"Seattle Kraken, Washington Capitals, Pittsburgh Penguins, Edmonton Oilers",2013,2023
-8475768,Jaden Schwartz,"Seattle Kraken, St. Louis Blues",2012,2023
-8476457,Adam Larsson,"Seattle Kraken, Edmonton Oilers, New Jersey Devils",2012,2023
-8476467,Jamie Oleksiak,"Seattle Kraken, Dallas Stars, Pittsburgh Penguins",2013,2023
-8476826,Yanni Gourde,"Seattle Kraken, Tampa Bay Lightning",2016,2023
-8477369,Carson Soucy,"Seattle Kraken, Minnesota Wild",2018,2023
-8477401,John Hayden,"Seattle Kraken, Buffalo Sabres, Arizona Coyotes, New Jersey Devils, Chicago Blackhawks",2017,2023
-8477416,Oliver Bjorkstrand,"Seattle Kraken, Columbus Blue Jackets",2016,2023
-8477444,Andre Burakovsky,"Seattle Kraken, Colorado Avalanche, Washington Capitals",2015,2023
-8477467,Gustav Olofsson,"Seattle Kraken, Montréal Canadiens, Minnesota Wild",2016,2023
-8477505,Alex Wennberg,"Seattle Kraken, Florida Panthers, Columbus Blue Jackets",2015,2023
-8477955,Jared McCann,"Seattle Kraken, Pittsburgh Penguins, Florida Panthers, Vancouver Canucks",2016,2023
-8477987,Ryan Donato,"Seattle Kraken, San Jose Sharks, Minnesota Wild, Boston Bruins",2018,2023
-8478407,Vince Dunn,"Seattle Kraken, St. Louis Blues",2018,2023
-8478466,Daniel Sprong,"Seattle Kraken, Washington Capitals, Anaheim Ducks, Pittsburgh Penguins",2016,2023
-8478840,Will Borgen,"Seattle Kraken, Buffalo Sabres",2019,2023
-8479293,Brandon Tanev,"Seattle Kraken, Pittsburgh Penguins, Winnipeg Jets",2016,2023
-8479985,Cale Fleury,"Seattle Kraken, Montréal Canadiens",2020,2023
-8479987,Morgan Geekie,"Seattle Kraken, Carolina Hurricanes",2020,2023
-8482665,Matty Beniers,Seattle Kraken,2022,2023
 8482834,Jesper Froden,"Seattle Kraken, Boston Bruins",2022,2023
-8483524,Shane Wright,Seattle Kraken,2023,2023
-8481789,Tye Kartye,Seattle Kraken,2023,2023
-8474889,Martin Jones,"Seattle Kraken, Philadelphia Flyers, San Jose Sharks, Los Angeles Kings",2014,2023
-8475831,Philipp Grubauer,"Seattle Kraken, Colorado Avalanche, Washington Capitals",2013,2023
-8478916,Joey Daccord,"Seattle Kraken, Ottawa Senators",2019,2023
 8474056,P.K. Subban,"New Jersey Devils, Nashville Predators, Montréal Canadiens",2010,2022
 8477419,Mason Geertsen,New Jersey Devils,2022,2022
 8477512,Frederik Gauthier,"New Jersey Devils, Arizona Coyotes, Toronto Maple Leafs",2016,2022
-8478029,Chase De Leo,"New Jersey Devils, Anaheim Ducks, Winnipeg Jets",2016,2022
 8478868,Christian Jaros,"New Jersey Devils, San Jose Sharks, Ottawa Senators",2018,2022
 8479511,Janne Kuokkanen,"New Jersey Devils, Carolina Hurricanes",2018,2022
-8480054,Reilly Walsh,New Jersey Devils,2022,2022
 8473541,Jonathan Bernier,"New Jersey Devils, Detroit Red Wings, Colorado Avalanche, Anaheim Ducks, Toronto Maple Leafs, Los Angeles Kings",2008,2022
 8477202,Andrew Hammond,"New Jersey Devils, Montréal Canadiens, Colorado Avalanche, Ottawa Senators",2014,2022
-8482076,Nico Daws,New Jersey Devils,2022,2022
 8465009,Zdeno Chara,"New York Islanders, Washington Capitals, Boston Bruins, Ottawa Senators",1998,2022
 8472382,Andy Greene,"New York Islanders, New Jersey Devils",2007,2022
 8473463,Leo Komarov,"New York Islanders, Toronto Maple Leafs",2013,2022
 8474066,Thomas Hickey,New York Islanders,2013,2022
 8475209,Richard Panik,"New York Islanders, Washington Capitals, Detroit Red Wings, Arizona Coyotes, Chicago Blackhawks, Toronto Maple Leafs, Tampa Bay Lightning",2013,2022
-8476983,Paul LaDue,"New York Islanders, Los Angeles Kings",2017,2022
 8477936,Michael Dal Colle,New York Islanders,2018,2022
-8480306,Grant Hutton,New York Islanders,2022,2022
 8471239,Cory Schneider,"New York Islanders, New Jersey Devils, Vancouver Canucks",2009,2022
 8475735,Greg McKegg,"New York Rangers, Boston Bruins, Carolina Hurricanes, Pittsburgh Penguins, Florida Panthers, Tampa Bay Lightning, Toronto Maple Leafs",2014,2022
-8479364,Tim Gettinger,New York Rangers,2019,2022
 8479447,Anthony Greco,"New York Rangers, Florida Panthers",2019,2022
 8478903,Adam Huska,New York Rangers,2022,2022
 8470775,Nate Thompson,"Philadelphia Flyers, Winnipeg Jets, Montréal Canadiens, Los Angeles Kings, Ottawa Senators, Anaheim Ducks, Tampa Bay Lightning, New York Islanders, Boston Bruins",2007,2022
 8471735,Keith Yandle,"Philadelphia Flyers, Florida Panthers, New York Rangers, Arizona Coyotes",2015,2022
-8474715,Cam Atkinson,"Philadelphia Flyers, Columbus Blue Jackets",2012,2022
-8475176,Ryan Ellis,"Philadelphia Flyers, Nashville Predators",2012,2022
 8475246,Kevin Connauton,"Philadelphia Flyers, Florida Panthers, Colorado Avalanche, Arizona Coyotes, Columbus Blue Jackets, Dallas Stars",2014,2022
-8476461,Sean Couturier,Philadelphia Flyers,2012,2022
 8479382,Connor Bunnaman,Philadelphia Flyers,2020,2022
 8479534,Linus Hogberg,Philadelphia Flyers,2022,2022
 8479933,Gerry Mayhew,"Philadelphia Flyers, Anaheim Ducks, Minnesota Wild",2020,2022
 8480019,Isaac Ratcliffe,Philadelphia Flyers,2022,2022
-8481553,Bobby Brink,Philadelphia Flyers,2022,2022
 8482243,Linus Sandin,Philadelphia Flyers,2022,2022
 8470619,Brian Boyle,"Pittsburgh Penguins, Florida Panthers, New Jersey Devils, Nashville Predators, Toronto Maple Leafs, Tampa Bay Lightning, New York Rangers, Los Angeles Kings",2008,2022
 8478074,Anthony Angello,Pittsburgh Penguins,2020,2022
 8478866,Dominik Simon,"Pittsburgh Penguins, Anaheim Ducks, Calgary Flames",2016,2022
 8479512,Kasper Bjorkqvist,Pittsburgh Penguins,2022,2022
 8480945,Juuso Riikola,Pittsburgh Penguins,2019,2022
-8481703,Valtteri Puustinen,Pittsburgh Penguins,2022,2022
 8475839,Louis Domingue,"Pittsburgh Penguins, Calgary Flames, New Jersey Devils, Vancouver Canucks, Tampa Bay Lightning, Arizona Coyotes",2015,2022
 8475186,John Moore,"Boston Bruins, New Jersey Devils, New York Rangers, Arizona Coyotes, Columbus Blue Jackets",2011,2022
 8477343,Tyler Lewington,"Boston Bruins, Nashville Predators, Washington Capitals",2019,2022
-8482072,Jack Ahcan,Boston Bruins,2021,2022
 8471695,Tuukka Rask,Boston Bruins,2008,2022
 8475236,Cody Eakin,"Buffalo Sabres, Winnipeg Jets, Vegas Golden Knights, Dallas Stars, Washington Capitals",2012,2022
 8475796,Mark Pysyk,"Buffalo Sabres, Dallas Stars, Florida Panthers",2013,2022
-8477355,Will Butcher,"Buffalo Sabres, New Jersey Devils",2018,2022
 8477974,Ryan MacInnis,"Buffalo Sabres, Columbus Blue Jackets",2020,2022
 8479289,Ethan Prow,Buffalo Sabres,2022,2022
-8479419,Brett Murray,Buffalo Sabres,2021,2022
 8481626,Arttu Ruotsalainen,Buffalo Sabres,2021,2022
-8482061,Brandon Biro,Buffalo Sabres,2022,2022
 8475920,Michael Houser,Buffalo Sabres,2021,2022
-8476876,Malcolm Subban,"Buffalo Sabres, Chicago Blackhawks, Vegas Golden Knights, Boston Bruins",2015,2022
 8473618,Mathieu Perreault,"Montréal Canadiens, Winnipeg Jets, Anaheim Ducks, Washington Capitals",2010,2022
 8474038,Paul Byron,"Montréal Canadiens, Calgary Flames, Buffalo Sabres",2011,2022
 8476975,Cedric Paquette,"Montréal Canadiens, Ottawa Senators, Carolina Hurricanes, Tampa Bay Lightning",2014,2022
 8477631,Brandon Baddock,Montréal Canadiens,2022,2022
-8478021,William Lagesson,"Montréal Canadiens, Edmonton Oilers",2020,2022
 8478838,Lukas Vejdemo,Montréal Canadiens,2020,2022
 8478915,Sami Niku,"Montréal Canadiens, Winnipeg Jets",2018,2022
 8478996,Adam Brooks,"Montréal Canadiens, Winnipeg Jets, Vegas Golden Knights, Toronto Maple Leafs",2020,2022
 8480858,Cam Hillis,Montréal Canadiens,2022,2022
-8481555,Mattias Norlinder,Montréal Canadiens,2022,2022
 8471679,Carey Price,Montréal Canadiens,2008,2022
 8478933,Michael McNiven,Montréal Canadiens,2022,2022
 8474584,Michael Del Zotto,"Ottawa Senators, Columbus Blue Jackets, Anaheim Ducks, St. Louis Blues, Vancouver Canucks, Philadelphia Flyers, New York Rangers, Nashville Predators",2010,2022
@@ -1142,7 +1322,6 @@ Player ID,Player Name,Teams,First Season,Last Season
 8477472,Carl Dahlstrom,"Toronto Maple Leafs, Winnipeg Jets, Chicago Blackhawks",2018,2022
 8479729,Kristians Rubins,Toronto Maple Leafs,2022,2022
 8482815,Kirill Semyonov,Toronto Maple Leafs,2022,2022
-8479249,Andrew Poturalski,Carolina Hurricanes,2017,2022
 8480083,C.J. Smith,"Carolina Hurricanes, Buffalo Sabres",2017,2022
 8480466,Joey Keane,Carolina Hurricanes,2021,2022
 8479581,Jack LaFontaine,Carolina Hurricanes,2022,2022
@@ -1152,7 +1331,6 @@ Player ID,Player Name,Teams,First Season,Last Season
 8479355,Olli Juolevi,"Florida Panthers, Detroit Red Wings, Vancouver Canucks",2020,2022
 8479553,Maxim Mamin,Florida Panthers,2018,2022
 8479597,Chase Priskie,Florida Panthers,2022,2022
-8481655,Cole Schwindt,Florida Panthers,2022,2022
 8474062,Riley Nash,"Tampa Bay Lightning, Winnipeg Jets, Arizona Coyotes, Toronto Maple Leafs, Columbus Blue Jackets, Boston Bruins, Carolina Hurricanes",2012,2022
 8476368,Fredrik Claesson,"Tampa Bay Lightning, San Jose Sharks, New Jersey Devils, New York Rangers, Ottawa Senators",2016,2022
 8477205,Andrej Sustr,"Tampa Bay Lightning, Anaheim Ducks",2013,2022
@@ -1162,11 +1340,9 @@ Player ID,Player Name,Teams,First Season,Last Season
 8481597,Hugo Alnefelt,Tampa Bay Lightning,2022,2022
 8474176,Carl Hagelin,"Washington Capitals, Pittsburgh Penguins, Los Angeles Kings, Anaheim Ducks, New York Rangers",2012,2022
 8475728,Johan Larsson,"Washington Capitals, Arizona Coyotes, Buffalo Sabres, Minnesota Wild",2013,2022
-8475958,Michael Sgarbossa,"Washington Capitals, Florida Panthers, Anaheim Ducks, Colorado Avalanche",2013,2022
 8479482,Michal Kempny,"Washington Capitals, Chicago Blackhawks",2017,2022
 8479516,Garrett Pilon,Washington Capitals,2021,2022
 8480087,Mike Vecchione,"Washington Capitals, Philadelphia Flyers",2017,2022
-8482148,Hendrix Lapierre,Washington Capitals,2022,2022
 8477457,Zach Fucale,Washington Capitals,2022,2022
 8475792,Brett Connolly,"Chicago Blackhawks, Florida Panthers, Washington Capitals, Boston Bruins, Tampa Bay Lightning",2012,2022
 8476545,Kurtis Gabriel,"Chicago Blackhawks, San Jose Sharks, New Jersey Devils, Minnesota Wild",2016,2022
@@ -1182,16 +1358,13 @@ Player ID,Player Name,Teams,First Season,Last Season
 8477240,Carter Rowney,"Detroit Red Wings, Anaheim Ducks, Pittsburgh Penguins",2017,2022
 8478477,Mitchell Stephens,"Detroit Red Wings, Tampa Bay Lightning",2020,2022
 8478486,Chase Pearson,Detroit Red Wings,2022,2022
-8475717,Calvin Pickard,"Detroit Red Wings, Philadelphia Flyers, Arizona Coyotes, Toronto Maple Leafs, Colorado Avalanche",2015,2022
 8476428,Rocco Grimaldi,"Nashville Predators, Colorado Avalanche, Florida Panthers",2015,2022
 8476807,Matt Tennyson,"Nashville Predators, New Jersey Devils, Buffalo Sabres, Carolina Hurricanes, San Jose Sharks",2013,2022
 8478949,Kole Sherwood,"Nashville Predators, Columbus Blue Jackets",2019,2022
 8471707,James Neal,"St. Louis Blues, Edmonton Oilers, Calgary Flames, Vegas Golden Knights, Nashville Predators, Pittsburgh Penguins, Dallas Stars",2009,2022
 8475098,Tyler Bozak,"St. Louis Blues, Toronto Maple Leafs",2010,2022
 8476285,Matthew Peca,"St. Louis Blues, Ottawa Senators, Montréal Canadiens, Tampa Bay Lightning",2017,2022
-8481059,Scott Perunovich,St. Louis Blues,2022,2022
 8470755,Brad Richardson,"Calgary Flames, Vancouver Canucks, Nashville Predators, Arizona Coyotes, Los Angeles Kings, Colorado Avalanche",2006,2022
-8478430,Oliver Kylington,Calgary Flames,2016,2022
 8476455,Gabriel Landeskog,Colorado Avalanche,2012,2022
 8476870,Stefan Matteau,"Colorado Avalanche, Columbus Blue Jackets, Vegas Golden Knights, New Jersey Devils, Montréal Canadiens",2013,2022
 8478106,Dylan Sikura,"Colorado Avalanche, Vegas Golden Knights, Chicago Blackhawks",2018,2022
@@ -1199,13 +1372,11 @@ Player ID,Player Name,Teams,First Season,Last Season
 8471729,Kris Russell,"Edmonton Oilers, Calgary Flames, Dallas Stars, St. Louis Blues, Columbus Blue Jackets",2008,2022
 8474068,Kyle Turris,"Edmonton Oilers, Nashville Predators, Ottawa Senators",2012,2022
 8474098,Colton Sceviour,"Edmonton Oilers, Pittsburgh Penguins, Florida Panthers, Dallas Stars",2011,2022
-8476495,Seth Griffith,"Edmonton Oilers, Buffalo Sabres, Toronto Maple Leafs, Florida Panthers, Boston Bruins",2015,2022
 8476886,Slater Koekkoek,"Edmonton Oilers, Chicago Blackhawks, Tampa Bay Lightning",2015,2022
 8477943,Brendan Perlini,"Edmonton Oilers, Chicago Blackhawks, Detroit Red Wings, Arizona Coyotes",2017,2022
 8478442,Cooper Marody,Edmonton Oilers,2019,2022
 8469608,Mike Smith,"Edmonton Oilers, Calgary Flames, Arizona Coyotes, Tampa Bay Lightning, Dallas Stars",2007,2022
 8475156,Mikko Koskinen,"Edmonton Oilers, New York Islanders",2011,2022
-8475413,Justin Dowling,"Vancouver Canucks, Dallas Stars",2017,2022
 8477473,Justin Bailey,"Vancouver Canucks, Philadelphia Flyers, Buffalo Sabres",2016,2022
 8477474,Madison Bowey,"Vancouver Canucks, Chicago Blackhawks, Detroit Red Wings, Washington Capitals",2018,2022
 8477996,Juho Lammikko,"Vancouver Canucks, Florida Panthers",2019,2022
@@ -1225,7 +1396,6 @@ Player ID,Player Name,Teams,First Season,Last Season
 8477290,Michael Raffl,"Dallas Stars, Philadelphia Flyers, Washington Capitals",2014,2022
 8478528,Tanner Kero,"Dallas Stars, Chicago Blackhawks",2016,2022
 8479587,Rhett Gardner,Dallas Stars,2020,2022
-8480988,Riley Damiani,Dallas Stars,2022,2022
 8474651,Braden Holtby,"Dallas Stars, Vancouver Canucks, Washington Capitals",2011,2022
 8470606,Dustin Brown,Los Angeles Kings,2004,2022
 8476391,T.J. Tynan,"Los Angeles Kings, Colorado Avalanche, Columbus Blue Jackets",2017,2022
@@ -1242,11 +1412,9 @@ Player ID,Player Name,Teams,First Season,Last Season
 8480847,Ryan Merkley,San Jose Sharks,2022,2022
 8481061,Jasper Weatherby,San Jose Sharks,2022,2022
 8481552,Artemi Kniazev,San Jose Sharks,2022,2022
-8481701,Santeri Hatakka,San Jose Sharks,2022,2022
 8479313,Zach Sawchenko,San Jose Sharks,2022,2022
 8476345,Gregory Hofmann,Columbus Blue Jackets,2022,2022
 8478567,Dean Kukan,Columbus Blue Jackets,2016,2022
-8480074,Alexandre Texier,Columbus Blue Jackets,2019,2022
 8475234,J-F Berube,"Columbus Blue Jackets, Chicago Blackhawks, New York Islanders",2016,2022
 8476415,Kyle Rau,"Minnesota Wild, Florida Panthers",2016,2022
 8476437,Victor Rask,"Minnesota Wild, Seattle Kraken, Carolina Hurricanes",2015,2022
@@ -1254,15 +1422,12 @@ Player ID,Player Name,Teams,First Season,Last Season
 8482070,Mitchell Chaffee,Minnesota Wild,2022,2022
 8478040,Austin Poganski,"Winnipeg Jets, St. Louis Blues",2020,2022
 8480005,Kristian Vesalainen,Winnipeg Jets,2019,2022
-8480990,Declan Chisholm,Winnipeg Jets,2022,2022
-8482408,Jeff Malott,Winnipeg Jets,2022,2022
 8470626,Loui Eriksson,"Arizona Coyotes, Vancouver Canucks, Boston Bruins, Dallas Stars",2007,2022
 8471217,Andrew Ladd,"Arizona Coyotes, New York Islanders, Chicago Blackhawks, Winnipeg Jets, Carolina Hurricanes",2006,2022
 8474291,Jay Beagle,"Arizona Coyotes, Vancouver Canucks, Washington Capitals",2009,2022
 8474849,Antoine Roussel,"Arizona Coyotes, Vancouver Canucks, Dallas Stars",2013,2022
 8476436,Dmitrij Jaskin,"Arizona Coyotes, Washington Capitals, St. Louis Blues",2013,2022
 8478480,Blake Speers,"Arizona Coyotes, New Jersey Devils",2017,2022
-8479341,Cam Dineen,Arizona Coyotes,2022,2022
 8481827,Ben McCartney,Arizona Coyotes,2022,2022
 8474667,Harri Sateri,"Arizona Coyotes, Florida Panthers",2018,2022
 8475622,Carter Hutton,"Arizona Coyotes, Buffalo Sabres, St. Louis Blues, Nashville Predators, Chicago Blackhawks",2013,2022
@@ -1273,10 +1438,6 @@ Player ID,Player Name,Teams,First Season,Last Season
 8481849,Zack Hayes,Vegas Golden Knights,2022,2022
 8475215,Robin Lehner,"Vegas Golden Knights, Chicago Blackhawks, New York Islanders, Buffalo Sabres, Ottawa Senators",2011,2022
 8475820,Joonas Donskoi,"Seattle Kraken, Colorado Avalanche, San Jose Sharks",2016,2022
-8476323,Max McCormick,"Seattle Kraken, Carolina Hurricanes, Ottawa Senators",2016,2022
-8479986,Kole Lind,"Seattle Kraken, Vancouver Canucks",2021,2022
-8480384,Alexander True,"Seattle Kraken, San Jose Sharks",2020,2022
-8476904,Chris Driedger,"Seattle Kraken, Florida Panthers, Ottawa Senators",2015,2022
 8471233,Travis Zajac,"New Jersey Devils, New York Islanders",2007,2021
 8475222,Sami Vatanen,"New Jersey Devils, Dallas Stars, Carolina Hurricanes, Anaheim Ducks",2013,2021
 8477038,Nikita Gusev,"New Jersey Devils, Florida Panthers",2020,2021
@@ -1294,7 +1455,6 @@ Player ID,Player Name,Teams,First Season,Last Season
 8477814,Kevin Czuczman,"Pittsburgh Penguins, New York Islanders",2014,2021
 8474000,Steven Kampfer,"Boston Bruins, New York Rangers, Florida Panthers, Minnesota Wild",2011,2021
 8476191,Kevan Miller,Boston Bruins,2014,2021
-8478888,Cameron Hughes,Boston Bruins,2020,2021
 8480944,Par Lindholm,"Boston Bruins, Toronto Maple Leafs, Winnipeg Jets",2019,2021
 8475869,Brandon Davidson,"Buffalo Sabres, Calgary Flames, San Jose Sharks, Chicago Blackhawks, New York Islanders, Montréal Canadiens, Edmonton Oilers",2015,2021
 8476356,Tobias Rieder,"Buffalo Sabres, Calgary Flames, Edmonton Oilers, Los Angeles Kings, Arizona Coyotes",2015,2021
@@ -1321,7 +1481,6 @@ Player ID,Player Name,Teams,First Season,Last Season
 8480186,Alexander Volkov,"Tampa Bay Lightning, Anaheim Ducks",2020,2021
 8470147,Curtis McElhinney,"Tampa Bay Lightning, Carolina Hurricanes, Toronto Maple Leafs, Columbus Blue Jackets, Ottawa Senators, Anaheim Ducks, Calgary Flames",2008,2021
 8476444,Christopher Gibson,"Tampa Bay Lightning, New York Islanders",2016,2021
-8477314,Brian Pinho,Washington Capitals,2020,2021
 8477544,Philippe Maillet,Washington Capitals,2021,2021
 8477901,Daniel Carr,"Washington Capitals, Nashville Predators, Vegas Golden Knights, Montréal Canadiens",2016,2021
 8471262,Carl Soderberg,"Chicago Blackhawks, Colorado Avalanche, Arizona Coyotes, Boston Bruins",2013,2021
@@ -1339,7 +1498,6 @@ Player ID,Player Name,Teams,First Season,Last Season
 8479288,Kasimir Kaskisuo,"Nashville Predators, Toronto Maple Leafs",2020,2021
 8474125,Carl Gunnarsson,"St. Louis Blues, Toronto Maple Leafs",2010,2021
 8477455,Jacob de la Rose,"St. Louis Blues, Detroit Red Wings, Montréal Canadiens",2015,2021
-8480761,Mitch Reinke,St. Louis Blues,2018,2021
 8474736,Zac Rinaldo,"Calgary Flames, Nashville Predators, Arizona Coyotes, Boston Bruins, Philadelphia Flyers",2011,2021
 8475807,Joakim Nordstrom,"Calgary Flames, Boston Bruins, Carolina Hurricanes, Chicago Blackhawks",2014,2021
 8476300,Nikita Nesterov,"Calgary Flames, Montréal Canadiens, Tampa Bay Lightning",2015,2021
@@ -1356,7 +1514,6 @@ Player ID,Player Name,Teams,First Season,Last Season
 8476344,Tyler Graovac,"Vancouver Canucks, Washington Capitals, Minnesota Wild",2015,2021
 8477937,Jake Virtanen,Vancouver Canucks,2016,2021
 8477963,Jayce Hawryluk,"Vancouver Canucks, Ottawa Senators, Florida Panthers",2019,2021
-8481479,Brogan Rafferty,Vancouver Canucks,2019,2021
 8482063,Marc Michaelis,Vancouver Canucks,2021,2021
 8470655,David Backes,"Anaheim Ducks, Boston Bruins, St. Louis Blues",2007,2021
 8476407,Andy Welinski,Anaheim Ducks,2018,2021
@@ -1468,7 +1625,6 @@ Player ID,Player Name,Teams,First Season,Last Season
 8477529,Colby Cave,"Edmonton Oilers, Boston Bruins",2018,2020
 8480940,Joel Persson,Edmonton Oilers,2020,2020
 8475907,Micheal Ferland,"Vancouver Canucks, Carolina Hurricanes, Calgary Flames",2015,2020
-8477085,Ashton Sautner,Vancouver Canucks,2018,2020
 8477213,Tim Schaller,"Vancouver Canucks, Los Angeles Kings, Boston Bruins, Buffalo Sabres",2015,2020
 8477958,Nikolay Goldobin,"Vancouver Canucks, San Jose Sharks",2016,2020
 8480147,Oscar Fantenberg,"Vancouver Canucks, Calgary Flames, Los Angeles Kings",2018,2020
@@ -1545,7 +1701,6 @@ Player ID,Player Name,Teams,First Season,Last Season
 8474152,Scott Darling,"Carolina Hurricanes, Chicago Blackhawks",2015,2019
 8468001,Derek MacKenzie,"Florida Panthers, Columbus Blue Jackets",2008,2019
 8473465,Jamie McGinn,"Florida Panthers, Arizona Coyotes, Buffalo Sabres, Anaheim Ducks, Colorado Avalanche, San Jose Sharks",2009,2019
-8475755,Alexander Petrovic,"Florida Panthers, Edmonton Oilers",2013,2019
 8477452,Ian McCoshen,Florida Panthers,2017,2019
 8480955,Bogdan Kiselevich,Florida Panthers,2019,2019
 8466141,Roberto Luongo,"Florida Panthers, Vancouver Canucks, New York Islanders",2000,2019
@@ -1599,7 +1754,6 @@ Player ID,Player Name,Teams,First Season,Last Season
 8471691,Martin Hanzal,"Dallas Stars, Minnesota Wild, Arizona Coyotes",2015,2019
 8473588,Erik Condra,"Dallas Stars, Tampa Bay Lightning, Ottawa Senators",2011,2019
 8477945,Julius Honka,Dallas Stars,2017,2019
-8479416,Ben Gleason,Dallas Stars,2019,2019
 8479016,Landon Bow,Dallas Stars,2019,2019
 8470602,Dion Phaneuf,"Los Angeles Kings, Ottawa Senators, Toronto Maple Leafs, Calgary Flames",2006,2019
 8477957,Nikita Scherbak,"Los Angeles Kings, Montréal Canadiens",2017,2019
@@ -1618,10 +1772,8 @@ Player ID,Player Name,Teams,First Season,Last Season
 8478031,Nelson Nogier,Winnipeg Jets,2017,2019
 8474131,Mario Kempe,Arizona Coyotes,2018,2019
 8476617,Tomas Hyka,Vegas Golden Knights,2018,2019
-8481486,Jimmy Schuldt,Vegas Golden Knights,2019,2019
 8474625,Jimmy Hayes,"New Jersey Devils, Boston Bruins, Florida Panthers, Chicago Blackhawks",2012,2018
 8475663,Eddie Lack,"New Jersey Devils, Calgary Flames, Carolina Hurricanes, Vancouver Canucks",2014,2018
-8478965,Kenneth Appleby,New Jersey Devils,2018,2018
 8466251,Jason Chimera,"New York Islanders, Anaheim Ducks, Washington Capitals, Columbus Blue Jackets, Edmonton Oilers",2001,2018
 8469619,Dennis Seidenberg,"New York Islanders, Boston Bruins, Florida Panthers, Carolina Hurricanes, Philadelphia Flyers",2003,2018
 8470609,Steve Bernier,"New York Islanders, New Jersey Devils, Florida Panthers, Vancouver Canucks, Buffalo Sabres, San Jose Sharks",2006,2018
