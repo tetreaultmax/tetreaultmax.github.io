@@ -1,0 +1,45 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .title {
+	margin-top: 0;
+	font-size: 1.5rem;
+	text-align: center;
+  }
+  
+  .mat-dialog-content {
+	margin-bottom: 20px;
+	font-size: 1.2rem;
+	text-align: center;
+  }
+  
+  .fermer {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	color: #fff;
+	background-color: #007bff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+  
+  .fermer:hover {
+	background-color: #0069d9;
+  }

@@ -1,0 +1,29 @@
+  
+  .title {
+	margin-top: 0;
+	font-size: 1.5rem;
+	text-align: center;
+  }
+  
+  .mat-dialog-content {
+	margin-bottom: 20px;
+	font-size: 1.2rem;
+	text-align: center;
+  }
+  
+  .fermer {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	color: #fff;
+	background-color: #007bff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+  
+  .fermer:hover {
+	background-color: #0069d9;
+  }

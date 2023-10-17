@@ -1,0 +1,62 @@
+<mat-toolbar color="primary">
+	<button mat-icon-button (click)="goLanding()">
+		<mat-icon>home</mat-icon>
+	  </button>
+	<button mat-icon-button (click)="openDialogHelp()">
+		<mat-icon>help</mat-icon>
+	</button>
+	<button mat-icon-button (click)="openDialogClue()">
+		<mat-icon>lock_open</mat-icon>
+	  </button>
+	<button mat-icon-button (click)="restartGame()">
+	  <mat-icon>autorenew</mat-icon>
+	</button>
+	<button mat-icon-button (click)="openDivision()">
+		Divisions
+	</button>
+</mat-toolbar>
+<div class="container">
+	<br>
+	<h1>Devinez le joueur de hockey</h1>
+	<div class="game">
+	  <div class="guess">
+		<label for="playerGuess">Entrez le nom complet du joueur:</label>
+		<input type="text" id="playerGuess" name="playerGuess" #guessInput (keyup.enter)="updateTable();clearInput(guessInput)" list="players-list">
+		<datalist id="players-list">
+		  <option *ngFor="let player of allNames" value="{{ player }}">
+		</datalist>
+		<img *ngIf="showImage" src="{{ this.tryGuess.url_image }}" >
+		<button (click)="updateTable();clearInput(guessInput)">Soumettre</button>
+	  </div>
+	</div>
+	<br>
+	<h2>Historique des réponses:</h2>
+	<table>
+	  <thead>
+		<tr>
+		  <th>Essai #</th>
+		  <th>Prénom</th>
+		  <th>Nom</th>
+		  <th>Équipe</th>
+		  <th>Division</th>
+		  <th>Position</th>
+		  <th>Âge</th>
+		  <th>Numéro</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr *ngFor="let guess of guesses">
+		  <td>{{ guess.num }}</td>
+		  <td [ngStyle]="{'background-color': chooseColorFirstName( guess.firstName)}">{{ guess.firstName }}</td>
+		  <td [ngStyle]="{'background-color': chooseColorLastName( guess.lastName)}">{{ guess.lastName }}</td>
+		  <td [ngStyle]="{'background-color': chooseColorTeam( guess.team)}">{{ guess.team }}</td>
+		  <td [ngStyle]="{'background-color': chooseColorDivision( guess.division)}">{{ guess.division }}</td>
+		  <td [ngStyle]="{'background-color': chooseColorPos( guess.position)}">{{ guess.position }}</td>
+		  <td [ngStyle]="{'background-color': chooseColorAge( guess.age)}">{{ guess.age }}</td>
+		  <td [ngStyle]="{'background-color': chooseColorNumber( guess.number)}">{{ guess.number }}</td>
+		</tr>
+	  </tbody>
+	  
+	</table>
+  </div>
+  

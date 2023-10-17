@@ -1,0 +1,41 @@
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+	
+th,td {
+	border: 1px solid #ccc;
+	padding: 8px;
+	text-align: center;
+	background-color: #697987;
+}
+	
+.mat-toolbar {
+	height: auto;
+}
+	
+.spacer {
+	flex: 1;
+}
+	
+.non-clickable {
+	pointer-events: none; /* Disable click events */
+}
+	
+.cell-hover:hover {
+	background-color: #ababab;
+	cursor: pointer;
+}
+
+.hockey-game {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/rink.jpg'); /* Set the path to your background image */
+    background-size: cover; /* Scale the background image to cover the entire viewport */
+    background-position: center; /* Center the background image */
+    font-family: Arial, sans-serif;
+    color: #fff; /* Set text color to white for better readability on the background */
+}
+	

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/rink.jpg'); /* Set the path to your background image */
+    background-size: cover; /* Scale the background image to cover the entire viewport */
+    background-position: center; /* Center the background image */
+    font-family: Arial, sans-serif;
+    color: #fff; /* Set text color to white for better readability on the background */
+}
+
+.center-container {
+    text-align: center;
+}
+
+.center-content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    margin: 10px;
+}

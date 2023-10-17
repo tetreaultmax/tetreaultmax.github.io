@@ -20,6 +20,14 @@ import { MenuDialogComponent } from './menu-dialog/menu-dialog.component';
 import { WinDialogComponent } from './win-dialog/win-dialog.component';
 import { TicDialogComponent } from './tic-dialog/tic-dialog.component';
 import { TeamDialogComponent } from './team-dialog/team-dialog.component';
+import { AppRoutingModule } from './app-routing.module';
+import { WordleComponent } from './wordle/wordle.component';
+import { PuckdokuComponent } from './puckdoku/puckdoku.component';
+import { LandingComponent } from './landing/landing.component';
+import { MatCardModule } from '@angular/material/card';
+import { ClueComponent } from './clue/clue.component';
+import { DivisionComponent } from './division/division.component';
+import { HelpDialogComponent } from './help-dialog/help-dialog.component';
 
 
 @NgModule({
@@ -29,7 +37,13 @@ import { TeamDialogComponent } from './team-dialog/team-dialog.component';
     MenuDialogComponent,
     WinDialogComponent,
     TicDialogComponent,
-    TeamDialogComponent
+    TeamDialogComponent,
+    WordleComponent,
+    PuckdokuComponent,
+    LandingComponent,
+    ClueComponent,
+    DivisionComponent,
+    HelpDialogComponent
   ],
   imports: [
     BrowserModule, 
@@ -45,7 +59,9 @@ import { TeamDialogComponent } from './team-dialog/team-dialog.component';
 	MatDialogModule,
 	MatInputModule,
 	MatListModule,
-	MatTabsModule
+	MatTabsModule,
+	MatCardModule,
+ 	AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
