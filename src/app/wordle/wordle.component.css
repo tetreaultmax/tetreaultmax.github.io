@@ -1,12 +1,29 @@
-.container {
-	text-align: center;
+
+
+  body {
 	background-image: url("../../assets/rink.jpg");
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	height: 100vh;
   }
   
-  h1, h2 {
-	font-size: 3rem;
+
+  .table-without-background {
+    background: none;
+	margin-top: 3rem;
+	border-collapse: collapse;
+	margin: auto;
+	width: 80%;
+}
+  
+  h1 {
+	font-family: 'Arial', sans-serif; font-size: 36px; margin-bottom: 10px; color: #000000;
+  }
+  h2{
+	font-family: 'Arial', sans-serif; font-size: 24px; font-weight: normal; color: #000000;
   }
   
   .game {
@@ -43,12 +60,6 @@
 	cursor: pointer;
   }
   
-  table {
-	margin-top: 3rem;
-	border-collapse: collapse;
-	margin: auto;
-	width: 100%;
-  }
   
   th, td {
 	padding: 0.5rem;

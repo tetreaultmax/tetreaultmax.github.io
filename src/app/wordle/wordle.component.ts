@@ -47,6 +47,7 @@ export class WordleComponent {
 	allInfo: string[][];
 	showImage: boolean = false;
 	allNames : string[];
+	foundIt: boolean = false;
 	constructor(private http: HttpClient, public dialog: MatDialog, private router: Router){
 	  this.tryGuess = {
 		  firstName: "",
@@ -56,7 +57,7 @@ export class WordleComponent {
 		  position: "",
 		  age: "",
 		  number: '',
-		  url_image : "http://nhl.bamcontent.com/images/headshots/current/168x168/"
+		  url_image : "https://cms.nhl.bamgrid.com/images/headshots/current/168x168/"
 	  };
 	  this.currentGuess = {
 		  num: 0,
@@ -92,7 +93,8 @@ export class WordleComponent {
 	checkAnswer(){
 		if (this.currentGuess.firstName == this.tryGuess.firstName && this.currentGuess.lastName == this.tryGuess.lastName){
 			this.showImage = true;
-			alert("You got it right! The player is " + this.tryGuess.firstName + " " + this.tryGuess.lastName + "!");
+			this.foundIt = true;
+			this.openDialogClue();
 		}
 	  }
   
@@ -112,11 +114,24 @@ export class WordleComponent {
 	  updateTable() {
 		const playerGuess = (<HTMLInputElement>document.getElementById('playerGuess')).value;
 		this.clearGuess();
+		const arrayNames = playerGuess.split(' ');
+		const first = arrayNames[0];
+		let last = "";
+		if (arrayNames.length > 2){
+			for(let i = 1; i < arrayNames.length; i++){
+				last += arrayNames[i] + " ";
+			}
+			// Strip the last space
+			last = last.substring(0,last.length - 1);
+		}
+		else{
+			last= arrayNames[1];
+		}
 		for(let info of this.allInfo){
-			if (info[1] == playerGuess.split(' ')[1] && info[0] == playerGuess.split(' ')[0]){
-				this.currentGuess.num = this.numGuess++;
-				this.currentGuess.firstName = playerGuess.split(' ')[0];
-				this.currentGuess.lastName = playerGuess.split(' ')[1];
+			if (info[0] == first && info[1] == last){
+				this.currentGuess.firstName = first;
+				this.currentGuess.lastName = last;
+				this.currentGuess.num = this.numGuess++;;
 				this.currentGuess.age = info[5];
 				this.currentGuess.number = info[4];
 				this.currentGuess.position = info[2];
@@ -139,7 +154,8 @@ export class WordleComponent {
 		this.guesses = [];
 		this.numGuess = 1;
 		this.showImage = false;
-		this.tryGuess.url_image = "http://nhl.bamcontent.com/images/headshots/current/168x168/";
+		this.foundIt = false;
+		this.tryGuess.url_image = "https://cms.nhl.bamgrid.com/images/headshots/current/168x168/";
 		this.randomPlayerInfo(this.allData);
 	  }
 	
@@ -173,8 +189,7 @@ export class WordleComponent {
 		this.tryGuess.number = row[4];
 		this.tryGuess.age = row[5];
 		this.tryGuess.division = this.checkDiv(row[3]);
-		this.tryGuess.url_image = this.tryGuess.url_image + row[6] + ".jpg"
-		console.log(this.tryGuess);
+		this.tryGuess.url_image = this.tryGuess.url_image + row[6] + "@2x.jpg"
 		}
 	
 		chooseColorPos(position: string){
@@ -185,13 +200,15 @@ export class WordleComponent {
 			else if((position == "RW" || position == "LW" || position == "C") && (rightPosition == "RW" || rightPosition == "LW" || rightPosition == "C")){
 				return "#FFF633";
 			}
-			else if((position == "D") && (rightPosition == "RW" || rightPosition == "LW" || rightPosition == "C" || rightPosition == "G")){
+			// else if((position == "D") && (rightPosition == "RW" || rightPosition == "LW" || rightPosition == "C" || rightPosition == "G")){
+			// 	return "#F70404";
+			// }
+			// else if((position == "G") && (rightPosition == "RW" || rightPosition == "LW" || rightPosition == "C" || rightPosition == "D")){
+			// 	return "#F70404";
+			// }
+			else{
 				return "#F70404";
 			}
-			else if((position == "G") && (rightPosition == "RW" || rightPosition == "LW" || rightPosition == "C" || rightPosition == "D")){
-				return "#F70404";
-			}
-			return "";
 		}
 	
 		chooseColorAge(age: string){
@@ -275,7 +292,7 @@ export class WordleComponent {
 		}
 		openDialogClue(): void {
 		  const dialogRef = this.dialog.open(ClueComponent, {
-			data : {name: this.tryGuess.firstName + " " + this.tryGuess.lastName},
+			data : {name: this.tryGuess.firstName + " " + this.tryGuess.lastName, url_image : this.tryGuess.url_image},
 			width: '400px', // You can customize the width
 			disableClose: false, // Prevents closing the dialog by clicking outside or pressing ESC
 		  });

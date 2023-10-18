@@ -1,7 +1,10 @@
 <mat-dialog-content>
 	<h1 class="title" mat-dialog-title>Réponse</h1>
-    <div mat-dialog-content>
-        Le joueur est : {{data.name}}
+    <div class="name">
+        {{data.name}}
+    </div>
+	<div class="image-container">
+        <img class="guess" src="{{ data.url_image }}">
     </div>
     <div mat-dialog-actions>
         <button class="fermer" mat-dialog-close>

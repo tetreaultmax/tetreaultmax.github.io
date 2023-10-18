@@ -27,8 +27,8 @@ th,td {
 	cursor: pointer;
 }
 
-.hockey-game {
-    margin: 0;
+body{
+	margin: 0;
     justify-content: center;
     align-items: center;
     height: 100vh;
