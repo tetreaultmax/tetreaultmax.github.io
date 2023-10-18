@@ -1,0 +1,30 @@
+/* table.component.css */
+
+/* Center the toolbar content horizontally and give it some spacing */
+.app-toolbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 16px;
+  }
+  
+  /* Center the content in the container */
+  .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+  }
+  
+  /* Style the content container within the container */
+  .content-container {
+	text-align: center;
+	padding: 20px;
+  }
+  
+  /* Style the table container */
+  mat-table {
+	width: 100%;
+	max-width: 800px; /* Set the maximum width as per your design */
+	margin: 0 auto; /* Center the table within the content container */
+  }
+  

@@ -14,6 +14,9 @@ import { MatListModule } from '@angular/material/list';
 import {MatDialogModule} from '@angular/material/dialog';
 import { MatInputModule } from '@angular/material/input';
 import { MatTabsModule } from '@angular/material/tabs'; // Import MatTabsModule
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { MatTableModule} from '@angular/material/table';
 
 import { PlayerDialogComponent } from './player-dialog/player-dialog.component';
 import { MenuDialogComponent } from './menu-dialog/menu-dialog.component';
@@ -28,6 +31,7 @@ import { MatCardModule } from '@angular/material/card';
 import { ClueComponent } from './clue/clue.component';
 import { DivisionComponent } from './division/division.component';
 import { HelpDialogComponent } from './help-dialog/help-dialog.component';
+import { StatComponent } from './stat/stat.component';
 
 
 @NgModule({
@@ -43,7 +47,8 @@ import { HelpDialogComponent } from './help-dialog/help-dialog.component';
     LandingComponent,
     ClueComponent,
     DivisionComponent,
-    HelpDialogComponent
+    HelpDialogComponent,
+    StatComponent
   ],
   imports: [
     BrowserModule, 
@@ -61,6 +66,9 @@ import { HelpDialogComponent } from './help-dialog/help-dialog.component';
 	MatListModule,
 	MatTabsModule,
 	MatCardModule,
+	MatPaginatorModule,
+    MatSortModule,
+	MatTableModule,
  	AppRoutingModule
   ],
   providers: [],
