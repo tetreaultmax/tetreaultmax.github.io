@@ -33,6 +33,7 @@ body {
   /* Style the table container */
   mat-table {
 	opacity: 80%;
+	overflow-x: auto;
   }
 
   /* Apply this CSS for the table */
