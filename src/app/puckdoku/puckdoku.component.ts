@@ -281,6 +281,16 @@ export class PuckdokuComponent {
 	this.updateGridSize();
 	this.randomCol = ["interr", "interr", "interr"];
 	this.randomRow = ["interr", "interr", "interr"];
+	if (this.selectedSize == '4x4'){
+		this.randomCol.push("interr");
+		this.randomRow.push("interr");
+	}
+	else if (this.selectedSize == '5x5'){
+		this.randomCol.push("interr");
+		this.randomRow.push("interr");
+		this.randomCol.push("interr");
+		this.randomRow.push("interr");
+	}
 	this.chooseMode = true;
 	this.blockedGame = true;
 	this.nbSelectedTeams = 0;

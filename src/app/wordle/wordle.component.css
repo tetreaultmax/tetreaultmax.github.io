@@ -67,50 +67,24 @@
 	border-bottom: 1px solid #ddd;
   }
   
-  th {
+  /* Optional: Make table headers sticky if desired */
+th {
+	position: sticky;
+	top: 0;
 	background-color: #f2f2f2;
   }
 
-  .reset button{
-	padding: 0.5rem 1rem;
-	font-size: 1.2rem;
-	background-color: #578ac1;
-	color: #fff;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
+  /* Apply this CSS for the table */
+.table-responsive {
+	width: 100%;
+	overflow-x: auto;
+  }
+  
+  /* Add a max-width to prevent the table from stretching too wide on large screens */
+  table {
+	max-width: 100%;
   }
   /* Style des lignes impaires de la table */
 	table tbody tr:nth-child(odd) {
 	background-color: #f9f9f9;
-  }
-  table tbody tr:nth-child(even) {
-	background-color: #b9b8b8;
-  }
-  nav {
-	background-color: #333;
-	height: 50px;
-  }
-  
-  ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-  }
-  
-  li {
-	float: left;
-  }
-  
-  li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	cursor: pointer;
-  }
-  
-  li a:hover {
-	background-color: #111;
   }

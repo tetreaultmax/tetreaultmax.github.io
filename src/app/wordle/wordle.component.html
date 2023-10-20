@@ -41,33 +41,36 @@
 		  </div>
 		</div>
 		<br>
-		<table class="table-without-background">
-		  <thead>
-			<tr>
-			  <th>Try #</th>
-			  <th>First Name</th>
-			  <th>Last Name</th>
-			  <th>Team</th>
-			  <th>Division</th>
-			  <th>Position</th>
-			  <th>Age</th>
-			  <th>Number</th>
-			</tr>
-		  </thead>
-		  <tbody>
-			<tr *ngFor="let guess of guesses">
-			  <td>{{ guess.num }}</td>
-			  <td [ngStyle]="{'background-color': chooseColorFirstName( guess.firstName)}">{{ guess.firstName }}</td>
-			  <td [ngStyle]="{'background-color': chooseColorLastName( guess.lastName)}">{{ guess.lastName }}</td>
-			  <td [ngStyle]="{'background-color': chooseColorTeam( guess.team)}">{{ guess.team }}</td>
-			  <td [ngStyle]="{'background-color': chooseColorDivision( guess.division)}">{{ guess.division }}</td>
-			  <td [ngStyle]="{'background-color': chooseColorPos( guess.position)}">{{ guess.position }}</td>
-			  <td [ngStyle]="{'background-color': chooseColorAge( guess.age)}">{{ guess.age }}</td>
-			  <td [ngStyle]="{'background-color': chooseColorNumber( guess.number)}">{{ guess.number }}</td>
-			</tr>
-		  </tbody>
-		  
-		</table>
+		<div class="table-responsive">
+			<table class="table-without-background">
+				<thead>
+				  <tr>
+					<th>Try #</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Team</th>
+					<th>Division</th>
+					<th>Position</th>
+					<th>Age</th>
+					<th>Number</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr *ngFor="let guess of guesses">
+					<td>{{ guess.num }}</td>
+					<td [ngStyle]="{'background-color': chooseColorFirstName( guess.firstName)}">{{ guess.firstName }}</td>
+					<td [ngStyle]="{'background-color': chooseColorLastName( guess.lastName)}">{{ guess.lastName }}</td>
+					<td [ngStyle]="{'background-color': chooseColorTeam( guess.team)}">{{ guess.team }}</td>
+					<td [ngStyle]="{'background-color': chooseColorDivision( guess.division)}">{{ guess.division }}</td>
+					<td [ngStyle]="{'background-color': chooseColorPos( guess.position)}">{{ guess.position }}</td>
+					<td [ngStyle]="{'background-color': chooseColorAge( guess.age)}">{{ guess.age }}</td>
+					<td [ngStyle]="{'background-color': chooseColorNumber( guess.number)}">{{ guess.number }}</td>
+				  </tr>
+				</tbody>
+				
+			  </table>
+		</div>
+		
 	  </div>
 	  
 </body>
