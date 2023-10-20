@@ -1,4 +1,13 @@
 /* table.component.css */
+body {
+	background-image: url("../../assets/rink.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	height: auto;
+  }
 /* Style the toolbar container */
 .toolbar-container {
 	overflow-x: auto; /* Horizontal scroll when necessary */
@@ -27,7 +36,9 @@
   
   /* Style the table container */
   mat-table {
-	max-width: 100%; /* Set the maximum width as per your design */
+	width: auto;
+	max-width: auto; /* Set the maximum width as per your design */
+	opacity: 80%;
   }
 
   /* Apply this CSS for the table */
