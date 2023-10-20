@@ -11,13 +11,10 @@ body {
 /* Style the toolbar container */
 .toolbar-container {
 	overflow-x: auto; /* Horizontal scroll when necessary */
-	white-space: nowrap; /* Prevent wrapping of toolbar content */
   }
 /* Center the toolbar content horizontally and give it some spacing */
 .app-toolbar {
-	display: flex;
 	justify-content: space-between;
-	padding: 0 16px;
   }
   
   /* Center the content in the container */
@@ -31,13 +28,10 @@ body {
   /* Style the content container within the container */
   .content-container {
 	text-align: center;
-	padding: 20px;
   }
   
   /* Style the table container */
   mat-table {
-	width: auto;
-	max-width: auto; /* Set the maximum width as per your design */
 	opacity: 80%;
   }
 
