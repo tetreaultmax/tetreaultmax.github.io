@@ -1,5 +1,3 @@
-/* table.component.css */
-
 /* Center the toolbar content horizontally and give it some spacing */
 .app-toolbar {
 	display: flex;
@@ -26,5 +24,17 @@
 	width: 100%;
 	max-width: 800px; /* Set the maximum width as per your design */
 	margin: 0 auto; /* Center the table within the content container */
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 600px) {
+	.app-toolbar {
+	  flex-direction: column;
+	  align-items: center;
+	}
+  
+	mat-table {
+	  max-width: 100%;
+	}
   }
   
