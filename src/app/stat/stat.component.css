@@ -1,3 +1,9 @@
+/* table.component.css */
+/* Style the toolbar container */
+.toolbar-container {
+	overflow-x: auto; /* Horizontal scroll when necessary */
+	white-space: nowrap; /* Prevent wrapping of toolbar content */
+  }
 /* Center the toolbar content horizontally and give it some spacing */
 .app-toolbar {
 	display: flex;
@@ -21,20 +27,11 @@
   
   /* Style the table container */
   mat-table {
+	max-width: 100%; /* Set the maximum width as per your design */
+  }
+
+  /* Apply this CSS for the table */
+.table-responsive {
 	width: 100%;
-	max-width: 800px; /* Set the maximum width as per your design */
-	margin: 0 auto; /* Center the table within the content container */
+	overflow-x: auto;
   }
-  
-  /* Responsive adjustments for smaller screens */
-  @media (max-width: 600px) {
-	.app-toolbar {
-	  flex-direction: column;
-	  align-items: center;
-	}
-  
-	mat-table {
-	  max-width: 100%;
-	}
-  }
-  
