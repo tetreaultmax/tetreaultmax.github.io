@@ -1,0 +1,16 @@
+<body>
+    <mat-toolbar color="primary">
+        <button mat-icon-button (click)="goLanding()">
+            <mat-icon>home</mat-icon>
+        </button>
+    </mat-toolbar>
+    <div class="center-container">
+        <mat-card class="center-content">
+            <div class="grid-container">
+                <div *ngFor="let team of all_nhl_teams" class="team-logo-container">
+                    <img src="assets/{{team}}.png" (click)="onLogoClick(team)" style="cursor: pointer; width: 100px; height: auto;" alt="{{team}} logo">
+                </div>
+            </div>
+        </mat-card>
+    </div>
+</body>

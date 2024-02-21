@@ -3,13 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { WordleComponent } from './wordle/wordle.component';
 import { PuckdokuComponent } from './puckdoku/puckdoku.component';
 import { LandingComponent } from './landing/landing.component';
-import { StatComponent } from './stat/stat.component';
+import { HistoryComponent } from './history/history.component';
+import { TeamDetailComponent } from './TeamDetail/TeamDetail.component';
 
 const routes: Routes = [
 	{ path: '', component: LandingComponent },
 	{ path: 'puckdoku', component: PuckdokuComponent },
 	{ path: 'wordle', component: WordleComponent },
-	{ path: 'stats', component: StatComponent },
+	{ path: 'history', component : HistoryComponent},
+	{ path: 'team/:id', component: TeamDetailComponent }
   ];
 
 @NgModule({

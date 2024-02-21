@@ -31,11 +31,12 @@ import { MatCardModule } from '@angular/material/card';
 import { ClueComponent } from './clue/clue.component';
 import { DivisionComponent } from './division/division.component';
 import { HelpDialogComponent } from './help-dialog/help-dialog.component';
-import { StatComponent } from './stat/stat.component';
+import { HistoryComponent } from './history/history.component';
+import { TeamDetailComponent } from './TeamDetail/TeamDetail.component';
 
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     PlayerDialogComponent,
     MenuDialogComponent,
@@ -48,8 +49,9 @@ import { StatComponent } from './stat/stat.component';
     ClueComponent,
     DivisionComponent,
     HelpDialogComponent,
-    StatComponent
-  ],
+    HistoryComponent,
+      TeamDetailComponent
+   ],
   imports: [
     BrowserModule, 
 	FormsModule,  
