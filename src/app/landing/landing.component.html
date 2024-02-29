@@ -1,10 +1,21 @@
 <body>
+	<mat-toolbar color="primary">
+		<button mat-icon-button>
+			<mat-icon>help</mat-icon>
+		</button>
+	</mat-toolbar>
     <div class="center-container">
-        <mat-card class="center-content">
-            <h1>NHL Games</h1>
-			<button mat-raised-button color="primary" routerLink="/puckdoku">NHL Crossover Grid</button>
-            <button mat-raised-button color="primary" routerLink="/wordle">NHL Wordle</button>
-			<button mat-raised-button color="primary" routerLink="/history">Draft History</button>
-        </mat-card>
+		<div class="center-content">
+            <h1>Games</h1>
+			<button class="button" routerLink="/puckdoku" color="primary">
+				<span class="button-content">NHL Crossover Grid</span>
+			</button>
+			<button class="button" routerLink="/wordle" color="primary">
+				<span class="button-content">NHL Wordle</span>
+			</button>
+			<button class="button" routerLink="/history" color="primary">
+				<span class="button-content">Draft History</span>
+			</button>
+        </div>         
     </div>
 </body>

@@ -8,8 +8,12 @@
 	background-attachment: fixed;
 	text-align: center;
 	height: 100vh;
+	margin: 0;
   }
-  
+  .mat-toolbar {
+	height: auto;
+	position: fixed;
+}
 
   .table-without-background {
     background: none;
@@ -29,7 +33,6 @@
   .game {
 	display: flex;
 	justify-content: center;
-	margin-top: 3rem;
   }
   
   .guess {
