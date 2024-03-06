@@ -75,7 +75,8 @@ export class PuckdokuComponent {
   currentPlayer = 'Blue';
   blockedGame: boolean = false;
   nbSelectedTeams: number = 0;
-  url_image = "https://cms.nhl.bamgrid.com/images/headshots/current/168x168/"
+  // Season,teams,playerid
+  url_image = "https://assets.nhle.com/mugs/nhl/"
   
 
   constructor(private router: Router, private dialog: MatDialog, private menuDialog: MatDialog, private winDialog: MatDialog, private ticDialog: MatDialog, private teamDialog: MatDialog) {
@@ -183,10 +184,13 @@ export class PuckdokuComponent {
 	const team2 = this.randomRow[row - 1];
 	const arrayTeam = this.findGuess["Teams"].split(", ");
 	const playerId = this.findGuess["Player ID"];
+	const season = (this.findGuess["Last Season"] - 1).toString() + (this.findGuess["Last Season"]).toString();
 	const isConditionMet = arrayTeam.includes(this.dictNhlAbrv[team1]) && arrayTeam.includes(this.dictNhlAbrv[team2]);
-
+	const lastTeam = Object.keys(this.dictNhlAbrv).find(key => this.dictNhlAbrv[key] === arrayTeam[0])
 	if (isConditionMet) {
-		this.cellBackgrounds[row - 1][col - 1] = this.url_image + playerId + "@2x.jpg"; // Set the background color for the current cell
+		//season,team,playerid
+		this.cellBackgrounds[row - 1][col - 1] = this.url_image + season +"/" + lastTeam+"/" + playerId + ".png"; // Set the background color for the current cell
+		console.log(this.cellBackgrounds[row - 1][col - 1]);
 		this.cellColors[row - 1][col - 1] = 'green';
 		// if all cells are filled
 		if (this.cellColors.every((row) => row.every((cell) => cell === 'green'))) {
