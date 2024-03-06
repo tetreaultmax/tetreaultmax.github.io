@@ -33,6 +33,7 @@ import { DivisionComponent } from './division/division.component';
 import { HelpDialogComponent } from './help-dialog/help-dialog.component';
 import { HistoryComponent } from './history/history.component';
 import { TeamDetailComponent } from './TeamDetail/TeamDetail.component';
+import { LandingDialogComponent } from './landing-dialog/landing-dialog.component';
 
 
 @NgModule({
@@ -50,7 +51,8 @@ import { TeamDetailComponent } from './TeamDetail/TeamDetail.component';
     DivisionComponent,
     HelpDialogComponent,
     HistoryComponent,
-      TeamDetailComponent
+      TeamDetailComponent,
+      LandingDialogComponent
    ],
   imports: [
     BrowserModule, 

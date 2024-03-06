@@ -79,7 +79,7 @@ export class PuckdokuComponent {
   url_image = "https://assets.nhle.com/mugs/nhl/"
   
 
-  constructor(private router: Router, private dialog: MatDialog, private menuDialog: MatDialog, private winDialog: MatDialog, private ticDialog: MatDialog, private teamDialog: MatDialog) {
+  constructor(private router: Router, private dialog: MatDialog) {
     this.updateGridSize();
 	// read a json file
 	fetch('../assets/nhl_players.json')
@@ -307,7 +307,7 @@ export class PuckdokuComponent {
   }
 
   openTic(): void {
-    const dialogRef = this.menuDialog.open(TicDialogComponent, {
+    const dialogRef = this.dialog.open(TicDialogComponent, {
       width: '400px', // You can customize the width
       disableClose: true, // Prevents closing the dialog by clicking outside or pressing ESC
     });
@@ -317,14 +317,14 @@ export class PuckdokuComponent {
 	}
 
   openMenu(): void {
-    const dialogRef = this.menuDialog.open(MenuDialogComponent, {
+    const dialogRef = this.dialog.open(MenuDialogComponent, {
       width: '400px', // You can customize the width
       disableClose: false, // Prevents closing the dialog by clicking outside or pressing ESC
     });
   }
 
   openWin(): void {
-	const dialogRef = this.winDialog.open(WinDialogComponent, {
+	const dialogRef = this.dialog.open(WinDialogComponent, {
 	  width: '400px', // You can customize the width
 	  disableClose: true, // Prevents closing the dialog by clicking outside or pressing ESC
 	});

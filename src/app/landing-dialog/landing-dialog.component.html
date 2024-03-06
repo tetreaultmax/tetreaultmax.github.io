@@ -1,0 +1,41 @@
+<div class="dialog-container">
+	<div class="dialog-header">
+	  <h2>Help center</h2>
+	  <button mat-icon-button (click)="closeDialog()">
+		<mat-icon>close</mat-icon>
+	  </button>
+	</div>
+	<mat-tab-group>
+	  <mat-tab label="Tab 1">
+		<ng-template mat-tab-label>
+		  <mat-icon>info</mat-icon>
+		  Crossover
+		</ng-template>
+		<div class="tab-content">
+		  <p>The goal of the game is to find players that played for both of the teams that cross the selected cell.</p>
+		  <p>When you find all the players, you win! There is no guess limit!</p>
+		</div>
+	  </mat-tab>
+	  <mat-tab label="Tab 2">
+		<ng-template mat-tab-label>
+		  <mat-icon>info</mat-icon>
+		  Wordle
+		</ng-template>
+		<div class="tab-content">
+		  <p>The goal of the game is to guess the random player</p>
+		  <p>During the game, each time you guess a player, there will be clues to help</p>
+		</div>
+	  </mat-tab>
+	  <mat-tab label="Tab 3">
+		<ng-template mat-tab-label>
+		  <mat-icon>info</mat-icon>
+		  Analytics
+		</ng-template>
+		<div class="tab-content">
+		  <p>This section represents analytics for the current season</p>
+		  <p>There will be players ranking based on a model called MaxStat using AI and Data science</p>
+		</div>
+	  </mat-tab>
+	</mat-tab-group>
+  </div>
+  

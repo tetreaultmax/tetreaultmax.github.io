@@ -1,12 +1,12 @@
 <body>
 	<mat-toolbar color="primary">
-		<button mat-icon-button>
+		<button mat-icon-button (click)="openDialog()">
 			<mat-icon>help</mat-icon>
 		</button>
 	</mat-toolbar>
     <div class="center-container">
 		<div class="center-content">
-            <h1>Games</h1>
+            <h1>NHL Portfolio</h1>
 			<button class="button" routerLink="/puckdoku" color="primary">
 				<span class="button-content">NHL Crossover Grid</span>
 			</button>
@@ -14,7 +14,7 @@
 				<span class="button-content">NHL Wordle</span>
 			</button>
 			<button class="button" routerLink="/history" color="primary">
-				<span class="button-content">Draft History</span>
+				<span class="button-content">Analytics</span>
 			</button>
         </div>         
     </div>

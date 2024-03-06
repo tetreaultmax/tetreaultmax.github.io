@@ -57,7 +57,7 @@ export class WordleComponent {
 		  position: "",
 		  age: "",
 		  number: '',
-		  url_image : "https://cms.nhl.bamgrid.com/images/headshots/current/168x168/"
+		  url_image : "https://assets.nhle.com/mugs/nhl/"
 	  };
 	  this.currentGuess = {
 		  num: 0,
@@ -155,7 +155,7 @@ export class WordleComponent {
 		this.numGuess = 1;
 		this.showImage = false;
 		this.foundIt = false;
-		this.tryGuess.url_image = "https://cms.nhl.bamgrid.com/images/headshots/current/168x168/";
+		this.tryGuess.url_image = "https://assets.nhle.com/mugs/nhl/";
 		this.randomPlayerInfo(this.allData);
 	  }
 	
@@ -189,7 +189,7 @@ export class WordleComponent {
 		this.tryGuess.number = row[4];
 		this.tryGuess.age = row[5];
 		this.tryGuess.division = this.checkDiv(row[3]);
-		this.tryGuess.url_image = this.tryGuess.url_image + row[6] + "@2x.jpg"
+		this.tryGuess.url_image = this.tryGuess.url_image + "20232024/" + this.tryGuess.team + "/" + row[6] + ".png";
 		}
 	
 		chooseColorPos(position: string){

@@ -22,19 +22,17 @@ body{
 }
 
 .center-content {
-  padding: 20px; /* Add some padding */
   background-color: transparent; /* No white background */
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(8, 1fr); /* 4-column grid */
-  gap: 20px;
   justify-content: center;
 }
 
 .team-logo-container img {
-  width: 100px; /* Control size of logos */
+  width: auto; /* Control size of logos */
   height: auto;
   transition: transform 0.2s; /* Smooth transition for interaction */
 }
@@ -42,7 +40,4 @@ body{
 .team-logo-container img:hover {
   transform: scale(1.1); /* Slightly enlarge logos on hover */
 }
-
-  
-  
 	
