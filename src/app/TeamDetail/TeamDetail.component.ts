@@ -59,7 +59,6 @@ export class TeamDetailComponent implements OnInit {
 			ELEMENT_DATA.push({position: i, name: player.Player_Name, pos: player.Position, gp: player.Games_Played, g: player.Goals, a: player.Assists, p: player.Points});
 			i++;
 		});
-		// Sort the table by points and change position
 		ELEMENT_DATA.sort((a, b) => (a.p > b.p) ? -1 : 1);
 		this.updateRank();
 		this.dataSource = new MatTableDataSource(ELEMENT_DATA);
