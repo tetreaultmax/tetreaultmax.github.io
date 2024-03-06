@@ -7,4 +7,61 @@
             <mat-icon>home</mat-icon>
         </button>
     </mat-toolbar>
+	<div class="image">
+		<img src="../../assets/{{teamId}}.png" alt="team badge" style="width: 100px; height: 100px">
+	</div>
+	<table mat-table [dataSource]="dataSource" matSort
+		class="mat-elevation-z8">
+		<ng-container matColumnDef="position">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by number">
+			No.
+			</th>
+			<td mat-cell *matCellDef="let element"> {{element.position}} </td>
+		</ng-container>
+
+		<ng-container matColumnDef="name">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by name">
+			Name
+			</th>
+			<td mat-cell *matCellDef="let element"> {{element.name}} </td>
+		</ng-container>
+
+		<ng-container matColumnDef="pos">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by position">
+			Pos
+			</th>
+			<td mat-cell *matCellDef="let element"> {{element.pos}} </td>
+		</ng-container>
+
+		<ng-container matColumnDef="gp">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by games played">
+			GP
+			</th>
+			<td mat-cell *matCellDef="let element"> {{element.gp}} </td>
+		</ng-container>
+
+		<ng-container matColumnDef="g">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by goals">
+			G
+			</th>
+			<td mat-cell *matCellDef="let element"> {{element.g}} </td>
+		</ng-container>
+
+		<ng-container matColumnDef="a">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by assists">
+			A
+			</th>
+			<td mat-cell *matCellDef="let element"> {{element.a}} </td>
+		</ng-container>
+
+		<ng-container matColumnDef="p">
+			<th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by points">
+			P
+			</th>
+			<td mat-cell *matCellDef="let element"> {{element.p}} </td>
+		</ng-container>
+		
+		<tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+		<tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+	</table>
 </body>
