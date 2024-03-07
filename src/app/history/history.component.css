@@ -1,17 +1,18 @@
 .mat-toolbar {
 	height: auto;
 	position: fixed;
+	background-color: #333;
 }
 body{
 	margin: 0;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('../../assets/rink.jpg'); /* Set the path to your background image */
-    background-size: cover; /* Scale the background image to cover the entire viewport */
-    background-position: center; /* Center the background image */
+    background-color:rgb(112, 118, 124);
+    background-size: cover;
+    background-position: center;
     font-family: Arial, sans-serif;
-    color: #fff; /* Set text color to white for better readability on the background */
+    color: #fff;
 }
 
 .center-container {
@@ -22,22 +23,22 @@ body{
 }
 
 .center-content {
-  background-color: transparent; /* No white background */
+  background-color: transparent;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(8, 1fr); /* 4-column grid */
+  grid-template-columns: repeat(8, 1fr);
   justify-content: center;
 }
 
 .team-logo-container img {
-  width: auto; /* Control size of logos */
+  width: auto;
   height: auto;
-  transition: transform 0.2s; /* Smooth transition for interaction */
+  transition: transform 0.2s;
 }
 
 .team-logo-container img:hover {
-  transform: scale(1.1); /* Slightly enlarge logos on hover */
+  transform: scale(1.1);
 }
 	

@@ -23,44 +23,45 @@ def fetch_NHL_Stats(player_id):
 	data = response.json()
 	# print all key = season
 	all_seasons = []
-	all_team = []
+	all_team = ""
 	for item in data["seasonTotals"]:
 		if item["leagueAbbrev"] == "NHL":
 			all_seasons.append(item["season"])
 			currentTeam = item["teamName"]["default"]
 			if currentTeam != "Phoenix Coyotes":
 				if currentTeam not in all_team:
-					all_team.append(currentTeam)
+					all_team +=  currentTeam + ", "
 	return {
-		"id": player_id,
-		"name": data["firstName"]["default"] + " " + data["lastName"]["default"],
-		"team": all_team,
-		"first_season": str(all_seasons[0])[4:],
-		"last_season": str(all_seasons[-1])[4:],
+		"Player ID": int(player_id),
+		"Player Name": data["firstName"]["default"] + " " + data["lastName"]["default"],
+		"Teams": all_team[:-2],
+		"First Season": int(str(all_seasons[0])[4:]),
+		"Last Season": int(str(all_seasons[-1])[4:]),
 	}
 
 def get_all_NHL_Stats(seasons):
 	all_stats = []
 	ids_done = []
+	i = 0
 	for season in seasons:
 		for team in all_nhl_teams:
 			team_roster = fetch_NHL_Data(team, season)
 			for player in team_roster:
+				if i ==3:
+					with open("test.json", "w") as outfile: 
+						json.dump(all_stats, outfile)
+					return
 				# check if playerid is not in the dictionary
 				if player in ids_done:
 					continue
 				player_stats = fetch_NHL_Stats(str(player))
 				ids_done.append(player)
 				if player_stats is not None:	
-					print(player_stats["name"])
+					print(player_stats["Player Name"])
 					all_stats.append(player_stats)
-	with open("test.json", "w") as outfile: 
+				i +=1
+	with open("nhl_players.json", "w") as outfile: 
 		json.dump(all_stats, outfile)
 
 
-
-# Fetch player IDs
-seasons = ["20232024"]
-
-for season in seasons:
-	get_all_NHL_Stats(seasons)
+# TODO: Update json file without loading all seasons

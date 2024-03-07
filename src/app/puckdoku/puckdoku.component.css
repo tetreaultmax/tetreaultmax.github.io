@@ -12,6 +12,7 @@ th,td {
 	
 .mat-toolbar {
 	height: auto;
+	background-color: #333;
 }
 	
 .spacer {
@@ -32,10 +33,10 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('../../assets/rink.jpg'); /* Set the path to your background image */
-    background-size: cover; /* Scale the background image to cover the entire viewport */
-    background-position: center; /* Center the background image */
+    background-color:rgb(112, 118, 124);
+    background-size: cover;
+    background-position: center; 
     font-family: Arial, sans-serif;
-    color: #fff; /* Set text color to white for better readability on the background */
+    color: #fff;
 }
 	

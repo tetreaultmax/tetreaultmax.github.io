@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('../../assets/rink.jpg'); /* Set the path to your background image */
+    background-color:rgb(112, 118, 124);
     background-size: cover; /* Scale the background image to cover the entire viewport */
     background-position: center; /* Center the background image */
     font-family: Arial, sans-serif;
@@ -13,6 +13,7 @@ body{
 .mat-toolbar {
 	height: auto;
 	position: fixed;
+	background-color: #333;
 }
 .center-container {
     display: flex;

@@ -6,6 +6,7 @@ import {MatSort, Sort, MatSortModule} from '@angular/material/sort';
 import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 
 export interface Player {
+	player_id: number;
 	position: number;
 	name: string;
 	pos: string;
@@ -56,7 +57,7 @@ export class TeamDetailComponent implements OnInit {
 		this.roster = data.filter((player: any) => player.Team == this.teamId);
 		let i = 1
 		this.roster.forEach((player: any) => {
-			ELEMENT_DATA.push({position: i, name: player.Player_Name, pos: player.Position, gp: player.Games_Played, g: player.Goals, a: player.Assists, p: player.Points});
+			ELEMENT_DATA.push({player_id:player.Player_ID,position: i, name: player.Player_Name, pos: player.Position, gp: player.Games_Played, g: player.Goals, a: player.Assists, p: player.Points});
 			i++;
 		});
 		ELEMENT_DATA.sort((a, b) => (a.p > b.p) ? -1 : 1);
