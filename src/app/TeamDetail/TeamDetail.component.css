@@ -8,7 +8,7 @@ body{
     align-items: center;
     height: 100vh;
 	width: 100%;
-    background-image: url('../../assets/rink.jpg');
+    background-color: #959a9e;
     background-size: cover; 
     background-position: center; 
     font-family: Arial, sans-serif;
