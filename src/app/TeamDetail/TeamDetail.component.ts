@@ -24,46 +24,47 @@ let ELEMENT_DATA: Player[] = [];
   styleUrls: ['./TeamDetail.component.css'],
 })
 
-export class TeamDetailComponent implements OnInit {
+export class TeamDetailComponent implements OnInit, AfterViewInit {
 	teamId: string = "";
 	displayedColumns: string[] = ['position', 'name', 'pos', 'gp', 'g', 'a', 'p'];
 	dataSource = new MatTableDataSource(ELEMENT_DATA);
+	@ViewChild(MatSort, {static: true}) sort!: MatSort;
+
 	constructor(private route: ActivatedRoute,private router: Router) { }
 	roster: any;
+
+	ngOnInit() {
+		this.teamId = this.route.snapshot.paramMap.get('id')!;
+		fetch('../../assets/nhl_stats.json').then(response => response.json())
+		  .then(data => {
+			this.roster = data.filter((player: any) => player.Team == this.teamId);
+			let processedData: Player[] = this.roster.map((player: any, index: number) => ({
+			  player_id: player.Player_ID,
+			  position: index + 1,
+			  name: player.Player_Name,
+			  pos: player.Position,
+			  gp: player.Games_Played,
+			  g: player.Goals,
+			  a: player.Assists,
+			  p: player.Points
+			}));
+			
+			// Now sort this processed data if necessary before setting it
+			processedData.sort((a, b) => (a.p > b.p) ? -1 : 1);
+	  
+			// Directly update the dataSource's data property
+			this.dataSource.data = processedData;
+		  });
+	  }
+	  
+	ngAfterViewInit() {
+		this.dataSource.sort = this.sort;
+	  }
 
 	goBack(){
 		this.router.navigate(['/history']);
 	}
 	goLanding(){
 		this.router.navigate(['/']);
-	}
-
-	updateRank(){
-		for (let i = 0; i < ELEMENT_DATA.length; i++){
-			ELEMENT_DATA[i].position = i + 1;
-		}
-	}
-
-	
-	ngOnInit() {
-		// clear the table
-		ELEMENT_DATA = [];
-	  this.teamId = this.route.snapshot.paramMap.get('id')!; 
-	  // open json file in assets
-	  fetch('../../assets/nhl_stats.json').then(response => {
-		return response.json();
-	  }
-	  ).then(data => {
-		this.roster = data.filter((player: any) => player.Team == this.teamId);
-		let i = 1
-		this.roster.forEach((player: any) => {
-			ELEMENT_DATA.push({player_id:player.Player_ID,position: i, name: player.Player_Name, pos: player.Position, gp: player.Games_Played, g: player.Goals, a: player.Assists, p: player.Points});
-			i++;
-		});
-		ELEMENT_DATA.sort((a, b) => (a.p > b.p) ? -1 : 1);
-		this.updateRank();
-		this.dataSource = new MatTableDataSource(ELEMENT_DATA);
-		}
-	  );
 	}
 }
