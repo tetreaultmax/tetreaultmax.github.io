@@ -12,11 +12,16 @@ body {
     font-family: Arial, sans-serif;
     color: #fff;
 }
-table {
-    border-collapse: collapse;
-    width: 100%;
-    max-width: 600px; /* Adjust based on your layout */
-}
+ /* Apply this CSS for the table */
+ .table-responsive {
+	width: 50%;
+	overflow-x: auto;
+  }
+  
+  /* Add a max-width to prevent the table from stretching too wide on large screens */
+  table {
+	max-width: 100%;
+  }
 th, td {
     border: 1px solid #ccc;
     padding: 8px;
@@ -40,15 +45,4 @@ th:hover {
     width: 100px;
     height: 100px;
 }
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-    .mat-table {
-        overflow-x: auto;
-    }
-    .mat-header-row, .mat-row {
-        display: block;
-    }
-    .mat-cell, .mat-header-cell {
-        display: block; /* Stack cells vertically */
-    }
-}
+

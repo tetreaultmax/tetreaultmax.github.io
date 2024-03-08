@@ -1,6 +1,5 @@
 .mat-toolbar {
 	height: auto;
-	position: fixed;
 	background-color: #333;
 }
 body{
@@ -14,18 +13,14 @@ body{
     font-family: Arial, sans-serif;
     color: #fff;
 }
-
-.center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.center-content {
-  background-color: transparent;
-}
-
+ /* Apply this CSS for the table */
+ .table-responsive {
+	width: 50%;
+	overflow-x: auto;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+  }
 .grid-container {
   display: grid;
   grid-template-columns: repeat(8, 1fr);

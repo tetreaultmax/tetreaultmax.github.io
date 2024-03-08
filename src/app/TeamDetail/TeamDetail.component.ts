@@ -58,6 +58,9 @@ export class TeamDetailComponent implements OnInit, AfterViewInit {
 	  }
 	  
 	ngAfterViewInit() {
+		// by default sort is descending
+		this.sort.active = 'p';
+		this.sort.direction = 'desc';
 		this.dataSource.sort = this.sort;
 	  }
 
