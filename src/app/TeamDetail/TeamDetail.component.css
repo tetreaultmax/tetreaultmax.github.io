@@ -12,13 +12,11 @@ body {
     font-family: Arial, sans-serif;
     color: #fff;
 }
- /* Apply this CSS for the table */
  .table-responsive {
 	width: 80%;
 	overflow-x: auto;
   }
   
-  /* Add a max-width to prevent the table from stretching too wide on large screens */
   table {
 	max-width: 100%;
   }
@@ -28,7 +26,6 @@ th, td {
     text-align: center;
     background-color: #959a9e;
     color: black;
-	/* text size */
 	font-size: 30px;
 }
 th:hover {
@@ -36,7 +33,7 @@ th:hover {
     cursor: pointer;
 }
 .image {
-    margin-top: 20px; /* Adjust spacing */
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     width: 100%;

@@ -17,14 +17,12 @@ body{
  .table-responsive {
 	width: 80%;
 	overflow-x: auto;
-	margin: 0 auto;
-	align-items: center;
+	margin: auto;
 	text-align: center;
   }
 .grid-container {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  justify-content: center;
 }
 
 .team-logo-container img {
