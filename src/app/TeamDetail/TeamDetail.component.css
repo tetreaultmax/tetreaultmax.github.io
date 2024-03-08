@@ -14,7 +14,7 @@ body {
 }
  /* Apply this CSS for the table */
  .table-responsive {
-	width: 50%;
+	width: 80%;
 	overflow-x: auto;
   }
   
