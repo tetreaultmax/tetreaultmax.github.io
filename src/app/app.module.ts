@@ -17,7 +17,7 @@ import { MatTabsModule } from '@angular/material/tabs'; // Import MatTabsModule
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule} from '@angular/material/table';
-
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { PlayerDialogComponent } from './player-dialog/player-dialog.component';
 import { MenuDialogComponent } from './menu-dialog/menu-dialog.component';
 import { WinDialogComponent } from './win-dialog/win-dialog.component';
@@ -73,6 +73,7 @@ import { LandingDialogComponent } from './landing-dialog/landing-dialog.componen
 	MatPaginatorModule,
     MatSortModule,
 	MatTableModule,
+	MatTooltipModule,
  	AppRoutingModule
   ],
   providers: [],

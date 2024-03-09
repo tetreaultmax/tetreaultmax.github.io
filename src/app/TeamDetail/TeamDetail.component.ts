@@ -14,6 +14,7 @@ export interface Player {
 	g: number;
 	a: number;
 	p: number;
+	SAi: number;
 }
 
 let ELEMENT_DATA: Player[] = [];
@@ -26,15 +27,20 @@ let ELEMENT_DATA: Player[] = [];
 
 export class TeamDetailComponent implements OnInit, AfterViewInit {
 	teamId: string = "";
-	displayedColumns: string[] = ['position', 'name', 'pos', 'gp', 'g', 'a', 'p'];
+	displayedColumns: string[] = ['position', 'name', 'pos', 'gp', 'g', 'a', 'p', 'SAi'];
 	dataSource = new MatTableDataSource(ELEMENT_DATA);
 	@ViewChild(MatSort, {static: true}) sort!: MatSort;
 
 	constructor(private route: ActivatedRoute,private router: Router) { }
 	roster: any;
-
+	sai_array: any;
 	ngOnInit() {
 		this.teamId = this.route.snapshot.paramMap.get('id')!;
+		fetch('../../assets/coeff.json').then(response => response.json())
+		  .then(data => {
+			this.sai_array = data;
+		  });
+
 		fetch('../../assets/nhl_stats.json').then(response => response.json())
 		  .then(data => {
 			this.roster = data.filter((player: any) => player.Team == this.teamId);
@@ -46,7 +52,9 @@ export class TeamDetailComponent implements OnInit, AfterViewInit {
 			  gp: player.Games_Played,
 			  g: player.Goals,
 			  a: player.Assists,
-			  p: player.Points
+			  p: player.Points,
+			  // If the player's ID is in the SAI array, then use the SAI value, otherwise use 0
+			  SAi: this.sai_array[player.Player_ID] ? this.sai_array[player.Player_ID][0] : 0
 			}));
 			
 			// Now sort this processed data if necessary before setting it
@@ -58,9 +66,6 @@ export class TeamDetailComponent implements OnInit, AfterViewInit {
 	  }
 	  
 	ngAfterViewInit() {
-		// by default sort is descending
-		this.sort.active = 'p';
-		this.sort.direction = 'desc';
 		this.dataSource.sort = this.sort;
 	  }
 
