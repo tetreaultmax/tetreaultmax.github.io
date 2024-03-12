@@ -6,8 +6,8 @@
     </mat-toolbar>
 	<div class="game-area">
 		<h1 style="font-size: 40px;margin-top: 20px;color: black;">NHL Career Path</h1>
-		<h1 style="color: black;">Guess the player according to his career path</h1>
-		<h1 style="color: black;">Players playing in the 2023-2024 season</h1>
+		<h1 style="color: black;">Guess the player</h1>
+		<h1 style="color: black;">2023-2024 season</h1>
 	  	<!-- Game content with buttons on either side of the image -->
 	  	<div class="content-area">
 			<div class="team-area">
@@ -21,7 +21,7 @@
 			<button mat-raised-button color="primary" (click)="chooseRandomPlayer()">Reset</button>
 		</div>
 		<div class="player-info" *ngIf="answer">
-			<img [src]="url" draggable="false">
+			<img [src]="url" draggable="false" style="height: 120px;">
 			<p>{{ playerName }}</p>
 		</div>
 	</div>
