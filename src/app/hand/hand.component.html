@@ -3,7 +3,7 @@
 	  <button mat-icon-button (click)="goLanding()">
 		  <mat-icon>home</mat-icon>
 	  </button>
-	  <button mat-icon-button (click)="chooseRandomPlayer()">
+	  <button mat-icon-button (click)="chooseRandomPlayer(true)">
 		  <mat-icon>restore</mat-icon>
 	  </button>
 	</mat-toolbar>
@@ -12,12 +12,17 @@
 		<h1>Guess the handiness of the player</h1>
 	  	<!-- Game content with buttons on either side of the image -->
 	  	<div class="content-area">
+			<div class="player-info" *ngIf="currentName">
+				<img [src]="getPlayerImageUrl()" draggable="false">
+				<p>{{ currentName }}</p>
+			</div>
+	  	</div>
+		<div class="button-area">
 			<button mat-raised-button color="accent" (click)="guess('L')">Left</button>
-		<div class="player-info" *ngIf="currentName">
-			<img [src]="getPlayerImageUrl()" draggable="false">
-		  	<p>{{ currentName }}</p>
-		</div>
 			<button mat-raised-button color="primary" (click)="guess('R')">Right</button>
+		</div>
+		<div *ngIf="totalGuesses>0" class="Score">
+			Current score: {{ currentScore}} / {{ totalGuesses }}
 	  	</div>
 		<div *ngIf="feedbackMessage" class="feedback-message">
 			{{ feedbackMessage }}

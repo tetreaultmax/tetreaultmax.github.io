@@ -30,9 +30,17 @@ body{
   
 .player-info {
 	text-align: center;
+	font-size: 1.2rem;
+	color: #ffffff;
 }
   
 .feedback-message {
+	margin-top: 20px;
+	font-size: 1.2rem;
+	color: #ffffff;
+}
+
+.Score {
 	margin-top: 20px;
 	font-size: 1.2rem;
 	color: #ffffff;

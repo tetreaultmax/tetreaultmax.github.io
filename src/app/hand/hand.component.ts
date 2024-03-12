@@ -18,6 +18,8 @@ export class HandComponent {
 	allIds = [];
 	randomIndex: number = 0;
 	feedbackMessage: string = "";
+	currentScore: number = 0;
+	totalGuesses: number = 0;
 	constructor(private router: Router){
 		this.fetchPlayers();
 	}
@@ -30,10 +32,14 @@ export class HandComponent {
 			  hand: player.Hand,
 			  team: player.Team
 			}));
-			this.chooseRandomPlayer();
+			this.chooseRandomPlayer(true);
 		});
 	}
-	chooseRandomPlayer() {
+	chooseRandomPlayer(reset: boolean) {
+		if (reset) {
+		  this.currentScore = 0;
+		  this.totalGuesses = 0;
+		}
 		if (this.dataHand.length > 0) {
 		  this.randomIndex = this.getRandomIndex(this.dataHand.length);
 		  const player = this.dataHand[this.randomIndex];
@@ -45,29 +51,28 @@ export class HandComponent {
 		return Math.floor(Math.random() * length);
 	}
 	goLanding(){
-		// redirect to landing page
 		this.router.navigate(['/']);
 	}
 	getPlayerImageUrl(): string {
-		// Implement based on how you manage player images
 		const url = "https://assets.nhle.com/mugs/nhl/20232024/" + this.dataHand[this.randomIndex].team + "/"+
-		this.dataHand[this.randomIndex].player_id  + ".png";
-		console.log(url);
+			this.dataHand[this.randomIndex].player_id  + ".png";
 		return url;
 	}
 	guess(hand: string) {
+		this.totalGuesses++;
 		if (this.currentAnswer === hand) {
+		  this.currentScore++;
 		  this.feedbackMessage = "Correct! Nice job.";
 		  setTimeout(() => {
-			this.feedbackMessage = ""; // Optionally clear the message
-			this.chooseRandomPlayer();
-		  }, 2000); // Wait for 2 seconds before showing the next player
+			this.feedbackMessage = "";
+			this.chooseRandomPlayer(false);
+		  }, 2000);
 		} else {
 		  this.feedbackMessage = "Oops! That's not correct.";
 		  setTimeout(() => {
-			this.feedbackMessage = ""; // Optionally clear the message
-			this.chooseRandomPlayer();
-		  }, 2000); // Wait for 2 seconds before showing the next player
+			this.feedbackMessage = "";
+			this.chooseRandomPlayer(false);
+		  }, 2000);
 		}
 	}
 }
