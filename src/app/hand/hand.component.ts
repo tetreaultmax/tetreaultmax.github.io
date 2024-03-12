@@ -15,7 +15,6 @@ export class HandComponent {
 	dataHand: any;
 	currentAnswer: string = "";
 	currentName: string = "";
-	allIds = [];
 	randomIndex: number = 0;
 	feedbackMessage: string = "";
 	currentScore: number = 0;

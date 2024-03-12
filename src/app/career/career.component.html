@@ -1,0 +1,28 @@
+<body>
+    <mat-toolbar color="primary">
+        <button mat-icon-button (click)="goLanding()">
+            <mat-icon>home</mat-icon>
+        </button>
+    </mat-toolbar>
+	<div class="game-area">
+		<h1 style="font-size: 40px;margin-top: 20px;color: black;">NHL Career Path</h1>
+		<h1 style="color: black;">Guess the player according to his career path</h1>
+		<h1 style="color: black;">Players playing in the 2023-2024 season</h1>
+	  	<!-- Game content with buttons on either side of the image -->
+	  	<div class="content-area">
+			<div class="team-area">
+				<div *ngFor="let team of playerLogo">
+					<img [src]="team" draggable="false" style="height: 100px;">
+				</div>
+			</div>
+		</div>
+		<div class="button-area">
+			<button mat-raised-button color="primary" (click)="showAnswer()">Show Answer</button>
+			<button mat-raised-button color="primary" (click)="chooseRandomPlayer()">Reset</button>
+		</div>
+		<div class="player-info" *ngIf="answer">
+			<img [src]="url" draggable="false">
+			<p>{{ playerName }}</p>
+		</div>
+	</div>
+</body>

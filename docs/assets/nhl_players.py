@@ -16,52 +16,53 @@ def fetch_NHL_Data(team, season):
 	
 	return all_id_roster
 
-def fetch_NHL_Stats(player_id):
-	# 8478483
+def fetch_NHL_Stats(player_id, career):
 	url = "https://api-web.nhle.com/v1/player/"+ str(player_id) +"/landing"
 	response = requests.get(url)
 	data = response.json()
-	# print all key = season
 	all_seasons = []
-	all_team = ""
+	all_team = []
 	for item in data["seasonTotals"]:
 		if item["leagueAbbrev"] == "NHL":
 			all_seasons.append(item["season"])
 			currentTeam = item["teamName"]["default"]
 			if currentTeam != "Phoenix Coyotes":
-				if currentTeam not in all_team:
-					all_team +=  currentTeam + ", "
+				if career:
+					if len(all_team) > 0 and all_team[-1] == currentTeam:
+						continue
+					all_team.append(currentTeam)
+				elif currentTeam not in all_team:
+					all_team.append(currentTeam)
+	if len(all_seasons) == 0:
+		return None
 	return {
 		"Player ID": int(player_id),
 		"Player Name": data["firstName"]["default"] + " " + data["lastName"]["default"],
-		"Teams": all_team[:-2],
+		"Teams": all_team,
 		"First Season": int(str(all_seasons[0])[4:]),
 		"Last Season": int(str(all_seasons[-1])[4:]),
 	}
 
-def get_all_NHL_Stats(seasons):
+def get_all_NHL_Stats(seasons, career):
 	all_stats = []
 	ids_done = []
-	i = 0
 	for season in seasons:
 		for team in all_nhl_teams:
 			team_roster = fetch_NHL_Data(team, season)
 			for player in team_roster:
-				if i ==3:
-					with open("test.json", "w") as outfile: 
-						json.dump(all_stats, outfile)
-					return
-				# check if playerid is not in the dictionary
 				if player in ids_done:
 					continue
-				player_stats = fetch_NHL_Stats(str(player))
-				ids_done.append(player)
+				player_stats = fetch_NHL_Stats(str(player), career)
 				if player_stats is not None:	
-					print(player_stats["Player Name"])
 					all_stats.append(player_stats)
-				i +=1
-	with open("nhl_players.json", "w") as outfile: 
-		json.dump(all_stats, outfile)
+					print(player_stats["Player Name"])
+					ids_done.append(player)
+	if career:
+		with open("nhl_players_career.json", "w") as outfile: 
+			json.dump(all_stats, outfile)
+	else:
+		with open("nhl_players.json", "w") as outfile: 
+			json.dump(all_stats, outfile)
 
 
-# TODO: Update json file without loading all seasons
+get_all_NHL_Stats(["20232024"], True)

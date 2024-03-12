@@ -6,6 +6,7 @@ import { LandingComponent } from './landing/landing.component';
 import { HistoryComponent } from './history/history.component';
 import { TeamDetailComponent } from './TeamDetail/TeamDetail.component';
 import { HandComponent } from './hand/hand.component';
+import { CareerComponent } from './career/career.component';
 
 const routes: Routes = [
 	{ path: '', component: LandingComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
 	{ path: 'wordle', component: WordleComponent },
 	{ path: 'history', component : HistoryComponent},
 	{ path: 'team/:id', component: TeamDetailComponent },
-	{path: 'hand', component: HandComponent}
+	{path: 'hand', component: HandComponent},
+	{path: 'career', component: CareerComponent}
   ];
 
 @NgModule({

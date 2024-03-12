@@ -35,6 +35,7 @@ import { HistoryComponent } from './history/history.component';
 import { TeamDetailComponent } from './TeamDetail/TeamDetail.component';
 import { LandingDialogComponent } from './landing-dialog/landing-dialog.component';
 import { HandComponent } from './hand/hand.component';
+import { CareerComponent } from './career/career.component';
 
 
 @NgModule({
@@ -54,7 +55,8 @@ import { HandComponent } from './hand/hand.component';
     HistoryComponent,
       TeamDetailComponent,
       LandingDialogComponent,
-      HandComponent
+      HandComponent,
+      CareerComponent
    ],
   imports: [
     BrowserModule, 
