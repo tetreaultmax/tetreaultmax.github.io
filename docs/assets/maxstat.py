@@ -23,11 +23,13 @@ def fetch_NHL_Stats(player_id):
 	url = "https://api-web.nhle.com/v1/player/"+player_id+"/landing"
 	response = requests.get(url)
 	data = response.json()
-	if data["position"] != "G":
+	# check if featureStats is available
+	if data["position"] != "G" and "featuredStats" in data:
 		player_stat = data["featuredStats"]["regularSeason"]["subSeason"]
 		return {
 			"Player_ID": player_id,
 			"Player_Name": data["firstName"]["default"] + " " + data["lastName"]["default"],
+			"Hand" : data["shootsCatches"],
 			"Position": data["position"],
 			"Team": data["currentTeamAbbrev"],
 			"Games_Played": player_stat["gamesPlayed"],
@@ -58,4 +60,4 @@ def get_all_NHL_Stats():
 	with open("nhl_stats.json", "w") as outfile: 
 		json.dump(all_stats, outfile)
 
-print(get_all_NHL_Stats())
+get_all_NHL_Stats()
