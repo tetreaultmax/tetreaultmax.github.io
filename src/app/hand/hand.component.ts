@@ -65,13 +65,13 @@ export class HandComponent {
 		  setTimeout(() => {
 			this.feedbackMessage = "";
 			this.chooseRandomPlayer(false);
-		  }, 2000);
+		  }, 1000);
 		} else {
 		  this.feedbackMessage = "Oops! That's not correct.";
 		  setTimeout(() => {
 			this.feedbackMessage = "";
 			this.chooseRandomPlayer(false);
-		  }, 2000);
+		  }, 1000);
 		}
 	}
 }

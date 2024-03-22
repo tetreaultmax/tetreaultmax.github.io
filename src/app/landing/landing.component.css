@@ -76,3 +76,33 @@ h1 {
 	);
 	transition: all 0.475s;
   }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #282828; /* Mise à jour de la couleur de fond pour un look plus doux */
+    color: #f2f2f2; /* Couleur du texte ajustée pour une meilleure lisibilité */
+    text-align: center;
+    padding: 5px 0; /* Ajustement de l'espacement interne */
+    font-size: 12px; /* Ajustement de la taille de la police */
+}
+
+.footer .social-media-links a {
+    margin: 0 15px; /* Espacement entre les icônes ajusté */
+    display: inline-block; /* Assure que les liens sont correctement espacés */
+}
+
+.footer .social-media-links img {
+    width: 25px; /* Taille des icônes ajustée */
+    height: 25px;
+    vertical-align: middle;
+    transition: transform 0.3s ease; /* Animation sur le survol */
+}
+
+.footer .social-media-links a:hover img {
+    transform: scale(1.1); /* Effet de zoom sur les icônes au survol */
+}
+
+
